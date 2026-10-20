@@ -1,0 +1,1 @@
+{"company":"Tesco","windows":{"30d":[],"3m":[],"6m":[{"questionId":"merge-intervals","score":100}],"older6m":[{"questionId":"merge-intervals","score":100},{"questionId":"insert-interval","score":70.3}],"all":[{"questionId":"merge-intervals","score":100},{"questionId":"insert-interval","score":66.7}]}}

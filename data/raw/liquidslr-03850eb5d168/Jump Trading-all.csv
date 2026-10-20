@@ -1,0 +1,3 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+HARD,Permutation Sequence,100.0,0.005400053213395375,https://leetcode.com/problems/permutation-sequence,"Math, Recursion"
+EASY,Happy Number,93.2,0.006011546520050849,https://leetcode.com/problems/happy-number,"Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm"

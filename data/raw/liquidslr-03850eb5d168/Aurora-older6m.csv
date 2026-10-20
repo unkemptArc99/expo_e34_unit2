@@ -1,0 +1,9 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+MEDIUM,LRU Cache,100.0,0.004786837595797511,https://leetcode.com/problems/lru-cache,"Hash Table, Linked List, Design, Doubly-Linked List"
+HARD,Maximum Number of Visible Points,72.7,0.0038392405852091366,https://leetcode.com/problems/maximum-number-of-visible-points,"Array, Math, Geometry, Sliding Window, Sorting"
+HARD,Sliding Window Maximum,72.7,0.004910870393769064,https://leetcode.com/problems/sliding-window-maximum,"Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum/Maximum Query"
+MEDIUM,Number of Distinct Islands,64.2,0.006293662276449443,https://leetcode.com/problems/number-of-distinct-islands,"Array, Hash Table, Depth-First Search, Breadth-First Search, Union-Find, Sorting, Matrix, Hash Function"
+HARD,Word Search II,64.2,0.003878718747490637,https://leetcode.com/problems/word-search-ii,"Array, String, Backtracking, Trie, Matrix"
+HARD,Number of Islands II,64.2,0.004070937581124033,https://leetcode.com/problems/number-of-islands-ii,"Array, Hash Table, Union-Find"
+MEDIUM,Flatten Nested List Iterator,64.2,0.006582841518480364,https://leetcode.com/problems/flatten-nested-list-iterator,"Stack, Tree, Depth-First Search, Design, Queue, Iterator"
+MEDIUM,Meeting Rooms II,64.2,0.005277665153614223,https://leetcode.com/problems/meeting-rooms-ii,"Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum"

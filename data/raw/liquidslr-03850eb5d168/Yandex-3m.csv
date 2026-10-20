@@ -1,0 +1,12 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+MEDIUM,Longest Subarray of 1's After Deleting One Element,100.0,0.007148332385378663,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,"Array, Dynamic Programming, Sliding Window"
+MEDIUM,String Compression,100.0,0.006060183350478085,https://leetcode.com/problems/string-compression,"Two Pointers, String"
+MEDIUM,Maximize Distance to Closest Person,94.2,0.004997681957791178,https://leetcode.com/problems/maximize-distance-to-closest-person,Array
+EASY,Summary Ranges,94.2,0.005461934172258151,https://leetcode.com/problems/summary-ranges,Array
+MEDIUM,Merge Intervals,86.7,0.005257663671981929,https://leetcode.com/problems/merge-intervals,"Array, Sorting, Quicksort"
+MEDIUM,Longest Palindromic Substring,76.1,0.003847120896575322,https://leetcode.com/problems/longest-palindromic-substring,"Two Pointers, String, Dynamic Programming, Manacher"
+EASY,Palindrome Number,76.1,0.0060874528026185456,https://leetcode.com/problems/palindrome-number,Math
+MEDIUM,Binary Tree Right Side View,76.1,0.007097976162060565,https://leetcode.com/problems/binary-tree-right-side-view,"Tree, Depth-First Search, Breadth-First Search, Binary Tree"
+EASY,First Unique Character in a String,76.1,0.006611209200984101,https://leetcode.com/problems/first-unique-character-in-a-string,"Hash Table, String, Queue, Counting"
+EASY,Symmetric Tree,76.1,0.006182595018908676,https://leetcode.com/problems/symmetric-tree,"Tree, Depth-First Search, Breadth-First Search, Binary Tree"
+EASY,Valid Palindrome II,76.1,0.004461397771844857,https://leetcode.com/problems/valid-palindrome-ii,"Two Pointers, String, Greedy"

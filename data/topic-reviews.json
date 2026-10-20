@@ -1,0 +1,1693 @@
+{
+  "version": "study-topics-v1",
+  "reviewedAt": "2026-10-20",
+  "reviews": {
+    "two-sum": {
+      "topic": "Hash Table",
+      "reason": "Look up each value's complement while scanning; the array is input storage.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/two-sum/description/"
+    },
+    "trapping-rain-water": {
+      "topic": "Two Pointers",
+      "reason": "The two-boundary solution advances the side with the smaller limiting height. A monotonic stack is a valid alternative.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/trapping-rain-water/description/"
+    },
+    "word-ladder": {
+      "topic": "Breadth-First Search",
+      "reason": "The target is a shortest sequence of one-letter transformations in an unweighted implicit graph.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/word-ladder/description/"
+    },
+    "number-of-islands": {
+      "topic": "Depth-First Search",
+      "reason": "Flood-fill each unvisited land component. BFS and Union Find are alternatives; the grid is the representation.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/number-of-islands/description/"
+    },
+    "merge-intervals": {
+      "topic": "Sorting",
+      "reason": "Order intervals by start, then sweep and merge overlaps. A particular sorting implementation is not the learning objective.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/merge-intervals/description/"
+    },
+    "insert-interval": {
+      "topic": "Array",
+      "reason": "The intervals are already sorted and disjoint; a linear scan inserts and merges. Retain Array rather than invent an Intervals tag.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/insert-interval/description/"
+    },
+    "best-time-to-buy-and-sell-stock": {
+      "topic": "Greedy",
+      "reason": "Maintain the minimum earlier price and best profit. This running-minimum invariant is more instructive than the input container.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/"
+    },
+    "longest-consecutive-sequence": {
+      "topic": "Hash Table",
+      "reason": "A set supports testing sequence starts and extending consecutive runs in expected linear time.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/longest-consecutive-sequence/description/"
+    },
+    "kth-largest-element-in-an-array": {
+      "topic": "Quickselect",
+      "reason": "Partition around pivots to select a rank without fully sorting; a heap is a valid alternative.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/kth-largest-element-in-an-array/description/"
+    },
+    "3sum": {
+      "topic": "Two Pointers",
+      "reason": "Sort, fix one value, and move two endpoints to find the remaining pair while skipping duplicates.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "3sum-closest": {
+      "topic": "Two Pointers",
+      "reason": "After sorting, move endpoints according to the current sum while retaining the closest result.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "4sum": {
+      "topic": "Two Pointers",
+      "reason": "Fix two values and use a sorted two-pointer search for the remaining pair.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "two-sum-ii-input-array-is-sorted": {
+      "topic": "Two Pointers",
+      "reason": "Sorted input allows opposing endpoints to move according to whether the sum is too small or too large.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "container-with-most-water": {
+      "topic": "Two Pointers",
+      "reason": "Move the shorter boundary because only a taller limiting boundary can improve the area.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "valid-palindrome": {
+      "topic": "Two Pointers",
+      "reason": "Compare filtered characters from both ends rather than building all possible substrings.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "valid-palindrome-ii": {
+      "topic": "Two Pointers",
+      "reason": "At the first mismatch, test the two possible single-character deletions.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "move-zeroes": {
+      "topic": "Two Pointers",
+      "reason": "A read pointer and write pointer compact nonzero values in place.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "remove-duplicates-from-sorted-array": {
+      "topic": "Two Pointers",
+      "reason": "A read/write scan preserves one representative of each sorted run.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "remove-duplicates-from-sorted-array-ii": {
+      "topic": "Two Pointers",
+      "reason": "A write pointer enforces the allowed count of each sorted value.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "remove-element": {
+      "topic": "Two Pointers",
+      "reason": "Compact retained elements with read and write positions.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "sort-colors": {
+      "topic": "Two Pointers",
+      "reason": "Dutch-national-flag boundaries partition the array into three value regions without a comparison sort.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "merge-sorted-array": {
+      "topic": "Two Pointers",
+      "reason": "Merge from the back of both sorted ranges to avoid overwriting unread values.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "squares-of-a-sorted-array": {
+      "topic": "Two Pointers",
+      "reason": "The largest remaining square comes from one of the two sorted-range endpoints.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "backspace-string-compare": {
+      "topic": "Two Pointers",
+      "reason": "Reverse scans skip deleted characters and compare the surviving stream with constant extra space.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "interval-list-intersections": {
+      "topic": "Two Pointers",
+      "reason": "Advance the interval that ends first while comparing two sorted disjoint interval lists.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "next-permutation": {
+      "topic": "Two Pointers",
+      "reason": "Locate the descending suffix, swap the pivot with its successor, then reverse the suffix.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "rotate-array": {
+      "topic": "Array",
+      "reason": "In-place reversal or cyclic replacement is the learning task; no more specific permitted tag is essential.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-subarray": {
+      "topic": "Dynamic Programming",
+      "reason": "Kadane's recurrence chooses whether the best subarray ending here extends the previous one or starts anew.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-product-subarray": {
+      "topic": "Dynamic Programming",
+      "reason": "Track both the maximum and minimum products ending at each position because signs can swap their roles.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "house-robber": {
+      "topic": "Dynamic Programming",
+      "reason": "At each house compare skipping it with robbing it plus the best nonadjacent prefix.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "house-robber-ii": {
+      "topic": "Dynamic Programming",
+      "reason": "Solve the circular constraint by comparing two linear nonadjacent-selection recurrences.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "house-robber-iii": {
+      "topic": "Dynamic Programming",
+      "reason": "For each tree node compute the best result with and without selecting it.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "climbing-stairs": {
+      "topic": "Dynamic Programming",
+      "reason": "The number of ways to reach a step depends on the previous two steps.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "coin-change": {
+      "topic": "Dynamic Programming",
+      "reason": "Use the best result for smaller amounts to minimize the number of coins.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "coin-change-ii": {
+      "topic": "Dynamic Programming",
+      "reason": "Count combinations by extending amount states one denomination at a time.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "word-break": {
+      "topic": "Dynamic Programming",
+      "reason": "A prefix is segmentable when an earlier segmentable prefix can be followed by a dictionary word.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "word-break-ii": {
+      "topic": "Backtracking",
+      "reason": "Enumerate valid segmentations, optionally pruning with memoized suffix results.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "longest-increasing-subsequence": {
+      "topic": "Binary Search",
+      "reason": "Maintain minimal tails and binary-search each value's replacement position for the efficient length computation.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "longest-common-subsequence": {
+      "topic": "Dynamic Programming",
+      "reason": "A two-prefix recurrence compares taking equal characters with skipping from either sequence.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "edit-distance": {
+      "topic": "Dynamic Programming",
+      "reason": "Prefix states choose insert, delete, or replace operations.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "decode-ways": {
+      "topic": "Dynamic Programming",
+      "reason": "Count valid decodings using one-character and two-character transitions.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "unique-paths": {
+      "topic": "Dynamic Programming",
+      "reason": "Each cell's path count combines the counts from the two predecessor cells.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "unique-paths-ii": {
+      "topic": "Dynamic Programming",
+      "reason": "Use the grid path recurrence while zeroing states blocked by obstacles.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-path-sum": {
+      "topic": "Dynamic Programming",
+      "reason": "Each grid state combines its cost with the cheaper predecessor path.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "triangle": {
+      "topic": "Dynamic Programming",
+      "reason": "The best path from a row position depends on the two reachable positions in the next row.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "partition-equal-subset-sum": {
+      "topic": "Dynamic Programming",
+      "reason": "A subset-sum state determines whether half the total is reachable.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "target-sum": {
+      "topic": "Dynamic Programming",
+      "reason": "Track attainable signed sums or use the equivalent subset-sum recurrence.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "perfect-squares": {
+      "topic": "Dynamic Programming",
+      "reason": "Minimize the number of square terms over smaller remainder states; BFS is another valid approach.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximal-square": {
+      "topic": "Dynamic Programming",
+      "reason": "The largest square ending at a cell depends on its top, left, and diagonal neighbors.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximal-rectangle": {
+      "topic": "Monotonic Stack",
+      "reason": "Turn each row into histogram heights and use a monotonic stack to find the widest supported rectangles.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "largest-rectangle-in-histogram": {
+      "topic": "Monotonic Stack",
+      "reason": "A monotonic height stack identifies each bar's nearest smaller boundaries.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "trapping-rain-water-ii": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "Expand from the lowest boundary using a min-heap to determine each interior cell's water level.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "longest-valid-parentheses": {
+      "topic": "Stack",
+      "reason": "A stack of unmatched indices identifies the boundaries of valid parentheses ranges; DP is an alternative.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "valid-parentheses": {
+      "topic": "Stack",
+      "reason": "Each closing delimiter must match the most recent unmatched opening delimiter.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-remove-to-make-valid-parentheses": {
+      "topic": "Stack",
+      "reason": "Track unmatched opening positions and invalid closings, then omit those indices.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-add-to-make-parentheses-valid": {
+      "topic": "Greedy",
+      "reason": "Maintain the unmatched-opening count and repair unmatched closings as they occur.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "min-stack": {
+      "topic": "Design",
+      "reason": "The key requirement is a stack API with constant-time minimum queries, not merely processing an input sequence.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "lru-cache": {
+      "topic": "Design",
+      "reason": "Coordinate recency updates and key lookup to meet the constant-time cache-operation requirements.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "lfu-cache": {
+      "topic": "Design",
+      "reason": "Maintain frequency groups and recency tie-breaking while preserving the required operation bounds.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "insert-delete-getrandom-o1": {
+      "topic": "Design",
+      "reason": "Combine index lookup and compact storage to support updates and uniform random retrieval.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "implement-trie-prefix-tree": {
+      "topic": "Trie",
+      "reason": "The data structure's prefix-sharing nodes implement insertion, exact lookup, and prefix lookup.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "design-add-and-search-words-data-structure": {
+      "topic": "Trie",
+      "reason": "Prefix nodes support word storage and wildcard branching during lookup.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "word-search": {
+      "topic": "Backtracking",
+      "reason": "Explore adjacent cells while marking and undoing visited cells along each candidate word path.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "word-search-ii": {
+      "topic": "Trie",
+      "reason": "A shared-prefix trie prunes simultaneous dictionary searches across the board; board traversal remains supporting work.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "generate-parentheses": {
+      "topic": "Backtracking",
+      "reason": "Build valid prefixes while bounding the number of openings and closings.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "letter-combinations-of-a-phone-number": {
+      "topic": "Backtracking",
+      "reason": "Enumerate one letter choice per digit and undo each choice on return.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "permutations": {
+      "topic": "Backtracking",
+      "reason": "Choose each unused element in turn to enumerate the complete arrangement tree.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "permutations-ii": {
+      "topic": "Backtracking",
+      "reason": "Enumerate arrangements while skipping duplicate choices at the same search depth.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "subsets": {
+      "topic": "Backtracking",
+      "reason": "Explore include/exclude choices to enumerate all subsets.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "subsets-ii": {
+      "topic": "Backtracking",
+      "reason": "Enumerate subsets while avoiding duplicate branches caused by equal values.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "combination-sum": {
+      "topic": "Backtracking",
+      "reason": "Explore reusable candidate choices while reducing the remaining sum.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "combination-sum-ii": {
+      "topic": "Backtracking",
+      "reason": "Explore each candidate at most once while pruning duplicate combinations.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "combination-sum-iii": {
+      "topic": "Backtracking",
+      "reason": "Enumerate bounded-size combinations of distinct digits with the target total.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "n-queens": {
+      "topic": "Backtracking",
+      "reason": "Place queens row by row and undo placements that conflict in columns or diagonals.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "n-queens-ii": {
+      "topic": "Backtracking",
+      "reason": "Count nonconflicting queen placements with a pruned recursive search.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "sudoku-solver": {
+      "topic": "Backtracking",
+      "reason": "Try valid values for an empty cell and undo a choice when later constraints fail.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "palindrome-partitioning": {
+      "topic": "Backtracking",
+      "reason": "Enumerate partitions whose next chosen substring is a palindrome.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "palindrome-permutation-ii": {
+      "topic": "Backtracking",
+      "reason": "Permute half of the character multiset and mirror it to enumerate distinct palindromes.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "restore-ip-addresses": {
+      "topic": "Backtracking",
+      "reason": "Explore valid segment boundaries while enforcing the four-part address constraints.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "expression-add-operators": {
+      "topic": "Backtracking",
+      "reason": "Enumerate operand boundaries and operators while carrying the precedence-sensitive accumulated value.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "remove-invalid-parentheses": {
+      "topic": "Backtracking",
+      "reason": "Enumerate minimally repaired valid strings with pruning; BFS is an equally defensible alternative.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "search-in-rotated-sorted-array": {
+      "topic": "Binary Search",
+      "reason": "Determine which half remains ordered and discard the half that cannot contain the target.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "search-in-rotated-sorted-array-ii": {
+      "topic": "Binary Search",
+      "reason": "Use the rotated-order invariant, with duplicate-boundary handling when the ordered half is ambiguous.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-minimum-in-rotated-sorted-array": {
+      "topic": "Binary Search",
+      "reason": "Use the midpoint's order relative to a boundary to locate the rotation minimum.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-minimum-in-rotated-sorted-array-ii": {
+      "topic": "Binary Search",
+      "reason": "Locate the rotation minimum while shrinking equal-valued ambiguous boundaries.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-first-and-last-position-of-element-in-sorted-array": {
+      "topic": "Binary Search",
+      "reason": "Two boundary searches locate the lower and upper target limits.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "binary-search": {
+      "topic": "Binary Search",
+      "reason": "Repeatedly halve the sorted candidate interval using the midpoint comparison.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "search-insert-position": {
+      "topic": "Binary Search",
+      "reason": "Find the lower bound of the target in a sorted array.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-peak-element": {
+      "topic": "Binary Search",
+      "reason": "The local slope identifies a half that contains a peak.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "peak-index-in-a-mountain-array": {
+      "topic": "Binary Search",
+      "reason": "Use the rising or falling midpoint slope to narrow the mountain peak.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "search-a-2d-matrix": {
+      "topic": "Binary Search",
+      "reason": "The global row ordering permits binary search over flattened sorted positions.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "search-a-2d-matrix-ii": {
+      "topic": "Matrix",
+      "reason": "The row-and-column ordering supports eliminating a row or column from a corner; global sorted-array search does not apply.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "median-of-two-sorted-arrays": {
+      "topic": "Binary Search",
+      "reason": "Binary-search a partition with balanced sides and compatible boundary values.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "koko-eating-bananas": {
+      "topic": "Binary Search",
+      "reason": "The ability to finish by the deadline is monotone in eating speed.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "capacity-to-ship-packages-within-d-days": {
+      "topic": "Binary Search",
+      "reason": "Search the smallest capacity whose greedy loading simulation meets the day limit.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "split-array-largest-sum": {
+      "topic": "Binary Search",
+      "reason": "Search a maximum allowed partition sum and greedily count the required partitions.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-k-th-smallest-pair-distance": {
+      "topic": "Binary Search",
+      "reason": "Search the distance threshold and count qualifying sorted pairs.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "random-pick-with-weight": {
+      "topic": "Prefix Sum",
+      "reason": "Cumulative weights map a uniform random draw to the correct weighted bucket; binary search supports lookup.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "subarray-sum-equals-k": {
+      "topic": "Prefix Sum",
+      "reason": "Count earlier prefix sums whose difference from the current prefix is the target.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "continuous-subarray-sum": {
+      "topic": "Prefix Sum",
+      "reason": "Repeated prefix remainders identify a sufficiently long subarray divisible by the requested value.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "product-of-array-except-self": {
+      "topic": "Prefix Sum",
+      "reason": "Combine prefix and suffix products without division; the accumulator operation is multiplication.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "range-sum-query-immutable": {
+      "topic": "Prefix Sum",
+      "reason": "A difference of two cumulative totals answers each fixed-array range query.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "range-sum-query-2d-immutable": {
+      "topic": "Prefix Sum",
+      "reason": "A two-dimensional cumulative table answers rectangle sums by inclusion-exclusion.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "range-sum-query-mutable": {
+      "topic": "Binary Indexed Tree",
+      "reason": "A Fenwick tree combines point updates and prefix queries; a segment tree is a valid alternative.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-size-subarray-sum": {
+      "topic": "Sliding Window",
+      "reason": "Positive values allow a growing right edge and shrinking left edge to minimize a qualifying window.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "longest-substring-without-repeating-characters": {
+      "topic": "Sliding Window",
+      "reason": "Maintain a duplicate-free character window by advancing its left boundary.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-window-substring": {
+      "topic": "Sliding Window",
+      "reason": "Expand to satisfy required character multiplicities, then shrink while coverage remains valid.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "permutation-in-string": {
+      "topic": "Sliding Window",
+      "reason": "Compare character counts inside a fixed-length window with the target multiset.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-all-anagrams-in-a-string": {
+      "topic": "Sliding Window",
+      "reason": "Slide a fixed-size frequency window and report starts whose counts match the target.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "sliding-window-maximum": {
+      "topic": "Monotonic Queue",
+      "reason": "Maintain a deque of undominated candidate indices as each fixed-size window advances.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "longest-repeating-character-replacement": {
+      "topic": "Sliding Window",
+      "reason": "Maintain a window whose nonmajority characters can be replaced within the budget.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "max-consecutive-ones-iii": {
+      "topic": "Sliding Window",
+      "reason": "Bound the number of zeroes inside the current window and shrink when the flip budget is exceeded.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "fruit-into-baskets": {
+      "topic": "Sliding Window",
+      "reason": "Keep the longest contiguous range with at most two distinct fruit types.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "subarrays-with-k-different-integers": {
+      "topic": "Sliding Window",
+      "reason": "Subtract at-most counts for adjacent distinct-value budgets to obtain exactly-k subarrays.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "daily-temperatures": {
+      "topic": "Monotonic Stack",
+      "reason": "A decreasing stack of unresolved days is discharged when a warmer day arrives.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "next-greater-element-i": {
+      "topic": "Monotonic Stack",
+      "reason": "A monotonic stack determines the next greater value for each pending value.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "next-greater-element-ii": {
+      "topic": "Monotonic Stack",
+      "reason": "A doubled circular scan resolves next-greater queries using a monotonic stack.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "sum-of-subarray-minimums": {
+      "topic": "Monotonic Stack",
+      "reason": "Nearest-smaller boundaries determine how many subarrays assign each value as their minimum.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "sum-of-subarray-ranges": {
+      "topic": "Monotonic Stack",
+      "reason": "Nearest smaller and greater boundaries count each value's contribution as an extremum.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "asteroid-collision": {
+      "topic": "Stack",
+      "reason": "Resolve new left-moving asteroids against the most recent surviving right-moving asteroid.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "simplify-path": {
+      "topic": "Stack",
+      "reason": "Process path components with push/pop behavior for directory traversal.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "decode-string": {
+      "topic": "Stack",
+      "reason": "Nested repetition scopes require restoring the most recent unfinished prefix and repeat count.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "evaluate-reverse-polish-notation": {
+      "topic": "Stack",
+      "reason": "Each operator consumes the two most recently produced operands.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "basic-calculator": {
+      "topic": "Stack",
+      "reason": "Nested parentheses require saving and restoring the surrounding accumulation state.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "basic-calculator-ii": {
+      "topic": "Stack",
+      "reason": "Delay lower-precedence operations or collapse multiplication and division into the latest term.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "basic-calculator-iii": {
+      "topic": "Stack",
+      "reason": "Combine parenthesized expression scopes with operator precedence handling.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "course-schedule": {
+      "topic": "Topological Sort",
+      "reason": "A prerequisite cycle prevents processing all courses in dependency order.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "course-schedule-ii": {
+      "topic": "Topological Sort",
+      "reason": "Return a valid ordering of the prerequisite directed acyclic graph, if one exists.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "alien-dictionary": {
+      "topic": "Topological Sort",
+      "reason": "Adjacent dictionary words imply character-order edges whose valid ordering must be recovered.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "accounts-merge": {
+      "topic": "Union Find",
+      "reason": "Join accounts connected by shared email addresses and collect each resulting component.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "number-of-provinces": {
+      "topic": "Union Find",
+      "reason": "Merge directly connected cities and count connected components; graph traversal also works.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "redundant-connection": {
+      "topic": "Union Find",
+      "reason": "The first edge joining vertices already in the same component closes a cycle.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "number-of-islands-ii": {
+      "topic": "Union Find",
+      "reason": "Incrementally merge adjacent land components as cells are activated.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "network-delay-time": {
+      "topic": "Shortest Path",
+      "reason": "The answer depends on shortest travel times from one source through a weighted directed graph.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "cheapest-flights-within-k-stops": {
+      "topic": "Dynamic Programming",
+      "reason": "Track flight costs by the number of edges used so the stop limit is respected.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "path-with-minimum-effort": {
+      "topic": "Shortest Path",
+      "reason": "Minimize the largest edge along a path using a minimax shortest-path relaxation.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "swim-in-rising-water": {
+      "topic": "Shortest Path",
+      "reason": "Minimize the highest elevation encountered along the path; a priority frontier is one natural solution.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "rotting-oranges": {
+      "topic": "Breadth-First Search",
+      "reason": "All initially rotten cells expand simultaneously in minute-by-minute layers.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "01-matrix": {
+      "topic": "Breadth-First Search",
+      "reason": "Multi-source BFS from all zero cells computes each cell's nearest-zero distance.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "shortest-path-in-binary-matrix": {
+      "topic": "Breadth-First Search",
+      "reason": "Every allowed move has unit cost, so BFS layers yield the shortest open-cell path.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "open-the-lock": {
+      "topic": "Breadth-First Search",
+      "reason": "Each wheel move has equal cost, so search states by increasing move count.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "word-ladder-ii": {
+      "topic": "Breadth-First Search",
+      "reason": "Build shortest-distance layers before enumerating only paths that respect those layers.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "binary-tree-level-order-traversal": {
+      "topic": "Breadth-First Search",
+      "reason": "A queue processes the tree one depth level at a time.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "binary-tree-zigzag-level-order-traversal": {
+      "topic": "Breadth-First Search",
+      "reason": "Traverse by levels and reverse the output direction on alternate levels.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "binary-tree-right-side-view": {
+      "topic": "Breadth-First Search",
+      "reason": "The final visible node of each breadth-first level supplies that level's right-side value.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "serialize-and-deserialize-binary-tree": {
+      "topic": "Design",
+      "reason": "Choose a reversible representation and parser that preserve both values and tree structure.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "validate-binary-search-tree": {
+      "topic": "Binary Search Tree",
+      "reason": "Propagate ancestor value bounds to enforce the global search-tree ordering invariant.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "kth-smallest-element-in-a-bst": {
+      "topic": "Binary Search Tree",
+      "reason": "Inorder traversal produces the search tree's keys in sorted order.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "lowest-common-ancestor-of-a-binary-search-tree": {
+      "topic": "Binary Search Tree",
+      "reason": "The search ordering shows whether both targets lie on one side or split at the current node.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "lowest-common-ancestor-of-a-binary-tree": {
+      "topic": "Lowest Common Ancestor",
+      "reason": "Combine subtree target discoveries to locate the lowest ancestor containing both targets.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "construct-binary-tree-from-preorder-and-inorder-traversal": {
+      "topic": "Tree",
+      "reason": "The root order and inorder split reconstruct each subtree's structure.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "construct-binary-tree-from-inorder-and-postorder-traversal": {
+      "topic": "Tree",
+      "reason": "Use the final postorder root and the inorder split to recursively reconstruct the tree.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "invert-binary-tree": {
+      "topic": "Tree",
+      "reason": "Swap each node's children throughout the tree; traversal is supporting machinery.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "diameter-of-binary-tree": {
+      "topic": "Depth-First Search",
+      "reason": "Postorder height aggregation computes the longest path through each candidate node.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "binary-tree-maximum-path-sum": {
+      "topic": "Dynamic Programming",
+      "reason": "Each node combines profitable child gains while returning only one extendable branch to its parent.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "flatten-binary-tree-to-linked-list": {
+      "topic": "Tree",
+      "reason": "Rewire the tree into its preorder chain while preserving the required visitation order.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "merge-two-sorted-lists": {
+      "topic": "Linked List",
+      "reason": "Merge two ordered node chains by relinking the smaller current head.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "reverse-linked-list": {
+      "topic": "Linked List",
+      "reason": "Reverse the next pointers while preserving a reference to the unprocessed suffix.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "reverse-linked-list-ii": {
+      "topic": "Linked List",
+      "reason": "Reverse a bounded node segment while reconnecting its prefix and suffix.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "reverse-nodes-in-k-group": {
+      "topic": "Linked List",
+      "reason": "Reverse complete groups of node pointers and reconnect successive groups.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "linked-list-cycle": {
+      "topic": "Two Pointers",
+      "reason": "Fast and slow pointers meet if repeated next-pointer traversal enters a cycle.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "linked-list-cycle-ii": {
+      "topic": "Two Pointers",
+      "reason": "The meeting point and equal-speed restart identify the cycle entry.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "remove-nth-node-from-end-of-list": {
+      "topic": "Two Pointers",
+      "reason": "Maintain a fixed gap so the leading pointer locates the end-relative deletion position.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "copy-list-with-random-pointer": {
+      "topic": "Hash Table",
+      "reason": "Map original nodes to their copies so arbitrary random pointers can be reconstructed.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "merge-k-sorted-lists": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "A min-heap selects the next node among the current list heads.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-median-from-data-stream": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "Two balanced heaps maintain the lower and upper halves for online median retrieval.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "top-k-frequent-elements": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "Count occurrences and retain the highest-frequency candidates with a bounded heap; bucket sorting is an alternative.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "top-k-frequent-words": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "Select by frequency with lexical tie-breaking using heap ordering.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "k-closest-points-to-origin": {
+      "topic": "Quickselect",
+      "reason": "Partition points by squared distance to select the closest prefix; a heap is an alternative.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "task-scheduler": {
+      "topic": "Greedy",
+      "reason": "The most frequent task and the cooldown gaps determine the minimum feasible schedule length.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "reorganize-string": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "Repeatedly choose the most frequent usable character while deferring the previous one.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "meeting-rooms": {
+      "topic": "Sorting",
+      "reason": "Sort meeting boundaries and check whether consecutive meetings overlap.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "meeting-rooms-ii": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "Track active meeting end times to reuse the earliest freed room.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "non-overlapping-intervals": {
+      "topic": "Greedy",
+      "reason": "Keeping the interval with the earliest finish leaves the most room for later choices.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-number-of-arrows-to-burst-balloons": {
+      "topic": "Greedy",
+      "reason": "Place an arrow at the earliest-ending remaining interval and reuse it for every covered balloon.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "jump-game": {
+      "topic": "Greedy",
+      "reason": "Maintain the farthest reachable index and verify each new position lies within reach.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "jump-game-ii": {
+      "topic": "Greedy",
+      "reason": "Advance through reachable layers and count when the current jump frontier is exhausted.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "gas-station": {
+      "topic": "Greedy",
+      "reason": "A failed prefix rules out all starts inside it; restart after the failure while checking total feasibility.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "candy": {
+      "topic": "Greedy",
+      "reason": "Directional passes enforce both neighbor inequalities with the smallest local allocations.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "partition-labels": {
+      "topic": "Greedy",
+      "reason": "Extend a partition to the farthest last occurrence of its included characters and cut when that boundary closes.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "valid-anagram": {
+      "topic": "Counting",
+      "reason": "Equal character multiplicities characterize anagrams; a frequency table is the mechanism.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "group-anagrams": {
+      "topic": "Hash Table",
+      "reason": "Use a normalized character signature as the grouping key.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "valid-sudoku": {
+      "topic": "Hash Table",
+      "reason": "Track previously used digits independently for each row, column, and box.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "contains-duplicate": {
+      "topic": "Hash Table",
+      "reason": "Set membership detects whether any value has appeared before.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "intersection-of-two-arrays": {
+      "topic": "Hash Table",
+      "reason": "Set membership and deduplication recover values present in both collections.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "intersection-of-two-arrays-ii": {
+      "topic": "Hash Table",
+      "reason": "Frequency counts preserve the multiplicity of values shared by the two inputs.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "first-missing-positive": {
+      "topic": "Array",
+      "reason": "Place in-range values at their target indices and scan for the first position mismatch.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-all-duplicates-in-an-array": {
+      "topic": "Array",
+      "reason": "Use the constrained value range to mark visited indices in place.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "missing-number": {
+      "topic": "Bit Manipulation",
+      "reason": "XOR cancellation removes every matched index/value pair and leaves the missing value.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "single-number": {
+      "topic": "Bit Manipulation",
+      "reason": "XOR cancels equal pairs and leaves the value that occurs once.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "single-number-ii": {
+      "topic": "Bit Manipulation",
+      "reason": "Track bit counts modulo three to eliminate values that occur three times.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "counting-bits": {
+      "topic": "Bit Manipulation",
+      "reason": "Relate each number's set-bit count to the count after removing or shifting a bit.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "number-of-1-bits": {
+      "topic": "Bit Manipulation",
+      "reason": "Repeatedly clear the lowest set bit or accumulate bit masks.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "reverse-bits": {
+      "topic": "Bit Manipulation",
+      "reason": "Move each bit to its reflected fixed-width position.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "sum-of-two-integers": {
+      "topic": "Bit Manipulation",
+      "reason": "XOR produces carry-free sums and shifted AND produces carries.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "majority-element": {
+      "topic": "Boyer\u2013Moore Majority Vote Algorithm",
+      "reason": "Pairwise cancellation leaves the guaranteed strict majority as the surviving candidate.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "powx-n": {
+      "topic": "Divide and Conquer",
+      "reason": "Exponentiation by squaring halves the exponent at each step.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "sqrtx": {
+      "topic": "Binary Search",
+      "reason": "Search the largest integer whose square does not exceed the input.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "palindromic-substrings": {
+      "topic": "String",
+      "reason": "Expand around each possible palindrome center; this directly expresses the string symmetry being studied.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "longest-palindromic-substring": {
+      "topic": "String",
+      "reason": "Center expansion uses palindrome symmetry without requiring a dynamic-programming table.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-the-index-of-the-first-occurrence-in-a-string": {
+      "topic": "String Matching",
+      "reason": "Substring matching, rather than the string container itself, is the primary learning objective.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "repeated-substring-pattern": {
+      "topic": "String Matching",
+      "reason": "Detect whether the string consists of repeated copies of a shorter prefix.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "selling-pieces-of-wood": {
+      "topic": "Dynamic Programming",
+      "reason": "For each rectangle compare its sale price with every horizontal or vertical split.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "partition-string-into-substrings-with-values-at-most-k": {
+      "topic": "Greedy",
+      "reason": "Extend each numeric substring while its value remains within the bound, then start the next piece.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-xor-score-subarray-queries": {
+      "topic": "Dynamic Programming",
+      "reason": "Interval recurrences compute XOR scores and the best score contained in each query range.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "all-paths-from-source-to-target": {
+      "topic": "Backtracking",
+      "reason": "Enumerate every source-to-target path by extending and undoing the current path in the directed acyclic graph.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "contains-duplicate-ii": {
+      "topic": "Sliding Window",
+      "reason": "Keep only values within the allowed index distance and detect a repeated value in that window.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "contains-duplicate-iii": {
+      "topic": "Bucket Sort",
+      "reason": "Bucket nearby numeric values while expiring indices outside the allowed window. An ordered set is a valid alternative.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/contains-duplicate-iii/description/"
+    },
+    "design-search-autocomplete-system": {
+      "topic": "Trie",
+      "reason": "Prefix indexing narrows the candidate sentences; frequency and lexical order determine the top completions.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "logger-rate-limiter": {
+      "topic": "Hash Table",
+      "reason": "Store each message's last accepted time and check the per-message cooldown.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-length-of-repeated-subarray": {
+      "topic": "Dynamic Programming",
+      "reason": "Extend equal-ending pairs using a two-prefix recurrence for the longest common contiguous segment.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/"
+    },
+    "parallel-courses": {
+      "topic": "Topological Sort",
+      "reason": "Process all zero-prerequisite courses in parallel layers; the number of layers is the semester count.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "reconstruct-itinerary": {
+      "topic": "Eulerian Path",
+      "reason": "Every flight ticket is an edge that must be used exactly once; lexical edge ordering selects among valid Eulerian trails.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/reconstruct-itinerary/description/"
+    },
+    "snapshot-array": {
+      "topic": "Binary Search",
+      "reason": "Keep timestamped changes per index and binary-search the latest change not newer than the requested snapshot.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "string-to-integer-atoi": {
+      "topic": "String",
+      "reason": "Parse the sign and digit prefix with explicit whitespace, stopping, and overflow rules.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "sum-of-square-numbers": {
+      "topic": "Two Pointers",
+      "reason": "Move two nonnegative square candidates inward according to their sum relative to the target.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "summary-ranges": {
+      "topic": "Array",
+      "reason": "A linear scan groups consecutive sorted values into maximal output ranges; retain the simple array-traversal topic.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "time-based-key-value-store": {
+      "topic": "Binary Search",
+      "reason": "Store each key's timestamped values and find the predecessor of the query timestamp.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "check-if-it-is-a-straight-line": {
+      "topic": "Geometry",
+      "reason": "Cross products test whether all point displacements have the same direction without division.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "construct-quad-tree": {
+      "topic": "Divide and Conquer",
+      "reason": "Recursively subdivide a nonuniform square region into four quadrants.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "count-the-number-of-good-subsequences": {
+      "topic": "Combinatorics",
+      "reason": "For each positive target character frequency, combine binomial choices from character-count groups; exclude the empty choice.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-beautiful-indices-in-the-given-array-i": {
+      "topic": "String Matching",
+      "reason": "Find occurrences of both patterns, then check which occurrence positions are within the distance bound.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-beautiful-indices-in-the-given-array-ii": {
+      "topic": "String Matching",
+      "reason": "Linear-time pattern matching finds occurrences at the large input limit; a position scan then enforces proximity.",
+      "basis": "statement-review",
+      "confidence": "high",
+      "evidence": "https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/description/"
+    },
+    "find-players-with-zero-or-one-losses": {
+      "topic": "Counting",
+      "reason": "Accumulate each player's loss count and select the two requested count groups.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "integer-to-english-words": {
+      "topic": "Recursion",
+      "reason": "Decompose the number into fixed-size magnitude groups and recursively express each group's value.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-size-subarray-sum-equals-k": {
+      "topic": "Prefix Sum",
+      "reason": "Remember the earliest position of each prefix total to maximize the distance for the required difference.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-time-difference": {
+      "topic": "Sorting",
+      "reason": "Sort normalized clock times and compare adjacent gaps, including the wrap across midnight.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "number-of-divisible-triplet-sums": {
+      "topic": "Hash Table",
+      "reason": "Count complementary modular remainders while enumerating a pair and restricting the third index.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "shortest-word-distance-ii": {
+      "topic": "Two Pointers",
+      "reason": "Index each word's occurrence positions and merge-scan the two sorted lists for repeated distance queries.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "shortest-word-distance-iii": {
+      "topic": "Two Pointers",
+      "reason": "Track the latest relevant positions while handling equal target words as successive distinct occurrences.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "smallest-string-with-swaps": {
+      "topic": "Union Find",
+      "reason": "Connected swap components can permute their characters independently; sort within each component.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "string-compression": {
+      "topic": "Two Pointers",
+      "reason": "A read pointer counts equal-character runs and a write pointer emits their compressed representation in place.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "count-of-smaller-numbers-after-self": {
+      "topic": "Binary Indexed Tree",
+      "reason": "Process from right to left and query counts below the current compressed rank.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "count-of-range-sum": {
+      "topic": "Merge Sort",
+      "reason": "Count valid differences between two sorted prefix-sum halves while recursively merging them.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "reverse-pairs": {
+      "topic": "Merge Sort",
+      "reason": "Count the cross-half pairs satisfying the doubled-value inequality before merging sorted halves.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "create-sorted-array-through-instructions": {
+      "topic": "Binary Indexed Tree",
+      "reason": "Maintain rank frequencies to query how many earlier values are smaller or greater than each insertion.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "count-good-triplets-in-an-array": {
+      "topic": "Binary Indexed Tree",
+      "reason": "Map one permutation into the other's ranks and combine earlier-smaller and later-larger counts.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-the-duplicate-number": {
+      "topic": "Two Pointers",
+      "reason": "Treat value-to-index transitions as a functional graph and locate the induced cycle entry without modifying the input.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "3sum-smaller": {
+      "topic": "Two Pointers",
+      "reason": "After sorting and fixing one value, a valid endpoint sum counts a whole range of smaller pairs.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "valid-triangle-number": {
+      "topic": "Two Pointers",
+      "reason": "Sort side lengths and count all smaller first-side choices when an endpoint pair satisfies the triangle inequality.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "number-of-subsequences-that-satisfy-the-given-sum-condition": {
+      "topic": "Two Pointers",
+      "reason": "Sort and bound each minimum's allowable maximum, then count the freely chosen interior elements.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "plates-between-candles": {
+      "topic": "Prefix Sum",
+      "reason": "Use cumulative plate counts and nearest-candle positions to answer enclosed-plate queries.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-interval-to-include-each-query": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "Process sorted queries while a heap tracks the shortest covering interval and discards expired intervals.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "random-pick-with-blacklist": {
+      "topic": "Hash Table",
+      "reason": "Remap blocked values in the compact sampling range to allowed values outside that range.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "random-point-in-non-overlapping-rectangles": {
+      "topic": "Prefix Sum",
+      "reason": "Cumulative rectangle lattice-point counts select a rectangle with the appropriate probability before drawing coordinates.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "count-complete-tree-nodes": {
+      "topic": "Binary Search",
+      "reason": "The completeness invariant permits a logarithmic search for the final occupied position, rather than a full traversal.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "closest-binary-search-tree-value": {
+      "topic": "Binary Search Tree",
+      "reason": "Use the ordering invariant to descend toward the target while retaining the closest seen key.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "closest-nodes-queries-in-a-binary-search-tree": {
+      "topic": "Binary Search",
+      "reason": "Flatten the search tree into sorted keys and use predecessor/successor searches for many queries.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "kth-smallest-element-in-a-sorted-matrix": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "Merge the sorted rows with a min-heap to extract the kth value; value-space binary search is an alternative.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "range-sum-query-2d-mutable": {
+      "topic": "Binary Indexed Tree",
+      "reason": "A two-dimensional Fenwick tree supports cell updates and rectangle sums through cumulative queries.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "product-of-the-last-k-numbers": {
+      "topic": "Prefix Sum",
+      "reason": "Maintain cumulative products between zeroes so recent-product queries use a quotient of stored products.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "stream-of-characters": {
+      "topic": "Trie",
+      "reason": "A reversed-word trie tests whether a suffix of the incoming stream matches any dictionary word.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "prefix-and-suffix-search": {
+      "topic": "Trie",
+      "reason": "Index combined prefix/suffix constraints so each query narrows to the largest matching word index.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "map-sum-pairs": {
+      "topic": "Trie",
+      "reason": "Prefix nodes aggregate values of keys sharing each prefix.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "kth-largest-element-in-a-stream": {
+      "topic": "Heap (Priority Queue)",
+      "reason": "A min-heap of the largest k seen values exposes the kth largest at its root.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "moving-average-from-data-stream": {
+      "topic": "Queue",
+      "reason": "Keep the most recent fixed-size window and its running sum as new values arrive.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "number-of-recent-calls": {
+      "topic": "Queue",
+      "reason": "Expire timestamps older than the moving time window and count the remaining calls.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "online-stock-span": {
+      "topic": "Monotonic Stack",
+      "reason": "Collapse previous prices no larger than the new price while accumulating their spans.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-frequency-stack": {
+      "topic": "Stack",
+      "reason": "Frequency-indexed stacks retain recency order among values with the same maximum frequency.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "implement-queue-using-stacks": {
+      "topic": "Stack",
+      "reason": "Two stacks reverse transfer order to realize first-in-first-out behavior.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "implement-stack-using-queues": {
+      "topic": "Queue",
+      "reason": "Queue rotation or transfer realizes last-in-first-out operations using only queue primitives.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "flatten-nested-list-iterator": {
+      "topic": "Stack",
+      "reason": "A stack of unfinished list positions supports lazy depth-first iteration without flattening everything up front.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "binary-search-tree-iterator": {
+      "topic": "Binary Search Tree",
+      "reason": "Maintain the pending inorder traversal frontier to emit the next smallest key lazily.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "kth-ancestor-of-a-tree-node": {
+      "topic": "Binary Lifting",
+      "reason": "Precomputed power-of-two ancestors answer each jump query by decomposing its distance into bits.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "all-nodes-distance-k-in-binary-tree": {
+      "topic": "Breadth-First Search",
+      "reason": "Add parent adjacency and expand distance layers from the target node.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "amount-of-time-for-binary-tree-to-be-infected": {
+      "topic": "Breadth-First Search",
+      "reason": "Infection spreads one tree edge per time step from the initial node.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "binary-tree-vertical-order-traversal": {
+      "topic": "Breadth-First Search",
+      "reason": "Track horizontal columns while breadth-first order preserves the required top-to-bottom order.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "vertical-order-traversal-of-a-binary-tree": {
+      "topic": "Sorting",
+      "reason": "Collect row/column coordinates and sort by the required column, row, and value ordering.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-depth-of-binary-tree": {
+      "topic": "Breadth-First Search",
+      "reason": "The first leaf reached by level-order traversal establishes the minimum root-to-leaf distance.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-width-of-binary-tree": {
+      "topic": "Breadth-First Search",
+      "reason": "Level traversal with normalized complete-tree positions measures each level's width, including gaps.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "path-sum-iii": {
+      "topic": "Prefix Sum",
+      "reason": "Track ancestor prefix totals along the current root-to-node path to count target-sum downward paths.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "subtree-of-another-tree": {
+      "topic": "Tree",
+      "reason": "Compare rooted subtree structure and values at candidate attachment points.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "balanced-binary-tree": {
+      "topic": "Depth-First Search",
+      "reason": "Postorder traversal returns subtree heights and detects a local balance violation.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "find-duplicate-subtrees": {
+      "topic": "Hash Table",
+      "reason": "Intern structural subtree signatures and count repeated signatures rather than comparing every subtree pair.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "number-of-good-leaf-nodes-pairs": {
+      "topic": "Dynamic Programming",
+      "reason": "Each subtree returns a bounded distance-count vector that can be combined across its parent.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "minimum-number-of-operations-to-sort-a-binary-tree-by-level": {
+      "topic": "Sorting",
+      "reason": "Each level's values form a permutation whose cycle structure gives the minimum swaps needed to sort it.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-product-of-splitted-binary-tree": {
+      "topic": "Depth-First Search",
+      "reason": "Compute subtree sums and compare each candidate cut's two-component product.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "maximum-depth-of-binary-tree": {
+      "topic": "Depth-First Search",
+      "reason": "The deepest root-to-leaf depth follows directly from recursively combining child depths.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    },
+    "max-sum-of-rectangle-no-larger-than-k": {
+      "topic": "Prefix Sum",
+      "reason": "Reduce row bands to prefix-total differences and query earlier totals that satisfy the upper bound.",
+      "basis": "concept-review",
+      "confidence": "medium"
+    }
+  }
+}

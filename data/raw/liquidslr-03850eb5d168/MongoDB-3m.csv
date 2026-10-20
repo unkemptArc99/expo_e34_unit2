@@ -1,0 +1,3 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+MEDIUM,Merge Intervals,100.0,0.005257646418354588,https://leetcode.com/problems/merge-intervals,"Array, Sorting, Quicksort"
+EASY,Two Sum,100.0,0.0058009569065051395,https://leetcode.com/problems/two-sum,"Array, Hash Table"

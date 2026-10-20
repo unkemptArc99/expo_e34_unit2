@@ -1,0 +1,76 @@
+{
+  "version": "224cf5b3653f92a8",
+  "catalogFile": "catalog-5ec53171a63a40f1.json",
+  "catalogVersion": "5ec53171a63a40f1",
+  "snapshots": [
+    {
+      "id": "roy-jul-435e16b861b1",
+      "source": "Snehasish Roy",
+      "repository": "snehasishroy/leetcode-companywise-interview-questions",
+      "revision": "e095c259cfd036e3ddb6886e84d7075c2faac477",
+      "snapshotDate": "2026-07-12",
+      "dateNote": "Snapshot date stated in README; differs from the August commit date.",
+      "retrievedAt": "2026-10-18T22:41:59.582016+00:00",
+      "contentHash": "435e16b861b1eac2adc8ae0552f9cc502eb6d6d379cee6a82c0af54253abfabd",
+      "files": {
+        "Apple": "roy-jul-435e16b861b1-Apple-9dbd63bfe377.json",
+        "Google": "roy-jul-435e16b861b1-Google-4f3653be7ff2.json",
+        "Meta": "roy-jul-435e16b861b1-Meta-0ea0e2e0c984.json",
+        "Netflix": "roy-jul-435e16b861b1-Netflix-ffd14d4ce919.json",
+        "Palantir": "roy-jul-435e16b861b1-Palantir-45059fa958b3.json"
+      },
+      "reuse": {
+        "status": "unverified",
+        "evidence": "No dataset redistribution permission has been verified."
+      }
+    },
+    {
+      "id": "roy-feb-9b271896892d",
+      "source": "Snehasish Roy",
+      "repository": "snehasishroy/leetcode-companywise-interview-questions",
+      "revision": "d1b6b443f496c39b3145a416617580c4e6a7bfdd",
+      "snapshotDate": "2026-02-21",
+      "dateNote": "Snapshot date stated in README at this revision.",
+      "retrievedAt": "2026-10-18T22:41:59.425792+00:00",
+      "contentHash": "9b271896892d2ef068565321763a0a449ac13353bab451b1fe57c1bfabec9b9a",
+      "files": {
+        "Apple": "roy-feb-9b271896892d-Apple-584395a6fc4c.json",
+        "Google": "roy-feb-9b271896892d-Google-6726ee8863ec.json",
+        "Meta": "roy-feb-9b271896892d-Meta-320107387aac.json",
+        "Netflix": "roy-feb-9b271896892d-Netflix-efbdecf0fa25.json"
+      },
+      "reuse": {
+        "status": "unverified",
+        "evidence": "No dataset redistribution permission has been verified."
+      }
+    },
+    {
+      "id": "liquidslr-1a3df28b1bb7",
+      "source": "liquidslr",
+      "repository": "liquidslr/leetcode-company-wise-problems",
+      "revision": "03850eb5d16892514491cf1381c32ec0330a2719",
+      "snapshotDate": null,
+      "dateNote": "June 2025 is advertised, but exact snapshot date is inconsistent. Excluded from historical comparisons.",
+      "retrievedAt": "2026-10-18T22:41:59.257776+00:00",
+      "contentHash": "1a3df28b1bb77249cf2bc5f3f1cbad3923eb85067e89e44a27a88d87590bdaab",
+      "files": {
+        "Apple": "liquidslr-1a3df28b1bb7-Apple-3d92507d8c2f.json",
+        "Google": "liquidslr-1a3df28b1bb7-Google-86be78ef3157.json",
+        "Meta": "liquidslr-1a3df28b1bb7-Meta-a66a9ee85f54.json",
+        "Netflix": "liquidslr-1a3df28b1bb7-Netflix-8c399ccf31d7.json"
+      },
+      "reuse": {
+        "status": "unverified",
+        "evidence": "No dataset redistribution permission has been verified."
+      }
+    }
+  ],
+  "taggingReport": "tagging-report-315328e025290766.html",
+  "companies": [
+    "Meta",
+    "Google",
+    "Apple",
+    "Netflix",
+    "Palantir"
+  ]
+}

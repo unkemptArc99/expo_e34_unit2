@@ -1,0 +1,1 @@
+{"company":"Navan","windows":{"30d":[],"3m":[],"6m":[],"older6m":[{"questionId":"paint-house","score":100},{"questionId":"word-ladder","score":89.9}],"all":[{"questionId":"word-ladder","score":100},{"questionId":"paint-house","score":100},{"questionId":"lru-cache","score":89.6}]}}

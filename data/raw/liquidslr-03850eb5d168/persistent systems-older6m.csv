@@ -1,0 +1,8 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+EASY,Longest Common Prefix,100.0,0.00481871947020729,https://leetcode.com/problems/longest-common-prefix,"Array, String, Trie"
+EASY,Valid Parentheses,87.5,0.0044725746270324485,https://leetcode.com/problems/valid-parentheses,"String, Stack, Bracket Sequences"
+EASY,Two Sum,87.5,0.005800953280581267,https://leetcode.com/problems/two-sum,"Array, Hash Table"
+MEDIUM,Group Anagrams,77.6,0.007312909440565698,https://leetcode.com/problems/group-anagrams,"Array, Hash Table, String, Sorting"
+EASY,Merge Sorted Array,77.6,0.005552799368134116,https://leetcode.com/problems/merge-sorted-array,"Array, Two Pointers, Sorting"
+MEDIUM,Longest Palindromic Substring,77.6,0.0038471227859268303,https://leetcode.com/problems/longest-palindromic-substring,"Two Pointers, String, Dynamic Programming, Manacher"
+MEDIUM,Longest Substring Without Repeating Characters,77.6,0.0039779602483841275,https://leetcode.com/problems/longest-substring-without-repeating-characters,"Hash Table, String, Sliding Window"

@@ -1,0 +1,6 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+MEDIUM,Bulb Switcher,100.0,0.005632902559522149,https://leetcode.com/problems/bulb-switcher,"Math, Brainteaser"
+MEDIUM,Maximum Number of Occurrences of a Substring,89.2,0.005480517882953531,https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring,"Hash Table, String, Sliding Window"
+HARD,Maximize Sum of Weights after Edge Removals,89.2,0.003135128622206157,https://leetcode.com/problems/maximize-sum-of-weights-after-edge-removals,"Dynamic Programming, Tree, Depth-First Search, Sorting"
+MEDIUM,Nested List Weight Sum II,89.2,0.006704579704627294,https://leetcode.com/problems/nested-list-weight-sum-ii,"Stack, Depth-First Search, Breadth-First Search"
+MEDIUM,Shortest Word Distance II,89.2,0.006300057541340713,https://leetcode.com/problems/shortest-word-distance-ii,"Array, Hash Table, Two Pointers, String, Design"

@@ -1,0 +1,5 @@
+[
+  {"id":"liquidslr","label":"liquidslr","repository":"liquidslr/leetcode-company-wise-problems","ref":"03850eb5d16892514491cf1381c32ec0330a2719","adapter":"topics","snapshotDate":null,"dateNote":"June 2025 is advertised, but exact snapshot date is inconsistent. Excluded from historical comparisons.","reuse":{"status":"unverified","evidence":"No dataset redistribution permission has been verified."}},
+  {"id":"roy-feb","label":"Snehasish Roy","repository":"snehasishroy/leetcode-companywise-interview-questions","ref":"d1b6b443f496c39b3145a416617580c4e6a7bfdd","adapter":"ids","snapshotDate":"2026-02-21","dateNote":"Snapshot date stated in README at this revision.","reuse":{"status":"unverified","evidence":"No dataset redistribution permission has been verified."}},
+  {"id":"roy-jul","label":"Snehasish Roy","repository":"snehasishroy/leetcode-companywise-interview-questions","ref":"e095c259cfd036e3ddb6886e84d7075c2faac477","adapter":"ids","snapshotDate":"2026-07-12","dateNote":"Snapshot date stated in README; differs from the August commit date.","reuse":{"status":"unverified","evidence":"No dataset redistribution permission has been verified."}}
+]

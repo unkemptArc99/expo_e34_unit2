@@ -1,0 +1,4 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+HARD,Number of Subarrays That Match a Pattern II,100.0,0.003432198499711483,https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii,"Array, Rolling Hash, String Matching, Hash Function"
+EASY,Number of Bit Changes to Make Two Integers Equal,95.3,0.006341631186328111,https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal,Bit Manipulation
+EASY,Two Sum,66.3,0.005800959051255636,https://leetcode.com/problems/two-sum,"Array, Hash Table"

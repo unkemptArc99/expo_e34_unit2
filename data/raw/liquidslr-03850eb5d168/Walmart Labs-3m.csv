@@ -1,0 +1,6 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+HARD,Sliding Window Maximum,100.0,0.004910883472158029,https://leetcode.com/problems/sliding-window-maximum,"Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum/Maximum Query"
+EASY,Minimum Absolute Difference,100.0,0.007518442569249718,https://leetcode.com/problems/minimum-absolute-difference,"Array, Sorting"
+MEDIUM,Group Anagrams,100.0,0.007312907069303087,https://leetcode.com/problems/group-anagrams,"Array, Hash Table, String, Sorting"
+MEDIUM,Delete and Earn,100.0,0.005747814240208152,https://leetcode.com/problems/delete-and-earn,"Array, Hash Table, Dynamic Programming"
+MEDIUM,Course Schedule II,100.0,0.0056088233262362175,https://leetcode.com/problems/course-schedule-ii,"Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort"

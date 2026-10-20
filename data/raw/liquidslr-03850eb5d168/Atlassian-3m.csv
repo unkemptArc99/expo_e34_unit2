@@ -1,0 +1,4 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+EASY,Best Time to Buy and Sell Stock,100.0,0.005725109630013361,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,"Array, Dynamic Programming"
+HARD,Minimum Difficulty of a Job Schedule,100.0,0.005980790438819214,https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule,"Array, Dynamic Programming"
+MEDIUM,Merge Intervals,89.6,0.005257588139147594,https://leetcode.com/problems/merge-intervals,"Array, Sorting, Quicksort"

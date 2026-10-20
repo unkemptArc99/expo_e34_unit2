@@ -1,0 +1,5 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+MEDIUM,Candy Crush,100.0,0.007762955697237208,https://leetcode.com/problems/candy-crush,"Array, Two Pointers, Matrix, Simulation"
+EASY,Logger Rate Limiter,84.1,0.007688327747225928,https://leetcode.com/problems/logger-rate-limiter,"Hash Table, Design, Data Stream"
+MEDIUM,Design Hit Counter,74.9,0.006974272516303686,https://leetcode.com/problems/design-hit-counter,"Array, Binary Search, Design, Queue, Data Stream"
+MEDIUM,Maximize Distance to Closest Person,74.9,0.004997681957791178,https://leetcode.com/problems/maximize-distance-to-closest-person,Array

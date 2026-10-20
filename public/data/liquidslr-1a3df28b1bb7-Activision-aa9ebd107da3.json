@@ -1,0 +1,1 @@
+{"company":"Activision","windows":{"30d":[],"3m":[],"6m":[],"older6m":[{"questionId":"decode-string","score":100},{"questionId":"number-of-divisible-triplet-sums","score":89.5}],"all":[{"questionId":"reformat-phone-number","score":100},{"questionId":"decode-string","score":78.9},{"questionId":"number-of-divisible-triplet-sums","score":70.1}]}}

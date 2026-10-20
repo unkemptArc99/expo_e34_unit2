@@ -1,0 +1,5 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+HARD,Minimum Window Substring,100.0,0.004825491928795409,https://leetcode.com/problems/minimum-window-substring,"Hash Table, String, Sliding Window"
+MEDIUM,Time Based Key-Value Store,100.0,0.005012852742454725,https://leetcode.com/problems/time-based-key-value-store,"Hash Table, String, Binary Search, Design"
+HARD,Read N Characters Given read4 II - Call Multiple Times,96.6,0.004334779377755175,https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times,"Array, Simulation, Interactive"
+MEDIUM,Rotting Oranges,72.2,0.005927624222963237,https://leetcode.com/problems/rotting-oranges,"Array, Breadth-First Search, Matrix"

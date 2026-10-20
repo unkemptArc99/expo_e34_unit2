@@ -1,0 +1,4 @@
+Difficulty,Title,Frequency,Acceptance Rate,Link,Topics
+MEDIUM,Consecutive Numbers,100.0,0.004908294908655094,https://leetcode.com/problems/consecutive-numbers,Database
+HARD,Largest Rectangle in Histogram,88.6,0.005066326280307808,https://leetcode.com/problems/largest-rectangle-in-histogram,"Array, Stack, Monotonic Stack, Range Minimum/Maximum Query"
+EASY,Palindrome Number,88.6,0.006087440701351663,https://leetcode.com/problems/palindrome-number,Math

@@ -1,0 +1,8230 @@
+{
+  "source": {
+    "id": "roy-jul",
+    "label": "Snehasish Roy",
+    "repository": "snehasishroy/leetcode-companywise-interview-questions",
+    "ref": "e095c259cfd036e3ddb6886e84d7075c2faac477",
+    "adapter": "ids",
+    "snapshotDate": "2026-07-12",
+    "dateNote": "Snapshot date stated in README; differs from the August commit date.",
+    "reuse": {
+      "status": "unverified",
+      "evidence": "No dataset redistribution permission has been verified."
+    }
+  },
+  "revision": "e095c259cfd036e3ddb6886e84d7075c2faac477",
+  "retrievedAt": "2026-10-18T22:41:59.582016+00:00",
+  "contentHash": "435e16b861b1eac2adc8ae0552f9cc502eb6d6d379cee6a82c0af54253abfabd",
+  "entries": [
+    {
+      "company": "1kosmos",
+      "window": "all",
+      "file": "1kosmos-all.csv"
+    },
+    {
+      "company": "1kosmos",
+      "window": "older6m",
+      "file": "1kosmos-older6m.csv"
+    },
+    {
+      "company": "6sense",
+      "window": "all",
+      "file": "6sense-all.csv"
+    },
+    {
+      "company": "6sense",
+      "window": "older6m",
+      "file": "6sense-older6m.csv"
+    },
+    {
+      "company": "accelya",
+      "window": "all",
+      "file": "accelya-all.csv"
+    },
+    {
+      "company": "accelya",
+      "window": "older6m",
+      "file": "accelya-older6m.csv"
+    },
+    {
+      "company": "accenture",
+      "window": "all",
+      "file": "accenture-all.csv"
+    },
+    {
+      "company": "accenture",
+      "window": "older6m",
+      "file": "accenture-older6m.csv"
+    },
+    {
+      "company": "accenture",
+      "window": "6m",
+      "file": "accenture-6m.csv"
+    },
+    {
+      "company": "accenture",
+      "window": "3m",
+      "file": "accenture-3m.csv"
+    },
+    {
+      "company": "accolite",
+      "window": "all",
+      "file": "accolite-all.csv"
+    },
+    {
+      "company": "accolite",
+      "window": "older6m",
+      "file": "accolite-older6m.csv"
+    },
+    {
+      "company": "accolite",
+      "window": "6m",
+      "file": "accolite-6m.csv"
+    },
+    {
+      "company": "acko",
+      "window": "all",
+      "file": "acko-all.csv"
+    },
+    {
+      "company": "acko",
+      "window": "older6m",
+      "file": "acko-older6m.csv"
+    },
+    {
+      "company": "acorns",
+      "window": "all",
+      "file": "acorns-all.csv"
+    },
+    {
+      "company": "acorns",
+      "window": "older6m",
+      "file": "acorns-older6m.csv"
+    },
+    {
+      "company": "activision",
+      "window": "all",
+      "file": "activision-all.csv"
+    },
+    {
+      "company": "activision",
+      "window": "older6m",
+      "file": "activision-older6m.csv"
+    },
+    {
+      "company": "adobe",
+      "window": "all",
+      "file": "adobe-all.csv"
+    },
+    {
+      "company": "adobe",
+      "window": "older6m",
+      "file": "adobe-older6m.csv"
+    },
+    {
+      "company": "adobe",
+      "window": "6m",
+      "file": "adobe-6m.csv"
+    },
+    {
+      "company": "adobe",
+      "window": "3m",
+      "file": "adobe-3m.csv"
+    },
+    {
+      "company": "adp",
+      "window": "all",
+      "file": "adp-all.csv"
+    },
+    {
+      "company": "adp",
+      "window": "older6m",
+      "file": "adp-older6m.csv"
+    },
+    {
+      "company": "aetion",
+      "window": "all",
+      "file": "aetion-all.csv"
+    },
+    {
+      "company": "aetion",
+      "window": "older6m",
+      "file": "aetion-older6m.csv"
+    },
+    {
+      "company": "affinity",
+      "window": "all",
+      "file": "affinity-all.csv"
+    },
+    {
+      "company": "affinity",
+      "window": "older6m",
+      "file": "affinity-older6m.csv"
+    },
+    {
+      "company": "affirm",
+      "window": "all",
+      "file": "affirm-all.csv"
+    },
+    {
+      "company": "affirm",
+      "window": "older6m",
+      "file": "affirm-older6m.csv"
+    },
+    {
+      "company": "agoda",
+      "window": "all",
+      "file": "agoda-all.csv"
+    },
+    {
+      "company": "agoda",
+      "window": "older6m",
+      "file": "agoda-older6m.csv"
+    },
+    {
+      "company": "agoda",
+      "window": "6m",
+      "file": "agoda-6m.csv"
+    },
+    {
+      "company": "agoda",
+      "window": "30d",
+      "file": "agoda-30d.csv"
+    },
+    {
+      "company": "agoda",
+      "window": "3m",
+      "file": "agoda-3m.csv"
+    },
+    {
+      "company": "airbnb",
+      "window": "all",
+      "file": "airbnb-all.csv"
+    },
+    {
+      "company": "airbnb",
+      "window": "older6m",
+      "file": "airbnb-older6m.csv"
+    },
+    {
+      "company": "airbnb",
+      "window": "6m",
+      "file": "airbnb-6m.csv"
+    },
+    {
+      "company": "airbnb",
+      "window": "3m",
+      "file": "airbnb-3m.csv"
+    },
+    {
+      "company": "airbus",
+      "window": "all",
+      "file": "airbus-all.csv"
+    },
+    {
+      "company": "airbus",
+      "window": "older6m",
+      "file": "airbus-older6m.csv"
+    },
+    {
+      "company": "airtel",
+      "window": "all",
+      "file": "airtel-all.csv"
+    },
+    {
+      "company": "airtel",
+      "window": "older6m",
+      "file": "airtel-older6m.csv"
+    },
+    {
+      "company": "airwallex",
+      "window": "all",
+      "file": "airwallex-all.csv"
+    },
+    {
+      "company": "airwallex",
+      "window": "older6m",
+      "file": "airwallex-older6m.csv"
+    },
+    {
+      "company": "akamai",
+      "window": "all",
+      "file": "akamai-all.csv"
+    },
+    {
+      "company": "akamai",
+      "window": "older6m",
+      "file": "akamai-older6m.csv"
+    },
+    {
+      "company": "akamai",
+      "window": "6m",
+      "file": "akamai-6m.csv"
+    },
+    {
+      "company": "akuna-capital",
+      "window": "all",
+      "file": "akuna-capital-all.csv"
+    },
+    {
+      "company": "akuna-capital",
+      "window": "older6m",
+      "file": "akuna-capital-older6m.csv"
+    },
+    {
+      "company": "alibaba",
+      "window": "all",
+      "file": "alibaba-all.csv"
+    },
+    {
+      "company": "alibaba",
+      "window": "older6m",
+      "file": "alibaba-older6m.csv"
+    },
+    {
+      "company": "allincall",
+      "window": "all",
+      "file": "allincall-all.csv"
+    },
+    {
+      "company": "allincall",
+      "window": "older6m",
+      "file": "allincall-older6m.csv"
+    },
+    {
+      "company": "alphonso",
+      "window": "all",
+      "file": "alphonso-all.csv"
+    },
+    {
+      "company": "alphonso",
+      "window": "older6m",
+      "file": "alphonso-older6m.csv"
+    },
+    {
+      "company": "alten",
+      "window": "all",
+      "file": "alten-all.csv"
+    },
+    {
+      "company": "alten",
+      "window": "older6m",
+      "file": "alten-older6m.csv"
+    },
+    {
+      "company": "altimetrik",
+      "window": "all",
+      "file": "altimetrik-all.csv"
+    },
+    {
+      "company": "altimetrik",
+      "window": "older6m",
+      "file": "altimetrik-older6m.csv"
+    },
+    {
+      "company": "altimetrik",
+      "window": "6m",
+      "file": "altimetrik-6m.csv"
+    },
+    {
+      "company": "amadeus",
+      "window": "all",
+      "file": "amadeus-all.csv"
+    },
+    {
+      "company": "amadeus",
+      "window": "older6m",
+      "file": "amadeus-older6m.csv"
+    },
+    {
+      "company": "amazon",
+      "window": "all",
+      "file": "amazon-all.csv"
+    },
+    {
+      "company": "amazon",
+      "window": "older6m",
+      "file": "amazon-older6m.csv"
+    },
+    {
+      "company": "amazon",
+      "window": "6m",
+      "file": "amazon-6m.csv"
+    },
+    {
+      "company": "amazon",
+      "window": "30d",
+      "file": "amazon-30d.csv"
+    },
+    {
+      "company": "amazon",
+      "window": "3m",
+      "file": "amazon-3m.csv"
+    },
+    {
+      "company": "amd",
+      "window": "all",
+      "file": "amd-all.csv"
+    },
+    {
+      "company": "amd",
+      "window": "older6m",
+      "file": "amd-older6m.csv"
+    },
+    {
+      "company": "amd",
+      "window": "6m",
+      "file": "amd-6m.csv"
+    },
+    {
+      "company": "amdocs",
+      "window": "all",
+      "file": "amdocs-all.csv"
+    },
+    {
+      "company": "amdocs",
+      "window": "older6m",
+      "file": "amdocs-older6m.csv"
+    },
+    {
+      "company": "american-airlines",
+      "window": "all",
+      "file": "american-airlines-all.csv"
+    },
+    {
+      "company": "american-airlines",
+      "window": "older6m",
+      "file": "american-airlines-older6m.csv"
+    },
+    {
+      "company": "american-express",
+      "window": "all",
+      "file": "american-express-all.csv"
+    },
+    {
+      "company": "american-express",
+      "window": "older6m",
+      "file": "american-express-older6m.csv"
+    },
+    {
+      "company": "amplitude",
+      "window": "all",
+      "file": "amplitude-all.csv"
+    },
+    {
+      "company": "amplitude",
+      "window": "older6m",
+      "file": "amplitude-older6m.csv"
+    },
+    {
+      "company": "analytics-quotient",
+      "window": "all",
+      "file": "analytics-quotient-all.csv"
+    },
+    {
+      "company": "analytics-quotient",
+      "window": "older6m",
+      "file": "analytics-quotient-older6m.csv"
+    },
+    {
+      "company": "andela",
+      "window": "all",
+      "file": "andela-all.csv"
+    },
+    {
+      "company": "andela",
+      "window": "older6m",
+      "file": "andela-older6m.csv"
+    },
+    {
+      "company": "anduril",
+      "window": "all",
+      "file": "anduril-all.csv"
+    },
+    {
+      "company": "anduril",
+      "window": "older6m",
+      "file": "anduril-older6m.csv"
+    },
+    {
+      "company": "anduril",
+      "window": "6m",
+      "file": "anduril-6m.csv"
+    },
+    {
+      "company": "anduril",
+      "window": "30d",
+      "file": "anduril-30d.csv"
+    },
+    {
+      "company": "anduril",
+      "window": "3m",
+      "file": "anduril-3m.csv"
+    },
+    {
+      "company": "anthropic",
+      "window": "all",
+      "file": "anthropic-all.csv"
+    },
+    {
+      "company": "anthropic",
+      "window": "older6m",
+      "file": "anthropic-older6m.csv"
+    },
+    {
+      "company": "anyscale",
+      "window": "all",
+      "file": "anyscale-all.csv"
+    },
+    {
+      "company": "anyscale",
+      "window": "older6m",
+      "file": "anyscale-older6m.csv"
+    },
+    {
+      "company": "aon",
+      "window": "all",
+      "file": "aon-all.csv"
+    },
+    {
+      "company": "aon",
+      "window": "older6m",
+      "file": "aon-older6m.csv"
+    },
+    {
+      "company": "apolloio",
+      "window": "all",
+      "file": "apolloio-all.csv"
+    },
+    {
+      "company": "apolloio",
+      "window": "older6m",
+      "file": "apolloio-older6m.csv"
+    },
+    {
+      "company": "appdynamics",
+      "window": "all",
+      "file": "appdynamics-all.csv"
+    },
+    {
+      "company": "appdynamics",
+      "window": "older6m",
+      "file": "appdynamics-older6m.csv"
+    },
+    {
+      "company": "appfolio",
+      "window": "all",
+      "file": "appfolio-all.csv"
+    },
+    {
+      "company": "appfolio",
+      "window": "older6m",
+      "file": "appfolio-older6m.csv"
+    },
+    {
+      "company": "apple",
+      "window": "all",
+      "file": "apple-all.csv"
+    },
+    {
+      "company": "apple",
+      "window": "older6m",
+      "file": "apple-older6m.csv"
+    },
+    {
+      "company": "apple",
+      "window": "6m",
+      "file": "apple-6m.csv"
+    },
+    {
+      "company": "apple",
+      "window": "30d",
+      "file": "apple-30d.csv"
+    },
+    {
+      "company": "apple",
+      "window": "3m",
+      "file": "apple-3m.csv"
+    },
+    {
+      "company": "applied-intuition",
+      "window": "all",
+      "file": "applied-intuition-all.csv"
+    },
+    {
+      "company": "applied-intuition",
+      "window": "older6m",
+      "file": "applied-intuition-older6m.csv"
+    },
+    {
+      "company": "applied-intuition",
+      "window": "6m",
+      "file": "applied-intuition-6m.csv"
+    },
+    {
+      "company": "aqr-capital-management",
+      "window": "all",
+      "file": "aqr-capital-management-all.csv"
+    },
+    {
+      "company": "aqr-capital-management",
+      "window": "older6m",
+      "file": "aqr-capital-management-older6m.csv"
+    },
+    {
+      "company": "arcesium",
+      "window": "all",
+      "file": "arcesium-all.csv"
+    },
+    {
+      "company": "arcesium",
+      "window": "older6m",
+      "file": "arcesium-older6m.csv"
+    },
+    {
+      "company": "argo-ai",
+      "window": "all",
+      "file": "argo-ai-all.csv"
+    },
+    {
+      "company": "argo-ai",
+      "window": "older6m",
+      "file": "argo-ai-older6m.csv"
+    },
+    {
+      "company": "arista-networks",
+      "window": "all",
+      "file": "arista-networks-all.csv"
+    },
+    {
+      "company": "arista-networks",
+      "window": "older6m",
+      "file": "arista-networks-older6m.csv"
+    },
+    {
+      "company": "asana",
+      "window": "all",
+      "file": "asana-all.csv"
+    },
+    {
+      "company": "asana",
+      "window": "older6m",
+      "file": "asana-older6m.csv"
+    },
+    {
+      "company": "asana",
+      "window": "6m",
+      "file": "asana-6m.csv"
+    },
+    {
+      "company": "asana",
+      "window": "3m",
+      "file": "asana-3m.csv"
+    },
+    {
+      "company": "ascend",
+      "window": "all",
+      "file": "ascend-all.csv"
+    },
+    {
+      "company": "ascend",
+      "window": "older6m",
+      "file": "ascend-older6m.csv"
+    },
+    {
+      "company": "athenahealth",
+      "window": "all",
+      "file": "athenahealth-all.csv"
+    },
+    {
+      "company": "athenahealth",
+      "window": "older6m",
+      "file": "athenahealth-older6m.csv"
+    },
+    {
+      "company": "atlassian",
+      "window": "all",
+      "file": "atlassian-all.csv"
+    },
+    {
+      "company": "atlassian",
+      "window": "older6m",
+      "file": "atlassian-older6m.csv"
+    },
+    {
+      "company": "atlassian",
+      "window": "6m",
+      "file": "atlassian-6m.csv"
+    },
+    {
+      "company": "atlassian",
+      "window": "3m",
+      "file": "atlassian-3m.csv"
+    },
+    {
+      "company": "att",
+      "window": "all",
+      "file": "att-all.csv"
+    },
+    {
+      "company": "att",
+      "window": "older6m",
+      "file": "att-older6m.csv"
+    },
+    {
+      "company": "att",
+      "window": "6m",
+      "file": "att-6m.csv"
+    },
+    {
+      "company": "attentive",
+      "window": "all",
+      "file": "attentive-all.csv"
+    },
+    {
+      "company": "attentive",
+      "window": "older6m",
+      "file": "attentive-older6m.csv"
+    },
+    {
+      "company": "attentive",
+      "window": "6m",
+      "file": "attentive-6m.csv"
+    },
+    {
+      "company": "attentive",
+      "window": "3m",
+      "file": "attentive-3m.csv"
+    },
+    {
+      "company": "audible",
+      "window": "all",
+      "file": "audible-all.csv"
+    },
+    {
+      "company": "audible",
+      "window": "older6m",
+      "file": "audible-older6m.csv"
+    },
+    {
+      "company": "audible",
+      "window": "6m",
+      "file": "audible-6m.csv"
+    },
+    {
+      "company": "audible",
+      "window": "3m",
+      "file": "audible-3m.csv"
+    },
+    {
+      "company": "auriga",
+      "window": "all",
+      "file": "auriga-all.csv"
+    },
+    {
+      "company": "auriga",
+      "window": "older6m",
+      "file": "auriga-older6m.csv"
+    },
+    {
+      "company": "aurora",
+      "window": "all",
+      "file": "aurora-all.csv"
+    },
+    {
+      "company": "aurora",
+      "window": "older6m",
+      "file": "aurora-older6m.csv"
+    },
+    {
+      "company": "aurora",
+      "window": "6m",
+      "file": "aurora-6m.csv"
+    },
+    {
+      "company": "aurora",
+      "window": "3m",
+      "file": "aurora-3m.csv"
+    },
+    {
+      "company": "autodesk",
+      "window": "all",
+      "file": "autodesk-all.csv"
+    },
+    {
+      "company": "autodesk",
+      "window": "older6m",
+      "file": "autodesk-older6m.csv"
+    },
+    {
+      "company": "autodesk",
+      "window": "6m",
+      "file": "autodesk-6m.csv"
+    },
+    {
+      "company": "autodesk",
+      "window": "3m",
+      "file": "autodesk-3m.csv"
+    },
+    {
+      "company": "avalara",
+      "window": "all",
+      "file": "avalara-all.csv"
+    },
+    {
+      "company": "avalara",
+      "window": "older6m",
+      "file": "avalara-older6m.csv"
+    },
+    {
+      "company": "avito",
+      "window": "all",
+      "file": "avito-all.csv"
+    },
+    {
+      "company": "avito",
+      "window": "older6m",
+      "file": "avito-older6m.csv"
+    },
+    {
+      "company": "axis-bank",
+      "window": "all",
+      "file": "axis-bank-all.csv"
+    },
+    {
+      "company": "axis-bank",
+      "window": "older6m",
+      "file": "axis-bank-older6m.csv"
+    },
+    {
+      "company": "axon",
+      "window": "all",
+      "file": "axon-all.csv"
+    },
+    {
+      "company": "axon",
+      "window": "older6m",
+      "file": "axon-older6m.csv"
+    },
+    {
+      "company": "axon",
+      "window": "6m",
+      "file": "axon-6m.csv"
+    },
+    {
+      "company": "axon",
+      "window": "3m",
+      "file": "axon-3m.csv"
+    },
+    {
+      "company": "baidu",
+      "window": "all",
+      "file": "baidu-all.csv"
+    },
+    {
+      "company": "baidu",
+      "window": "older6m",
+      "file": "baidu-older6m.csv"
+    },
+    {
+      "company": "bank-of-america",
+      "window": "all",
+      "file": "bank-of-america-all.csv"
+    },
+    {
+      "company": "bank-of-america",
+      "window": "older6m",
+      "file": "bank-of-america-older6m.csv"
+    },
+    {
+      "company": "barclays",
+      "window": "all",
+      "file": "barclays-all.csv"
+    },
+    {
+      "company": "barclays",
+      "window": "older6m",
+      "file": "barclays-older6m.csv"
+    },
+    {
+      "company": "barclays",
+      "window": "6m",
+      "file": "barclays-6m.csv"
+    },
+    {
+      "company": "barclays",
+      "window": "30d",
+      "file": "barclays-30d.csv"
+    },
+    {
+      "company": "barclays",
+      "window": "3m",
+      "file": "barclays-3m.csv"
+    },
+    {
+      "company": "bcg",
+      "window": "all",
+      "file": "bcg-all.csv"
+    },
+    {
+      "company": "bcg",
+      "window": "older6m",
+      "file": "bcg-older6m.csv"
+    },
+    {
+      "company": "bcg",
+      "window": "6m",
+      "file": "bcg-6m.csv"
+    },
+    {
+      "company": "bending-spoons",
+      "window": "all",
+      "file": "bending-spoons-all.csv"
+    },
+    {
+      "company": "bending-spoons",
+      "window": "older6m",
+      "file": "bending-spoons-older6m.csv"
+    },
+    {
+      "company": "bill-com",
+      "window": "all",
+      "file": "bill-com-all.csv"
+    },
+    {
+      "company": "bill-com",
+      "window": "6m",
+      "file": "bill-com-6m.csv"
+    },
+    {
+      "company": "bill-com",
+      "window": "3m",
+      "file": "bill-com-3m.csv"
+    },
+    {
+      "company": "bitgo",
+      "window": "all",
+      "file": "bitgo-all.csv"
+    },
+    {
+      "company": "bitgo",
+      "window": "older6m",
+      "file": "bitgo-older6m.csv"
+    },
+    {
+      "company": "blackbuck",
+      "window": "all",
+      "file": "blackbuck-all.csv"
+    },
+    {
+      "company": "blackbuck",
+      "window": "older6m",
+      "file": "blackbuck-older6m.csv"
+    },
+    {
+      "company": "blackrock",
+      "window": "all",
+      "file": "blackrock-all.csv"
+    },
+    {
+      "company": "blackrock",
+      "window": "older6m",
+      "file": "blackrock-older6m.csv"
+    },
+    {
+      "company": "blackstone",
+      "window": "all",
+      "file": "blackstone-all.csv"
+    },
+    {
+      "company": "blackstone",
+      "window": "older6m",
+      "file": "blackstone-older6m.csv"
+    },
+    {
+      "company": "blend",
+      "window": "all",
+      "file": "blend-all.csv"
+    },
+    {
+      "company": "blend",
+      "window": "older6m",
+      "file": "blend-older6m.csv"
+    },
+    {
+      "company": "blinkit",
+      "window": "all",
+      "file": "blinkit-all.csv"
+    },
+    {
+      "company": "blinkit",
+      "window": "older6m",
+      "file": "blinkit-older6m.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "all",
+      "file": "bloomberg-all.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "older6m",
+      "file": "bloomberg-older6m.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "6m",
+      "file": "bloomberg-6m.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "30d",
+      "file": "bloomberg-30d.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "3m",
+      "file": "bloomberg-3m.csv"
+    },
+    {
+      "company": "bloomreach",
+      "window": "all",
+      "file": "bloomreach-all.csv"
+    },
+    {
+      "company": "bloomreach",
+      "window": "older6m",
+      "file": "bloomreach-older6m.csv"
+    },
+    {
+      "company": "blue-origin",
+      "window": "all",
+      "file": "blue-origin-all.csv"
+    },
+    {
+      "company": "blue-origin",
+      "window": "older6m",
+      "file": "blue-origin-older6m.csv"
+    },
+    {
+      "company": "bnp-paribas",
+      "window": "all",
+      "file": "bnp-paribas-all.csv"
+    },
+    {
+      "company": "bnp-paribas",
+      "window": "older6m",
+      "file": "bnp-paribas-older6m.csv"
+    },
+    {
+      "company": "bny-mellon",
+      "window": "all",
+      "file": "bny-mellon-all.csv"
+    },
+    {
+      "company": "bny-mellon",
+      "window": "older6m",
+      "file": "bny-mellon-older6m.csv"
+    },
+    {
+      "company": "boeing",
+      "window": "all",
+      "file": "boeing-all.csv"
+    },
+    {
+      "company": "boeing",
+      "window": "older6m",
+      "file": "boeing-older6m.csv"
+    },
+    {
+      "company": "bolt",
+      "window": "all",
+      "file": "bolt-all.csv"
+    },
+    {
+      "company": "bolt",
+      "window": "older6m",
+      "file": "bolt-older6m.csv"
+    },
+    {
+      "company": "bolt",
+      "window": "6m",
+      "file": "bolt-6m.csv"
+    },
+    {
+      "company": "bookingcom",
+      "window": "all",
+      "file": "bookingcom-all.csv"
+    },
+    {
+      "company": "bookingcom",
+      "window": "older6m",
+      "file": "bookingcom-older6m.csv"
+    },
+    {
+      "company": "bookingcom",
+      "window": "6m",
+      "file": "bookingcom-6m.csv"
+    },
+    {
+      "company": "bookingcom",
+      "window": "3m",
+      "file": "bookingcom-3m.csv"
+    },
+    {
+      "company": "box",
+      "window": "all",
+      "file": "box-all.csv"
+    },
+    {
+      "company": "box",
+      "window": "older6m",
+      "file": "box-older6m.csv"
+    },
+    {
+      "company": "box",
+      "window": "6m",
+      "file": "box-6m.csv"
+    },
+    {
+      "company": "box",
+      "window": "3m",
+      "file": "box-3m.csv"
+    },
+    {
+      "company": "bp",
+      "window": "all",
+      "file": "bp-all.csv"
+    },
+    {
+      "company": "bp",
+      "window": "older6m",
+      "file": "bp-older6m.csv"
+    },
+    {
+      "company": "braze",
+      "window": "all",
+      "file": "braze-all.csv"
+    },
+    {
+      "company": "braze",
+      "window": "6m",
+      "file": "braze-6m.csv"
+    },
+    {
+      "company": "bridgewater-associates",
+      "window": "all",
+      "file": "bridgewater-associates-all.csv"
+    },
+    {
+      "company": "bridgewater-associates",
+      "window": "older6m",
+      "file": "bridgewater-associates-older6m.csv"
+    },
+    {
+      "company": "brillio",
+      "window": "all",
+      "file": "brillio-all.csv"
+    },
+    {
+      "company": "broadcom",
+      "window": "all",
+      "file": "broadcom-all.csv"
+    },
+    {
+      "company": "broadcom",
+      "window": "older6m",
+      "file": "broadcom-older6m.csv"
+    },
+    {
+      "company": "browserstack",
+      "window": "all",
+      "file": "browserstack-all.csv"
+    },
+    {
+      "company": "browserstack",
+      "window": "older6m",
+      "file": "browserstack-older6m.csv"
+    },
+    {
+      "company": "bt-group",
+      "window": "all",
+      "file": "bt-group-all.csv"
+    },
+    {
+      "company": "bt-group",
+      "window": "older6m",
+      "file": "bt-group-older6m.csv"
+    },
+    {
+      "company": "buyhatke",
+      "window": "all",
+      "file": "buyhatke-all.csv"
+    },
+    {
+      "company": "buyhatke",
+      "window": "older6m",
+      "file": "buyhatke-older6m.csv"
+    },
+    {
+      "company": "bytedance",
+      "window": "all",
+      "file": "bytedance-all.csv"
+    },
+    {
+      "company": "bytedance",
+      "window": "older6m",
+      "file": "bytedance-older6m.csv"
+    },
+    {
+      "company": "bytedance",
+      "window": "6m",
+      "file": "bytedance-6m.csv"
+    },
+    {
+      "company": "c3-ai",
+      "window": "all",
+      "file": "c3-ai-all.csv"
+    },
+    {
+      "company": "c3-ai",
+      "window": "older6m",
+      "file": "c3-ai-older6m.csv"
+    },
+    {
+      "company": "cadence",
+      "window": "all",
+      "file": "cadence-all.csv"
+    },
+    {
+      "company": "cadence",
+      "window": "older6m",
+      "file": "cadence-older6m.csv"
+    },
+    {
+      "company": "canonical",
+      "window": "all",
+      "file": "canonical-all.csv"
+    },
+    {
+      "company": "canonical",
+      "window": "older6m",
+      "file": "canonical-older6m.csv"
+    },
+    {
+      "company": "canva",
+      "window": "all",
+      "file": "canva-all.csv"
+    },
+    {
+      "company": "canva",
+      "window": "older6m",
+      "file": "canva-older6m.csv"
+    },
+    {
+      "company": "capgemini",
+      "window": "all",
+      "file": "capgemini-all.csv"
+    },
+    {
+      "company": "capgemini",
+      "window": "older6m",
+      "file": "capgemini-older6m.csv"
+    },
+    {
+      "company": "capgemini",
+      "window": "6m",
+      "file": "capgemini-6m.csv"
+    },
+    {
+      "company": "capgemini",
+      "window": "3m",
+      "file": "capgemini-3m.csv"
+    },
+    {
+      "company": "capital-one",
+      "window": "all",
+      "file": "capital-one-all.csv"
+    },
+    {
+      "company": "capital-one",
+      "window": "older6m",
+      "file": "capital-one-older6m.csv"
+    },
+    {
+      "company": "capital-one",
+      "window": "6m",
+      "file": "capital-one-6m.csv"
+    },
+    {
+      "company": "capital-one",
+      "window": "30d",
+      "file": "capital-one-30d.csv"
+    },
+    {
+      "company": "capital-one",
+      "window": "3m",
+      "file": "capital-one-3m.csv"
+    },
+    {
+      "company": "careem",
+      "window": "all",
+      "file": "careem-all.csv"
+    },
+    {
+      "company": "careem",
+      "window": "older6m",
+      "file": "careem-older6m.csv"
+    },
+    {
+      "company": "cars24",
+      "window": "all",
+      "file": "cars24-all.csv"
+    },
+    {
+      "company": "cars24",
+      "window": "older6m",
+      "file": "cars24-older6m.csv"
+    },
+    {
+      "company": "carwale",
+      "window": "all",
+      "file": "carwale-all.csv"
+    },
+    {
+      "company": "carwale",
+      "window": "older6m",
+      "file": "carwale-older6m.csv"
+    },
+    {
+      "company": "carwale",
+      "window": "6m",
+      "file": "carwale-6m.csv"
+    },
+    {
+      "company": "cashfree",
+      "window": "all",
+      "file": "cashfree-all.csv"
+    },
+    {
+      "company": "cashfree",
+      "window": "older6m",
+      "file": "cashfree-older6m.csv"
+    },
+    {
+      "company": "caterpillar",
+      "window": "all",
+      "file": "caterpillar-all.csv"
+    },
+    {
+      "company": "caterpillar",
+      "window": "older6m",
+      "file": "caterpillar-older6m.csv"
+    },
+    {
+      "company": "cerner",
+      "window": "all",
+      "file": "cerner-all.csv"
+    },
+    {
+      "company": "cerner",
+      "window": "older6m",
+      "file": "cerner-older6m.csv"
+    },
+    {
+      "company": "chargebee",
+      "window": "all",
+      "file": "chargebee-all.csv"
+    },
+    {
+      "company": "chargebee",
+      "window": "older6m",
+      "file": "chargebee-older6m.csv"
+    },
+    {
+      "company": "chewy",
+      "window": "all",
+      "file": "chewy-all.csv"
+    },
+    {
+      "company": "chewy",
+      "window": "older6m",
+      "file": "chewy-older6m.csv"
+    },
+    {
+      "company": "chewy",
+      "window": "6m",
+      "file": "chewy-6m.csv"
+    },
+    {
+      "company": "chime",
+      "window": "all",
+      "file": "chime-all.csv"
+    },
+    {
+      "company": "chime",
+      "window": "older6m",
+      "file": "chime-older6m.csv"
+    },
+    {
+      "company": "chime",
+      "window": "6m",
+      "file": "chime-6m.csv"
+    },
+    {
+      "company": "chime",
+      "window": "3m",
+      "file": "chime-3m.csv"
+    },
+    {
+      "company": "chubb",
+      "window": "all",
+      "file": "chubb-all.csv"
+    },
+    {
+      "company": "chubb",
+      "window": "older6m",
+      "file": "chubb-older6m.csv"
+    },
+    {
+      "company": "ciena",
+      "window": "all",
+      "file": "ciena-all.csv"
+    },
+    {
+      "company": "ciena",
+      "window": "older6m",
+      "file": "ciena-older6m.csv"
+    },
+    {
+      "company": "circle",
+      "window": "all",
+      "file": "circle-all.csv"
+    },
+    {
+      "company": "circle",
+      "window": "older6m",
+      "file": "circle-older6m.csv"
+    },
+    {
+      "company": "cisco",
+      "window": "all",
+      "file": "cisco-all.csv"
+    },
+    {
+      "company": "cisco",
+      "window": "older6m",
+      "file": "cisco-older6m.csv"
+    },
+    {
+      "company": "cisco",
+      "window": "6m",
+      "file": "cisco-6m.csv"
+    },
+    {
+      "company": "cisco",
+      "window": "30d",
+      "file": "cisco-30d.csv"
+    },
+    {
+      "company": "cisco",
+      "window": "3m",
+      "file": "cisco-3m.csv"
+    },
+    {
+      "company": "citadel",
+      "window": "all",
+      "file": "citadel-all.csv"
+    },
+    {
+      "company": "citadel",
+      "window": "older6m",
+      "file": "citadel-older6m.csv"
+    },
+    {
+      "company": "citadel",
+      "window": "6m",
+      "file": "citadel-6m.csv"
+    },
+    {
+      "company": "citi",
+      "window": "all",
+      "file": "citi-all.csv"
+    },
+    {
+      "company": "citi",
+      "window": "older6m",
+      "file": "citi-older6m.csv"
+    },
+    {
+      "company": "citrix",
+      "window": "all",
+      "file": "citrix-all.csv"
+    },
+    {
+      "company": "citrix",
+      "window": "older6m",
+      "file": "citrix-older6m.csv"
+    },
+    {
+      "company": "clari",
+      "window": "all",
+      "file": "clari-all.csv"
+    },
+    {
+      "company": "clari",
+      "window": "older6m",
+      "file": "clari-older6m.csv"
+    },
+    {
+      "company": "cleartrip",
+      "window": "all",
+      "file": "cleartrip-all.csv"
+    },
+    {
+      "company": "cleartrip",
+      "window": "older6m",
+      "file": "cleartrip-older6m.csv"
+    },
+    {
+      "company": "clevertap",
+      "window": "all",
+      "file": "clevertap-all.csv"
+    },
+    {
+      "company": "clevertap",
+      "window": "older6m",
+      "file": "clevertap-older6m.csv"
+    },
+    {
+      "company": "cloudera",
+      "window": "all",
+      "file": "cloudera-all.csv"
+    },
+    {
+      "company": "cloudera",
+      "window": "older6m",
+      "file": "cloudera-older6m.csv"
+    },
+    {
+      "company": "cloudflare",
+      "window": "all",
+      "file": "cloudflare-all.csv"
+    },
+    {
+      "company": "cloudflare",
+      "window": "older6m",
+      "file": "cloudflare-older6m.csv"
+    },
+    {
+      "company": "cloudflare",
+      "window": "6m",
+      "file": "cloudflare-6m.csv"
+    },
+    {
+      "company": "clutter",
+      "window": "all",
+      "file": "clutter-all.csv"
+    },
+    {
+      "company": "clutter",
+      "window": "older6m",
+      "file": "clutter-older6m.csv"
+    },
+    {
+      "company": "cme-group",
+      "window": "all",
+      "file": "cme-group-all.csv"
+    },
+    {
+      "company": "cme-group",
+      "window": "older6m",
+      "file": "cme-group-older6m.csv"
+    },
+    {
+      "company": "cockroach-labs",
+      "window": "all",
+      "file": "cockroach-labs-all.csv"
+    },
+    {
+      "company": "cockroach-labs",
+      "window": "older6m",
+      "file": "cockroach-labs-older6m.csv"
+    },
+    {
+      "company": "code-studio",
+      "window": "all",
+      "file": "code-studio-all.csv"
+    },
+    {
+      "company": "code-studio",
+      "window": "older6m",
+      "file": "code-studio-older6m.csv"
+    },
+    {
+      "company": "coditas",
+      "window": "all",
+      "file": "coditas-all.csv"
+    },
+    {
+      "company": "coditas",
+      "window": "older6m",
+      "file": "coditas-older6m.csv"
+    },
+    {
+      "company": "cognizant",
+      "window": "all",
+      "file": "cognizant-all.csv"
+    },
+    {
+      "company": "cognizant",
+      "window": "older6m",
+      "file": "cognizant-older6m.csv"
+    },
+    {
+      "company": "cognizant",
+      "window": "6m",
+      "file": "cognizant-6m.csv"
+    },
+    {
+      "company": "cognizant",
+      "window": "3m",
+      "file": "cognizant-3m.csv"
+    },
+    {
+      "company": "cohesity",
+      "window": "all",
+      "file": "cohesity-all.csv"
+    },
+    {
+      "company": "cohesity",
+      "window": "older6m",
+      "file": "cohesity-older6m.csv"
+    },
+    {
+      "company": "coinbase",
+      "window": "all",
+      "file": "coinbase-all.csv"
+    },
+    {
+      "company": "coinbase",
+      "window": "older6m",
+      "file": "coinbase-older6m.csv"
+    },
+    {
+      "company": "coindcx",
+      "window": "all",
+      "file": "coindcx-all.csv"
+    },
+    {
+      "company": "coindcx",
+      "window": "older6m",
+      "file": "coindcx-older6m.csv"
+    },
+    {
+      "company": "coinswitch-kuber",
+      "window": "all",
+      "file": "coinswitch-kuber-all.csv"
+    },
+    {
+      "company": "coinswitch-kuber",
+      "window": "older6m",
+      "file": "coinswitch-kuber-older6m.csv"
+    },
+    {
+      "company": "comcast",
+      "window": "all",
+      "file": "comcast-all.csv"
+    },
+    {
+      "company": "comcast",
+      "window": "older6m",
+      "file": "comcast-older6m.csv"
+    },
+    {
+      "company": "commvault",
+      "window": "all",
+      "file": "commvault-all.csv"
+    },
+    {
+      "company": "commvault",
+      "window": "older6m",
+      "file": "commvault-older6m.csv"
+    },
+    {
+      "company": "compass",
+      "window": "all",
+      "file": "compass-all.csv"
+    },
+    {
+      "company": "compass",
+      "window": "older6m",
+      "file": "compass-older6m.csv"
+    },
+    {
+      "company": "compass",
+      "window": "6m",
+      "file": "compass-6m.csv"
+    },
+    {
+      "company": "confluent",
+      "window": "all",
+      "file": "confluent-all.csv"
+    },
+    {
+      "company": "confluent",
+      "window": "older6m",
+      "file": "confluent-older6m.csv"
+    },
+    {
+      "company": "confluent",
+      "window": "6m",
+      "file": "confluent-6m.csv"
+    },
+    {
+      "company": "couchbase",
+      "window": "all",
+      "file": "couchbase-all.csv"
+    },
+    {
+      "company": "couchbase",
+      "window": "older6m",
+      "file": "couchbase-older6m.csv"
+    },
+    {
+      "company": "coupa",
+      "window": "all",
+      "file": "coupa-all.csv"
+    },
+    {
+      "company": "coupa",
+      "window": "older6m",
+      "file": "coupa-older6m.csv"
+    },
+    {
+      "company": "coupang",
+      "window": "all",
+      "file": "coupang-all.csv"
+    },
+    {
+      "company": "coupang",
+      "window": "older6m",
+      "file": "coupang-older6m.csv"
+    },
+    {
+      "company": "coupang",
+      "window": "6m",
+      "file": "coupang-6m.csv"
+    },
+    {
+      "company": "coupang",
+      "window": "30d",
+      "file": "coupang-30d.csv"
+    },
+    {
+      "company": "coupang",
+      "window": "3m",
+      "file": "coupang-3m.csv"
+    },
+    {
+      "company": "coursera",
+      "window": "all",
+      "file": "coursera-all.csv"
+    },
+    {
+      "company": "coursera",
+      "window": "older6m",
+      "file": "coursera-older6m.csv"
+    },
+    {
+      "company": "cred",
+      "window": "all",
+      "file": "cred-all.csv"
+    },
+    {
+      "company": "cred",
+      "window": "older6m",
+      "file": "cred-older6m.csv"
+    },
+    {
+      "company": "criteo",
+      "window": "all",
+      "file": "criteo-all.csv"
+    },
+    {
+      "company": "criteo",
+      "window": "older6m",
+      "file": "criteo-older6m.csv"
+    },
+    {
+      "company": "criteo",
+      "window": "6m",
+      "file": "criteo-6m.csv"
+    },
+    {
+      "company": "crowdstrike",
+      "window": "all",
+      "file": "crowdstrike-all.csv"
+    },
+    {
+      "company": "crowdstrike",
+      "window": "older6m",
+      "file": "crowdstrike-older6m.csv"
+    },
+    {
+      "company": "crowdstrike",
+      "window": "6m",
+      "file": "crowdstrike-6m.csv"
+    },
+    {
+      "company": "cruise-automation",
+      "window": "all",
+      "file": "cruise-automation-all.csv"
+    },
+    {
+      "company": "cruise-automation",
+      "window": "older6m",
+      "file": "cruise-automation-older6m.csv"
+    },
+    {
+      "company": "ctc",
+      "window": "all",
+      "file": "ctc-all.csv"
+    },
+    {
+      "company": "ctc",
+      "window": "older6m",
+      "file": "ctc-older6m.csv"
+    },
+    {
+      "company": "curefit",
+      "window": "older6m",
+      "file": "curefit-older6m.csv"
+    },
+    {
+      "company": "cvent",
+      "window": "all",
+      "file": "cvent-all.csv"
+    },
+    {
+      "company": "cvent",
+      "window": "older6m",
+      "file": "cvent-older6m.csv"
+    },
+    {
+      "company": "cyntexa",
+      "window": "all",
+      "file": "cyntexa-all.csv"
+    },
+    {
+      "company": "cyntexa",
+      "window": "older6m",
+      "file": "cyntexa-older6m.csv"
+    },
+    {
+      "company": "cyware",
+      "window": "all",
+      "file": "cyware-all.csv"
+    },
+    {
+      "company": "cyware",
+      "window": "older6m",
+      "file": "cyware-older6m.csv"
+    },
+    {
+      "company": "dailyhunt",
+      "window": "all",
+      "file": "dailyhunt-all.csv"
+    },
+    {
+      "company": "dailyhunt",
+      "window": "older6m",
+      "file": "dailyhunt-older6m.csv"
+    },
+    {
+      "company": "darwinbox",
+      "window": "all",
+      "file": "darwinbox-all.csv"
+    },
+    {
+      "company": "darwinbox",
+      "window": "older6m",
+      "file": "darwinbox-older6m.csv"
+    },
+    {
+      "company": "dassault-sysetmes",
+      "window": "all",
+      "file": "dassault-sysetmes-all.csv"
+    },
+    {
+      "company": "dassault-sysetmes",
+      "window": "older6m",
+      "file": "dassault-sysetmes-older6m.csv"
+    },
+    {
+      "company": "dataart",
+      "window": "all",
+      "file": "dataart-all.csv"
+    },
+    {
+      "company": "dataart",
+      "window": "older6m",
+      "file": "dataart-older6m.csv"
+    },
+    {
+      "company": "databricks",
+      "window": "all",
+      "file": "databricks-all.csv"
+    },
+    {
+      "company": "databricks",
+      "window": "older6m",
+      "file": "databricks-older6m.csv"
+    },
+    {
+      "company": "databricks",
+      "window": "6m",
+      "file": "databricks-6m.csv"
+    },
+    {
+      "company": "databricks",
+      "window": "30d",
+      "file": "databricks-30d.csv"
+    },
+    {
+      "company": "databricks",
+      "window": "3m",
+      "file": "databricks-3m.csv"
+    },
+    {
+      "company": "datadog",
+      "window": "all",
+      "file": "datadog-all.csv"
+    },
+    {
+      "company": "datadog",
+      "window": "older6m",
+      "file": "datadog-older6m.csv"
+    },
+    {
+      "company": "dataminr",
+      "window": "all",
+      "file": "dataminr-all.csv"
+    },
+    {
+      "company": "dataminr",
+      "window": "older6m",
+      "file": "dataminr-older6m.csv"
+    },
+    {
+      "company": "de-shaw",
+      "window": "all",
+      "file": "de-shaw-all.csv"
+    },
+    {
+      "company": "de-shaw",
+      "window": "older6m",
+      "file": "de-shaw-older6m.csv"
+    },
+    {
+      "company": "de-shaw",
+      "window": "6m",
+      "file": "de-shaw-6m.csv"
+    },
+    {
+      "company": "de-shaw",
+      "window": "30d",
+      "file": "de-shaw-30d.csv"
+    },
+    {
+      "company": "de-shaw",
+      "window": "3m",
+      "file": "de-shaw-3m.csv"
+    },
+    {
+      "company": "deepmind",
+      "window": "all",
+      "file": "deepmind-all.csv"
+    },
+    {
+      "company": "deepmind",
+      "window": "older6m",
+      "file": "deepmind-older6m.csv"
+    },
+    {
+      "company": "delhivery",
+      "window": "all",
+      "file": "delhivery-all.csv"
+    },
+    {
+      "company": "delhivery",
+      "window": "older6m",
+      "file": "delhivery-older6m.csv"
+    },
+    {
+      "company": "deliveroo",
+      "window": "all",
+      "file": "deliveroo-all.csv"
+    },
+    {
+      "company": "deliveroo",
+      "window": "older6m",
+      "file": "deliveroo-older6m.csv"
+    },
+    {
+      "company": "deliveroo",
+      "window": "6m",
+      "file": "deliveroo-6m.csv"
+    },
+    {
+      "company": "deliveroo",
+      "window": "30d",
+      "file": "deliveroo-30d.csv"
+    },
+    {
+      "company": "deliveroo",
+      "window": "3m",
+      "file": "deliveroo-3m.csv"
+    },
+    {
+      "company": "dell",
+      "window": "all",
+      "file": "dell-all.csv"
+    },
+    {
+      "company": "dell",
+      "window": "older6m",
+      "file": "dell-older6m.csv"
+    },
+    {
+      "company": "dell",
+      "window": "6m",
+      "file": "dell-6m.csv"
+    },
+    {
+      "company": "deloitte",
+      "window": "all",
+      "file": "deloitte-all.csv"
+    },
+    {
+      "company": "deloitte",
+      "window": "older6m",
+      "file": "deloitte-older6m.csv"
+    },
+    {
+      "company": "deloitte",
+      "window": "6m",
+      "file": "deloitte-6m.csv"
+    },
+    {
+      "company": "deloitte",
+      "window": "30d",
+      "file": "deloitte-30d.csv"
+    },
+    {
+      "company": "deloitte",
+      "window": "3m",
+      "file": "deloitte-3m.csv"
+    },
+    {
+      "company": "deltax",
+      "window": "all",
+      "file": "deltax-all.csv"
+    },
+    {
+      "company": "deltax",
+      "window": "older6m",
+      "file": "deltax-older6m.csv"
+    },
+    {
+      "company": "deutsche-bank",
+      "window": "all",
+      "file": "deutsche-bank-all.csv"
+    },
+    {
+      "company": "deutsche-bank",
+      "window": "older6m",
+      "file": "deutsche-bank-older6m.csv"
+    },
+    {
+      "company": "devrev",
+      "window": "all",
+      "file": "devrev-all.csv"
+    },
+    {
+      "company": "devrev",
+      "window": "older6m",
+      "file": "devrev-older6m.csv"
+    },
+    {
+      "company": "devsinc",
+      "window": "all",
+      "file": "devsinc-all.csv"
+    },
+    {
+      "company": "dialpad",
+      "window": "all",
+      "file": "dialpad-all.csv"
+    },
+    {
+      "company": "dialpad",
+      "window": "older6m",
+      "file": "dialpad-older6m.csv"
+    },
+    {
+      "company": "directi",
+      "window": "all",
+      "file": "directi-all.csv"
+    },
+    {
+      "company": "directi",
+      "window": "older6m",
+      "file": "directi-older6m.csv"
+    },
+    {
+      "company": "discord",
+      "window": "all",
+      "file": "discord-all.csv"
+    },
+    {
+      "company": "discord",
+      "window": "older6m",
+      "file": "discord-older6m.csv"
+    },
+    {
+      "company": "discovery",
+      "window": "all",
+      "file": "discovery-all.csv"
+    },
+    {
+      "company": "discovery",
+      "window": "older6m",
+      "file": "discovery-older6m.csv"
+    },
+    {
+      "company": "disney",
+      "window": "all",
+      "file": "disney-all.csv"
+    },
+    {
+      "company": "disney",
+      "window": "older6m",
+      "file": "disney-older6m.csv"
+    },
+    {
+      "company": "dji",
+      "window": "all",
+      "file": "dji-all.csv"
+    },
+    {
+      "company": "docusign",
+      "window": "all",
+      "file": "docusign-all.csv"
+    },
+    {
+      "company": "docusign",
+      "window": "older6m",
+      "file": "docusign-older6m.csv"
+    },
+    {
+      "company": "docusign",
+      "window": "6m",
+      "file": "docusign-6m.csv"
+    },
+    {
+      "company": "doordash",
+      "window": "all",
+      "file": "doordash-all.csv"
+    },
+    {
+      "company": "doordash",
+      "window": "older6m",
+      "file": "doordash-older6m.csv"
+    },
+    {
+      "company": "doordash",
+      "window": "6m",
+      "file": "doordash-6m.csv"
+    },
+    {
+      "company": "doordash",
+      "window": "3m",
+      "file": "doordash-3m.csv"
+    },
+    {
+      "company": "dp-world",
+      "window": "all",
+      "file": "dp-world-all.csv"
+    },
+    {
+      "company": "dp-world",
+      "window": "older6m",
+      "file": "dp-world-older6m.csv"
+    },
+    {
+      "company": "drawbridge",
+      "window": "all",
+      "file": "drawbridge-all.csv"
+    },
+    {
+      "company": "drawbridge",
+      "window": "older6m",
+      "file": "drawbridge-older6m.csv"
+    },
+    {
+      "company": "dream11",
+      "window": "all",
+      "file": "dream11-all.csv"
+    },
+    {
+      "company": "dream11",
+      "window": "older6m",
+      "file": "dream11-older6m.csv"
+    },
+    {
+      "company": "dropbox",
+      "window": "all",
+      "file": "dropbox-all.csv"
+    },
+    {
+      "company": "dropbox",
+      "window": "older6m",
+      "file": "dropbox-older6m.csv"
+    },
+    {
+      "company": "dropbox",
+      "window": "6m",
+      "file": "dropbox-6m.csv"
+    },
+    {
+      "company": "druva",
+      "window": "all",
+      "file": "druva-all.csv"
+    },
+    {
+      "company": "druva",
+      "window": "older6m",
+      "file": "druva-older6m.csv"
+    },
+    {
+      "company": "drw",
+      "window": "all",
+      "file": "drw-all.csv"
+    },
+    {
+      "company": "drw",
+      "window": "older6m",
+      "file": "drw-older6m.csv"
+    },
+    {
+      "company": "dtcc",
+      "window": "all",
+      "file": "dtcc-all.csv"
+    },
+    {
+      "company": "dtcc",
+      "window": "older6m",
+      "file": "dtcc-older6m.csv"
+    },
+    {
+      "company": "dunzo",
+      "window": "all",
+      "file": "dunzo-all.csv"
+    },
+    {
+      "company": "dunzo",
+      "window": "older6m",
+      "file": "dunzo-older6m.csv"
+    },
+    {
+      "company": "duolingo",
+      "window": "all",
+      "file": "duolingo-all.csv"
+    },
+    {
+      "company": "duolingo",
+      "window": "older6m",
+      "file": "duolingo-older6m.csv"
+    },
+    {
+      "company": "duolingo",
+      "window": "6m",
+      "file": "duolingo-6m.csv"
+    },
+    {
+      "company": "duolingo",
+      "window": "30d",
+      "file": "duolingo-30d.csv"
+    },
+    {
+      "company": "duolingo",
+      "window": "3m",
+      "file": "duolingo-3m.csv"
+    },
+    {
+      "company": "earnin",
+      "window": "all",
+      "file": "earnin-all.csv"
+    },
+    {
+      "company": "earnin",
+      "window": "older6m",
+      "file": "earnin-older6m.csv"
+    },
+    {
+      "company": "earnin",
+      "window": "6m",
+      "file": "earnin-6m.csv"
+    },
+    {
+      "company": "ebay",
+      "window": "all",
+      "file": "ebay-all.csv"
+    },
+    {
+      "company": "ebay",
+      "window": "older6m",
+      "file": "ebay-older6m.csv"
+    },
+    {
+      "company": "ebay",
+      "window": "6m",
+      "file": "ebay-6m.csv"
+    },
+    {
+      "company": "ebay",
+      "window": "30d",
+      "file": "ebay-30d.csv"
+    },
+    {
+      "company": "ebay",
+      "window": "3m",
+      "file": "ebay-3m.csv"
+    },
+    {
+      "company": "edelweiss",
+      "window": "all",
+      "file": "edelweiss-all.csv"
+    },
+    {
+      "company": "edelweiss",
+      "window": "older6m",
+      "file": "edelweiss-older6m.csv"
+    },
+    {
+      "company": "elitmus",
+      "window": "all",
+      "file": "elitmus-all.csv"
+    },
+    {
+      "company": "elitmus",
+      "window": "older6m",
+      "file": "elitmus-older6m.csv"
+    },
+    {
+      "company": "envoy",
+      "window": "all",
+      "file": "envoy-all.csv"
+    },
+    {
+      "company": "envoy",
+      "window": "older6m",
+      "file": "envoy-older6m.csv"
+    },
+    {
+      "company": "epam-systems",
+      "window": "all",
+      "file": "epam-systems-all.csv"
+    },
+    {
+      "company": "epam-systems",
+      "window": "older6m",
+      "file": "epam-systems-older6m.csv"
+    },
+    {
+      "company": "epam-systems",
+      "window": "6m",
+      "file": "epam-systems-6m.csv"
+    },
+    {
+      "company": "epam-systems",
+      "window": "3m",
+      "file": "epam-systems-3m.csv"
+    },
+    {
+      "company": "epic-games",
+      "window": "all",
+      "file": "epic-games-all.csv"
+    },
+    {
+      "company": "epic-games",
+      "window": "older6m",
+      "file": "epic-games-older6m.csv"
+    },
+    {
+      "company": "epic-systems",
+      "window": "all",
+      "file": "epic-systems-all.csv"
+    },
+    {
+      "company": "epic-systems",
+      "window": "older6m",
+      "file": "epic-systems-older6m.csv"
+    },
+    {
+      "company": "epic-systems",
+      "window": "6m",
+      "file": "epic-systems-6m.csv"
+    },
+    {
+      "company": "epic-systems",
+      "window": "3m",
+      "file": "epic-systems-3m.csv"
+    },
+    {
+      "company": "epifi",
+      "window": "all",
+      "file": "epifi-all.csv"
+    },
+    {
+      "company": "equinix",
+      "window": "all",
+      "file": "equinix-all.csv"
+    },
+    {
+      "company": "equinix",
+      "window": "older6m",
+      "file": "equinix-older6m.csv"
+    },
+    {
+      "company": "ericsson",
+      "window": "all",
+      "file": "ericsson-all.csv"
+    },
+    {
+      "company": "ericsson",
+      "window": "older6m",
+      "file": "ericsson-older6m.csv"
+    },
+    {
+      "company": "ericsson",
+      "window": "6m",
+      "file": "ericsson-6m.csv"
+    },
+    {
+      "company": "etsy",
+      "window": "all",
+      "file": "etsy-all.csv"
+    },
+    {
+      "company": "etsy",
+      "window": "older6m",
+      "file": "etsy-older6m.csv"
+    },
+    {
+      "company": "exl",
+      "window": "all",
+      "file": "exl-all.csv"
+    },
+    {
+      "company": "expedia",
+      "window": "all",
+      "file": "expedia-all.csv"
+    },
+    {
+      "company": "expedia",
+      "window": "older6m",
+      "file": "expedia-older6m.csv"
+    },
+    {
+      "company": "expedia",
+      "window": "6m",
+      "file": "expedia-6m.csv"
+    },
+    {
+      "company": "expedia",
+      "window": "3m",
+      "file": "expedia-3m.csv"
+    },
+    {
+      "company": "ey",
+      "window": "all",
+      "file": "ey-all.csv"
+    },
+    {
+      "company": "f5-networks",
+      "window": "all",
+      "file": "f5-networks-all.csv"
+    },
+    {
+      "company": "f5-networks",
+      "window": "older6m",
+      "file": "f5-networks-older6m.csv"
+    },
+    {
+      "company": "factset",
+      "window": "all",
+      "file": "factset-all.csv"
+    },
+    {
+      "company": "factset",
+      "window": "older6m",
+      "file": "factset-older6m.csv"
+    },
+    {
+      "company": "faire",
+      "window": "all",
+      "file": "faire-all.csv"
+    },
+    {
+      "company": "faire",
+      "window": "older6m",
+      "file": "faire-older6m.csv"
+    },
+    {
+      "company": "faire",
+      "window": "6m",
+      "file": "faire-6m.csv"
+    },
+    {
+      "company": "faire",
+      "window": "30d",
+      "file": "faire-30d.csv"
+    },
+    {
+      "company": "faire",
+      "window": "3m",
+      "file": "faire-3m.csv"
+    },
+    {
+      "company": "fallible",
+      "window": "all",
+      "file": "fallible-all.csv"
+    },
+    {
+      "company": "fallible",
+      "window": "older6m",
+      "file": "fallible-older6m.csv"
+    },
+    {
+      "company": "fanatics",
+      "window": "all",
+      "file": "fanatics-all.csv"
+    },
+    {
+      "company": "fanatics",
+      "window": "older6m",
+      "file": "fanatics-older6m.csv"
+    },
+    {
+      "company": "fanatics",
+      "window": "6m",
+      "file": "fanatics-6m.csv"
+    },
+    {
+      "company": "fast",
+      "window": "all",
+      "file": "fast-all.csv"
+    },
+    {
+      "company": "fast",
+      "window": "older6m",
+      "file": "fast-older6m.csv"
+    },
+    {
+      "company": "fastenal",
+      "window": "all",
+      "file": "fastenal-all.csv"
+    },
+    {
+      "company": "fastenal",
+      "window": "older6m",
+      "file": "fastenal-older6m.csv"
+    },
+    {
+      "company": "fico",
+      "window": "all",
+      "file": "fico-all.csv"
+    },
+    {
+      "company": "fico",
+      "window": "older6m",
+      "file": "fico-older6m.csv"
+    },
+    {
+      "company": "fidelity",
+      "window": "all",
+      "file": "fidelity-all.csv"
+    },
+    {
+      "company": "fidelity",
+      "window": "older6m",
+      "file": "fidelity-older6m.csv"
+    },
+    {
+      "company": "fidessa",
+      "window": "all",
+      "file": "fidessa-all.csv"
+    },
+    {
+      "company": "figma",
+      "window": "all",
+      "file": "figma-all.csv"
+    },
+    {
+      "company": "figma",
+      "window": "older6m",
+      "file": "figma-older6m.csv"
+    },
+    {
+      "company": "fiverr",
+      "window": "all",
+      "file": "fiverr-all.csv"
+    },
+    {
+      "company": "fiverr",
+      "window": "older6m",
+      "file": "fiverr-older6m.csv"
+    },
+    {
+      "company": "fivetran",
+      "window": "all",
+      "file": "fivetran-all.csv"
+    },
+    {
+      "company": "fivetran",
+      "window": "6m",
+      "file": "fivetran-6m.csv"
+    },
+    {
+      "company": "flatiron-health",
+      "window": "all",
+      "file": "flatiron-health-all.csv"
+    },
+    {
+      "company": "flatiron-health",
+      "window": "older6m",
+      "file": "flatiron-health-older6m.csv"
+    },
+    {
+      "company": "fleetx",
+      "window": "all",
+      "file": "fleetx-all.csv"
+    },
+    {
+      "company": "fleetx",
+      "window": "older6m",
+      "file": "fleetx-older6m.csv"
+    },
+    {
+      "company": "flexera",
+      "window": "all",
+      "file": "flexera-all.csv"
+    },
+    {
+      "company": "flexera",
+      "window": "older6m",
+      "file": "flexera-older6m.csv"
+    },
+    {
+      "company": "flexport",
+      "window": "all",
+      "file": "flexport-all.csv"
+    },
+    {
+      "company": "flexport",
+      "window": "older6m",
+      "file": "flexport-older6m.csv"
+    },
+    {
+      "company": "flexport",
+      "window": "6m",
+      "file": "flexport-6m.csv"
+    },
+    {
+      "company": "flipkart",
+      "window": "all",
+      "file": "flipkart-all.csv"
+    },
+    {
+      "company": "flipkart",
+      "window": "older6m",
+      "file": "flipkart-older6m.csv"
+    },
+    {
+      "company": "flipkart",
+      "window": "6m",
+      "file": "flipkart-6m.csv"
+    },
+    {
+      "company": "flipkart",
+      "window": "3m",
+      "file": "flipkart-3m.csv"
+    },
+    {
+      "company": "fortinet",
+      "window": "all",
+      "file": "fortinet-all.csv"
+    },
+    {
+      "company": "fortinet",
+      "window": "older6m",
+      "file": "fortinet-older6m.csv"
+    },
+    {
+      "company": "forusall",
+      "window": "all",
+      "file": "forusall-all.csv"
+    },
+    {
+      "company": "forusall",
+      "window": "older6m",
+      "file": "forusall-older6m.csv"
+    },
+    {
+      "company": "fourkites",
+      "window": "all",
+      "file": "fourkites-all.csv"
+    },
+    {
+      "company": "fourkites",
+      "window": "older6m",
+      "file": "fourkites-older6m.csv"
+    },
+    {
+      "company": "fpt",
+      "window": "all",
+      "file": "fpt-all.csv"
+    },
+    {
+      "company": "fpt",
+      "window": "older6m",
+      "file": "fpt-older6m.csv"
+    },
+    {
+      "company": "fractal-analytics",
+      "window": "all",
+      "file": "fractal-analytics-all.csv"
+    },
+    {
+      "company": "fractal-analytics",
+      "window": "older6m",
+      "file": "fractal-analytics-older6m.csv"
+    },
+    {
+      "company": "freecharge",
+      "window": "all",
+      "file": "freecharge-all.csv"
+    },
+    {
+      "company": "freecharge",
+      "window": "older6m",
+      "file": "freecharge-older6m.csv"
+    },
+    {
+      "company": "freecharge",
+      "window": "6m",
+      "file": "freecharge-6m.csv"
+    },
+    {
+      "company": "freshworks",
+      "window": "all",
+      "file": "freshworks-all.csv"
+    },
+    {
+      "company": "freshworks",
+      "window": "older6m",
+      "file": "freshworks-older6m.csv"
+    },
+    {
+      "company": "freshworks",
+      "window": "6m",
+      "file": "freshworks-6m.csv"
+    },
+    {
+      "company": "freshworks",
+      "window": "30d",
+      "file": "freshworks-30d.csv"
+    },
+    {
+      "company": "freshworks",
+      "window": "3m",
+      "file": "freshworks-3m.csv"
+    },
+    {
+      "company": "fynd",
+      "window": "all",
+      "file": "fynd-all.csv"
+    },
+    {
+      "company": "fynd",
+      "window": "older6m",
+      "file": "fynd-older6m.csv"
+    },
+    {
+      "company": "gainsight",
+      "window": "all",
+      "file": "gainsight-all.csv"
+    },
+    {
+      "company": "gainsight",
+      "window": "older6m",
+      "file": "gainsight-older6m.csv"
+    },
+    {
+      "company": "gameskraft",
+      "window": "all",
+      "file": "gameskraft-all.csv"
+    },
+    {
+      "company": "gameskraft",
+      "window": "older6m",
+      "file": "gameskraft-older6m.csv"
+    },
+    {
+      "company": "garena",
+      "window": "all",
+      "file": "garena-all.csv"
+    },
+    {
+      "company": "garena",
+      "window": "older6m",
+      "file": "garena-older6m.csv"
+    },
+    {
+      "company": "garmin",
+      "window": "all",
+      "file": "garmin-all.csv"
+    },
+    {
+      "company": "garmin",
+      "window": "older6m",
+      "file": "garmin-older6m.csv"
+    },
+    {
+      "company": "gartner",
+      "window": "all",
+      "file": "gartner-all.csv"
+    },
+    {
+      "company": "gartner",
+      "window": "older6m",
+      "file": "gartner-older6m.csv"
+    },
+    {
+      "company": "ge-digital",
+      "window": "all",
+      "file": "ge-digital-all.csv"
+    },
+    {
+      "company": "ge-digital",
+      "window": "older6m",
+      "file": "ge-digital-older6m.csv"
+    },
+    {
+      "company": "ge-healthcare",
+      "window": "all",
+      "file": "ge-healthcare-all.csv"
+    },
+    {
+      "company": "ge-healthcare",
+      "window": "older6m",
+      "file": "ge-healthcare-older6m.csv"
+    },
+    {
+      "company": "geico",
+      "window": "all",
+      "file": "geico-all.csv"
+    },
+    {
+      "company": "geico",
+      "window": "older6m",
+      "file": "geico-older6m.csv"
+    },
+    {
+      "company": "geico",
+      "window": "6m",
+      "file": "geico-6m.csv"
+    },
+    {
+      "company": "general-electric",
+      "window": "all",
+      "file": "general-electric-all.csv"
+    },
+    {
+      "company": "general-electric",
+      "window": "older6m",
+      "file": "general-electric-older6m.csv"
+    },
+    {
+      "company": "general-motors",
+      "window": "all",
+      "file": "general-motors-all.csv"
+    },
+    {
+      "company": "general-motors",
+      "window": "older6m",
+      "file": "general-motors-older6m.csv"
+    },
+    {
+      "company": "general-motors",
+      "window": "6m",
+      "file": "general-motors-6m.csv"
+    },
+    {
+      "company": "gep",
+      "window": "all",
+      "file": "gep-all.csv"
+    },
+    {
+      "company": "gep",
+      "window": "older6m",
+      "file": "gep-older6m.csv"
+    },
+    {
+      "company": "gilt-groupe",
+      "window": "all",
+      "file": "gilt-groupe-all.csv"
+    },
+    {
+      "company": "gilt-groupe",
+      "window": "older6m",
+      "file": "gilt-groupe-older6m.csv"
+    },
+    {
+      "company": "github",
+      "window": "all",
+      "file": "github-all.csv"
+    },
+    {
+      "company": "github",
+      "window": "older6m",
+      "file": "github-older6m.csv"
+    },
+    {
+      "company": "github",
+      "window": "6m",
+      "file": "github-6m.csv"
+    },
+    {
+      "company": "glassdoor",
+      "window": "all",
+      "file": "glassdoor-all.csv"
+    },
+    {
+      "company": "glassdoor",
+      "window": "older6m",
+      "file": "glassdoor-older6m.csv"
+    },
+    {
+      "company": "glean",
+      "window": "all",
+      "file": "glean-all.csv"
+    },
+    {
+      "company": "glean",
+      "window": "older6m",
+      "file": "glean-older6m.csv"
+    },
+    {
+      "company": "globallogic",
+      "window": "all",
+      "file": "globallogic-all.csv"
+    },
+    {
+      "company": "globallogic",
+      "window": "older6m",
+      "file": "globallogic-older6m.csv"
+    },
+    {
+      "company": "glovo",
+      "window": "all",
+      "file": "glovo-all.csv"
+    },
+    {
+      "company": "glovo",
+      "window": "older6m",
+      "file": "glovo-older6m.csv"
+    },
+    {
+      "company": "godaddy",
+      "window": "all",
+      "file": "godaddy-all.csv"
+    },
+    {
+      "company": "godaddy",
+      "window": "older6m",
+      "file": "godaddy-older6m.csv"
+    },
+    {
+      "company": "gojek",
+      "window": "all",
+      "file": "gojek-all.csv"
+    },
+    {
+      "company": "gojek",
+      "window": "older6m",
+      "file": "gojek-older6m.csv"
+    },
+    {
+      "company": "goldman-sachs",
+      "window": "all",
+      "file": "goldman-sachs-all.csv"
+    },
+    {
+      "company": "goldman-sachs",
+      "window": "older6m",
+      "file": "goldman-sachs-older6m.csv"
+    },
+    {
+      "company": "goldman-sachs",
+      "window": "6m",
+      "file": "goldman-sachs-6m.csv"
+    },
+    {
+      "company": "goldman-sachs",
+      "window": "30d",
+      "file": "goldman-sachs-30d.csv"
+    },
+    {
+      "company": "goldman-sachs",
+      "window": "3m",
+      "file": "goldman-sachs-3m.csv"
+    },
+    {
+      "company": "google",
+      "window": "all",
+      "file": "google-all.csv"
+    },
+    {
+      "company": "google",
+      "window": "older6m",
+      "file": "google-older6m.csv"
+    },
+    {
+      "company": "google",
+      "window": "6m",
+      "file": "google-6m.csv"
+    },
+    {
+      "company": "google",
+      "window": "30d",
+      "file": "google-30d.csv"
+    },
+    {
+      "company": "google",
+      "window": "3m",
+      "file": "google-3m.csv"
+    },
+    {
+      "company": "gopuff",
+      "window": "all",
+      "file": "gopuff-all.csv"
+    },
+    {
+      "company": "gopuff",
+      "window": "older6m",
+      "file": "gopuff-older6m.csv"
+    },
+    {
+      "company": "goto",
+      "window": "all",
+      "file": "goto-all.csv"
+    },
+    {
+      "company": "goto",
+      "window": "older6m",
+      "file": "goto-older6m.csv"
+    },
+    {
+      "company": "grab",
+      "window": "all",
+      "file": "grab-all.csv"
+    },
+    {
+      "company": "grab",
+      "window": "older6m",
+      "file": "grab-older6m.csv"
+    },
+    {
+      "company": "grab",
+      "window": "6m",
+      "file": "grab-6m.csv"
+    },
+    {
+      "company": "grammarly",
+      "window": "all",
+      "file": "grammarly-all.csv"
+    },
+    {
+      "company": "grammarly",
+      "window": "older6m",
+      "file": "grammarly-older6m.csv"
+    },
+    {
+      "company": "grammarly",
+      "window": "6m",
+      "file": "grammarly-6m.csv"
+    },
+    {
+      "company": "grammarly",
+      "window": "30d",
+      "file": "grammarly-30d.csv"
+    },
+    {
+      "company": "grammarly",
+      "window": "3m",
+      "file": "grammarly-3m.csv"
+    },
+    {
+      "company": "graviton",
+      "window": "all",
+      "file": "graviton-all.csv"
+    },
+    {
+      "company": "graviton",
+      "window": "older6m",
+      "file": "graviton-older6m.csv"
+    },
+    {
+      "company": "groupon",
+      "window": "all",
+      "file": "groupon-all.csv"
+    },
+    {
+      "company": "groupon",
+      "window": "older6m",
+      "file": "groupon-older6m.csv"
+    },
+    {
+      "company": "groww",
+      "window": "all",
+      "file": "groww-all.csv"
+    },
+    {
+      "company": "groww",
+      "window": "older6m",
+      "file": "groww-older6m.csv"
+    },
+    {
+      "company": "groww",
+      "window": "6m",
+      "file": "groww-6m.csv"
+    },
+    {
+      "company": "groww",
+      "window": "30d",
+      "file": "groww-30d.csv"
+    },
+    {
+      "company": "groww",
+      "window": "3m",
+      "file": "groww-3m.csv"
+    },
+    {
+      "company": "grubhub",
+      "window": "all",
+      "file": "grubhub-all.csv"
+    },
+    {
+      "company": "grubhub",
+      "window": "older6m",
+      "file": "grubhub-older6m.csv"
+    },
+    {
+      "company": "gsa-capital",
+      "window": "all",
+      "file": "gsa-capital-all.csv"
+    },
+    {
+      "company": "gsa-capital",
+      "window": "older6m",
+      "file": "gsa-capital-older6m.csv"
+    },
+    {
+      "company": "gsn-games",
+      "window": "all",
+      "file": "gsn-games-all.csv"
+    },
+    {
+      "company": "gsn-games",
+      "window": "older6m",
+      "file": "gsn-games-older6m.csv"
+    },
+    {
+      "company": "guidewire",
+      "window": "all",
+      "file": "guidewire-all.csv"
+    },
+    {
+      "company": "guidewire",
+      "window": "older6m",
+      "file": "guidewire-older6m.csv"
+    },
+    {
+      "company": "gusto",
+      "window": "all",
+      "file": "gusto-all.csv"
+    },
+    {
+      "company": "gusto",
+      "window": "older6m",
+      "file": "gusto-older6m.csv"
+    },
+    {
+      "company": "gusto",
+      "window": "6m",
+      "file": "gusto-6m.csv"
+    },
+    {
+      "company": "harness",
+      "window": "all",
+      "file": "harness-all.csv"
+    },
+    {
+      "company": "harness",
+      "window": "older6m",
+      "file": "harness-older6m.csv"
+    },
+    {
+      "company": "harness",
+      "window": "6m",
+      "file": "harness-6m.csv"
+    },
+    {
+      "company": "hashedin",
+      "window": "all",
+      "file": "hashedin-all.csv"
+    },
+    {
+      "company": "hashedin",
+      "window": "older6m",
+      "file": "hashedin-older6m.csv"
+    },
+    {
+      "company": "hashedin",
+      "window": "6m",
+      "file": "hashedin-6m.csv"
+    },
+    {
+      "company": "hashedin",
+      "window": "3m",
+      "file": "hashedin-3m.csv"
+    },
+    {
+      "company": "hbo",
+      "window": "all",
+      "file": "hbo-all.csv"
+    },
+    {
+      "company": "hcl",
+      "window": "all",
+      "file": "hcl-all.csv"
+    },
+    {
+      "company": "hcl",
+      "window": "older6m",
+      "file": "hcl-older6m.csv"
+    },
+    {
+      "company": "hcl",
+      "window": "6m",
+      "file": "hcl-6m.csv"
+    },
+    {
+      "company": "helix",
+      "window": "all",
+      "file": "helix-all.csv"
+    },
+    {
+      "company": "helix",
+      "window": "older6m",
+      "file": "helix-older6m.csv"
+    },
+    {
+      "company": "hexaware",
+      "window": "all",
+      "file": "hexaware-all.csv"
+    },
+    {
+      "company": "hexaware",
+      "window": "6m",
+      "file": "hexaware-6m.csv"
+    },
+    {
+      "company": "hexaware",
+      "window": "3m",
+      "file": "hexaware-3m.csv"
+    },
+    {
+      "company": "highspot",
+      "window": "all",
+      "file": "highspot-all.csv"
+    },
+    {
+      "company": "highspot",
+      "window": "older6m",
+      "file": "highspot-older6m.csv"
+    },
+    {
+      "company": "hilabs",
+      "window": "all",
+      "file": "hilabs-all.csv"
+    },
+    {
+      "company": "hilabs",
+      "window": "older6m",
+      "file": "hilabs-older6m.csv"
+    },
+    {
+      "company": "hive",
+      "window": "all",
+      "file": "hive-all.csv"
+    },
+    {
+      "company": "hive",
+      "window": "older6m",
+      "file": "hive-older6m.csv"
+    },
+    {
+      "company": "hive",
+      "window": "6m",
+      "file": "hive-6m.csv"
+    },
+    {
+      "company": "hive",
+      "window": "3m",
+      "file": "hive-3m.csv"
+    },
+    {
+      "company": "honey",
+      "window": "all",
+      "file": "honey-all.csv"
+    },
+    {
+      "company": "honeywell",
+      "window": "all",
+      "file": "honeywell-all.csv"
+    },
+    {
+      "company": "honeywell",
+      "window": "older6m",
+      "file": "honeywell-older6m.csv"
+    },
+    {
+      "company": "hopper",
+      "window": "all",
+      "file": "hopper-all.csv"
+    },
+    {
+      "company": "hopper",
+      "window": "older6m",
+      "file": "hopper-older6m.csv"
+    },
+    {
+      "company": "hotstar",
+      "window": "all",
+      "file": "hotstar-all.csv"
+    },
+    {
+      "company": "hotstar",
+      "window": "older6m",
+      "file": "hotstar-older6m.csv"
+    },
+    {
+      "company": "houzz",
+      "window": "all",
+      "file": "houzz-all.csv"
+    },
+    {
+      "company": "houzz",
+      "window": "older6m",
+      "file": "houzz-older6m.csv"
+    },
+    {
+      "company": "hp",
+      "window": "all",
+      "file": "hp-all.csv"
+    },
+    {
+      "company": "hp",
+      "window": "older6m",
+      "file": "hp-older6m.csv"
+    },
+    {
+      "company": "hpe",
+      "window": "all",
+      "file": "hpe-all.csv"
+    },
+    {
+      "company": "hpe",
+      "window": "older6m",
+      "file": "hpe-older6m.csv"
+    },
+    {
+      "company": "hrt",
+      "window": "all",
+      "file": "hrt-all.csv"
+    },
+    {
+      "company": "hrt",
+      "window": "older6m",
+      "file": "hrt-older6m.csv"
+    },
+    {
+      "company": "hsbc",
+      "window": "all",
+      "file": "hsbc-all.csv"
+    },
+    {
+      "company": "hsbc",
+      "window": "older6m",
+      "file": "hsbc-older6m.csv"
+    },
+    {
+      "company": "htc",
+      "window": "all",
+      "file": "htc-all.csv"
+    },
+    {
+      "company": "htc",
+      "window": "older6m",
+      "file": "htc-older6m.csv"
+    },
+    {
+      "company": "huawei",
+      "window": "all",
+      "file": "huawei-all.csv"
+    },
+    {
+      "company": "huawei",
+      "window": "older6m",
+      "file": "huawei-older6m.csv"
+    },
+    {
+      "company": "hubspot",
+      "window": "all",
+      "file": "hubspot-all.csv"
+    },
+    {
+      "company": "hubspot",
+      "window": "older6m",
+      "file": "hubspot-older6m.csv"
+    },
+    {
+      "company": "hubspot",
+      "window": "6m",
+      "file": "hubspot-6m.csv"
+    },
+    {
+      "company": "hulu",
+      "window": "all",
+      "file": "hulu-all.csv"
+    },
+    {
+      "company": "hulu",
+      "window": "older6m",
+      "file": "hulu-older6m.csv"
+    },
+    {
+      "company": "ibm",
+      "window": "all",
+      "file": "ibm-all.csv"
+    },
+    {
+      "company": "ibm",
+      "window": "older6m",
+      "file": "ibm-older6m.csv"
+    },
+    {
+      "company": "ibm",
+      "window": "6m",
+      "file": "ibm-6m.csv"
+    },
+    {
+      "company": "ibm",
+      "window": "3m",
+      "file": "ibm-3m.csv"
+    },
+    {
+      "company": "iit-bombay",
+      "window": "all",
+      "file": "iit-bombay-all.csv"
+    },
+    {
+      "company": "iit-bombay",
+      "window": "older6m",
+      "file": "iit-bombay-older6m.csv"
+    },
+    {
+      "company": "imc",
+      "window": "all",
+      "file": "imc-all.csv"
+    },
+    {
+      "company": "imc",
+      "window": "older6m",
+      "file": "imc-older6m.csv"
+    },
+    {
+      "company": "imc",
+      "window": "6m",
+      "file": "imc-6m.csv"
+    },
+    {
+      "company": "impact-analytics",
+      "window": "all",
+      "file": "impact-analytics-all.csv"
+    },
+    {
+      "company": "impact-analytics",
+      "window": "older6m",
+      "file": "impact-analytics-older6m.csv"
+    },
+    {
+      "company": "impetus",
+      "window": "all",
+      "file": "impetus-all.csv"
+    },
+    {
+      "company": "impetus",
+      "window": "6m",
+      "file": "impetus-6m.csv"
+    },
+    {
+      "company": "increff",
+      "window": "all",
+      "file": "increff-all.csv"
+    },
+    {
+      "company": "increff",
+      "window": "older6m",
+      "file": "increff-older6m.csv"
+    },
+    {
+      "company": "indeed",
+      "window": "all",
+      "file": "indeed-all.csv"
+    },
+    {
+      "company": "indeed",
+      "window": "older6m",
+      "file": "indeed-older6m.csv"
+    },
+    {
+      "company": "info-edge",
+      "window": "all",
+      "file": "info-edge-all.csv"
+    },
+    {
+      "company": "info-edge",
+      "window": "older6m",
+      "file": "info-edge-older6m.csv"
+    },
+    {
+      "company": "informatica",
+      "window": "all",
+      "file": "informatica-all.csv"
+    },
+    {
+      "company": "informatica",
+      "window": "older6m",
+      "file": "informatica-older6m.csv"
+    },
+    {
+      "company": "infosys",
+      "window": "all",
+      "file": "infosys-all.csv"
+    },
+    {
+      "company": "infosys",
+      "window": "older6m",
+      "file": "infosys-older6m.csv"
+    },
+    {
+      "company": "infosys",
+      "window": "6m",
+      "file": "infosys-6m.csv"
+    },
+    {
+      "company": "infosys",
+      "window": "30d",
+      "file": "infosys-30d.csv"
+    },
+    {
+      "company": "infosys",
+      "window": "3m",
+      "file": "infosys-3m.csv"
+    },
+    {
+      "company": "inmobi",
+      "window": "all",
+      "file": "inmobi-all.csv"
+    },
+    {
+      "company": "inmobi",
+      "window": "older6m",
+      "file": "inmobi-older6m.csv"
+    },
+    {
+      "company": "inmobi",
+      "window": "6m",
+      "file": "inmobi-6m.csv"
+    },
+    {
+      "company": "inmobi",
+      "window": "30d",
+      "file": "inmobi-30d.csv"
+    },
+    {
+      "company": "inmobi",
+      "window": "3m",
+      "file": "inmobi-3m.csv"
+    },
+    {
+      "company": "innovaccer",
+      "window": "all",
+      "file": "innovaccer-all.csv"
+    },
+    {
+      "company": "innovaccer",
+      "window": "older6m",
+      "file": "innovaccer-older6m.csv"
+    },
+    {
+      "company": "instabase",
+      "window": "all",
+      "file": "instabase-all.csv"
+    },
+    {
+      "company": "instabase",
+      "window": "older6m",
+      "file": "instabase-older6m.csv"
+    },
+    {
+      "company": "instacart",
+      "window": "all",
+      "file": "instacart-all.csv"
+    },
+    {
+      "company": "instacart",
+      "window": "older6m",
+      "file": "instacart-older6m.csv"
+    },
+    {
+      "company": "instacart",
+      "window": "6m",
+      "file": "instacart-6m.csv"
+    },
+    {
+      "company": "intel",
+      "window": "all",
+      "file": "intel-all.csv"
+    },
+    {
+      "company": "intel",
+      "window": "older6m",
+      "file": "intel-older6m.csv"
+    },
+    {
+      "company": "interactive-brokers",
+      "window": "all",
+      "file": "interactive-brokers-all.csv"
+    },
+    {
+      "company": "interactive-brokers",
+      "window": "older6m",
+      "file": "interactive-brokers-older6m.csv"
+    },
+    {
+      "company": "intercom",
+      "window": "all",
+      "file": "intercom-all.csv"
+    },
+    {
+      "company": "intercom",
+      "window": "older6m",
+      "file": "intercom-older6m.csv"
+    },
+    {
+      "company": "intuit",
+      "window": "all",
+      "file": "intuit-all.csv"
+    },
+    {
+      "company": "intuit",
+      "window": "older6m",
+      "file": "intuit-older6m.csv"
+    },
+    {
+      "company": "intuit",
+      "window": "6m",
+      "file": "intuit-6m.csv"
+    },
+    {
+      "company": "intuit",
+      "window": "3m",
+      "file": "intuit-3m.csv"
+    },
+    {
+      "company": "ivp",
+      "window": "all",
+      "file": "ivp-all.csv"
+    },
+    {
+      "company": "ivp",
+      "window": "older6m",
+      "file": "ivp-older6m.csv"
+    },
+    {
+      "company": "ixl",
+      "window": "all",
+      "file": "ixl-all.csv"
+    },
+    {
+      "company": "ixl",
+      "window": "older6m",
+      "file": "ixl-older6m.csv"
+    },
+    {
+      "company": "ixl",
+      "window": "6m",
+      "file": "ixl-6m.csv"
+    },
+    {
+      "company": "jane-street",
+      "window": "all",
+      "file": "jane-street-all.csv"
+    },
+    {
+      "company": "jane-street",
+      "window": "older6m",
+      "file": "jane-street-older6m.csv"
+    },
+    {
+      "company": "jane-street",
+      "window": "6m",
+      "file": "jane-street-6m.csv"
+    },
+    {
+      "company": "jd",
+      "window": "all",
+      "file": "jd-all.csv"
+    },
+    {
+      "company": "jd",
+      "window": "older6m",
+      "file": "jd-older6m.csv"
+    },
+    {
+      "company": "jeavio",
+      "window": "all",
+      "file": "jeavio-all.csv"
+    },
+    {
+      "company": "jeavio",
+      "window": "older6m",
+      "file": "jeavio-older6m.csv"
+    },
+    {
+      "company": "jingchi",
+      "window": "all",
+      "file": "jingchi-all.csv"
+    },
+    {
+      "company": "jingchi",
+      "window": "older6m",
+      "file": "jingchi-older6m.csv"
+    },
+    {
+      "company": "jio",
+      "window": "all",
+      "file": "jio-all.csv"
+    },
+    {
+      "company": "jio",
+      "window": "older6m",
+      "file": "jio-older6m.csv"
+    },
+    {
+      "company": "josh-technology",
+      "window": "all",
+      "file": "josh-technology-all.csv"
+    },
+    {
+      "company": "josh-technology",
+      "window": "older6m",
+      "file": "josh-technology-older6m.csv"
+    },
+    {
+      "company": "josh-technology",
+      "window": "6m",
+      "file": "josh-technology-6m.csv"
+    },
+    {
+      "company": "josh-technology",
+      "window": "30d",
+      "file": "josh-technology-30d.csv"
+    },
+    {
+      "company": "josh-technology",
+      "window": "3m",
+      "file": "josh-technology-3m.csv"
+    },
+    {
+      "company": "jpmorgan",
+      "window": "all",
+      "file": "jpmorgan-all.csv"
+    },
+    {
+      "company": "jpmorgan",
+      "window": "older6m",
+      "file": "jpmorgan-older6m.csv"
+    },
+    {
+      "company": "jpmorgan",
+      "window": "6m",
+      "file": "jpmorgan-6m.csv"
+    },
+    {
+      "company": "jpmorgan",
+      "window": "30d",
+      "file": "jpmorgan-30d.csv"
+    },
+    {
+      "company": "jpmorgan",
+      "window": "3m",
+      "file": "jpmorgan-3m.csv"
+    },
+    {
+      "company": "jtg",
+      "window": "all",
+      "file": "jtg-all.csv"
+    },
+    {
+      "company": "jtg",
+      "window": "older6m",
+      "file": "jtg-older6m.csv"
+    },
+    {
+      "company": "jump-trading",
+      "window": "all",
+      "file": "jump-trading-all.csv"
+    },
+    {
+      "company": "jump-trading",
+      "window": "older6m",
+      "file": "jump-trading-older6m.csv"
+    },
+    {
+      "company": "juspay",
+      "window": "all",
+      "file": "juspay-all.csv"
+    },
+    {
+      "company": "juspay",
+      "window": "older6m",
+      "file": "juspay-older6m.csv"
+    },
+    {
+      "company": "juspay",
+      "window": "6m",
+      "file": "juspay-6m.csv"
+    },
+    {
+      "company": "juspay",
+      "window": "30d",
+      "file": "juspay-30d.csv"
+    },
+    {
+      "company": "juspay",
+      "window": "3m",
+      "file": "juspay-3m.csv"
+    },
+    {
+      "company": "kakao",
+      "window": "all",
+      "file": "kakao-all.csv"
+    },
+    {
+      "company": "kakao",
+      "window": "older6m",
+      "file": "kakao-older6m.csv"
+    },
+    {
+      "company": "karat",
+      "window": "all",
+      "file": "karat-all.csv"
+    },
+    {
+      "company": "karat",
+      "window": "older6m",
+      "file": "karat-older6m.csv"
+    },
+    {
+      "company": "kickdrum",
+      "window": "all",
+      "file": "kickdrum-all.csv"
+    },
+    {
+      "company": "kickdrum",
+      "window": "older6m",
+      "file": "kickdrum-older6m.csv"
+    },
+    {
+      "company": "kla-tencor",
+      "window": "all",
+      "file": "kla-tencor-all.csv"
+    },
+    {
+      "company": "kla-tencor",
+      "window": "older6m",
+      "file": "kla-tencor-older6m.csv"
+    },
+    {
+      "company": "kla",
+      "window": "all",
+      "file": "kla-all.csv"
+    },
+    {
+      "company": "kla",
+      "window": "older6m",
+      "file": "kla-older6m.csv"
+    },
+    {
+      "company": "kotak-mahindra-bank",
+      "window": "all",
+      "file": "kotak-mahindra-bank-all.csv"
+    },
+    {
+      "company": "kotak-mahindra-bank",
+      "window": "6m",
+      "file": "kotak-mahindra-bank-6m.csv"
+    },
+    {
+      "company": "kpmg",
+      "window": "all",
+      "file": "kpmg-all.csv"
+    },
+    {
+      "company": "kpmg",
+      "window": "older6m",
+      "file": "kpmg-older6m.csv"
+    },
+    {
+      "company": "larsen-toubro",
+      "window": "all",
+      "file": "larsen-toubro-all.csv"
+    },
+    {
+      "company": "larsen-toubro",
+      "window": "older6m",
+      "file": "larsen-toubro-older6m.csv"
+    },
+    {
+      "company": "leap-motion",
+      "window": "all",
+      "file": "leap-motion-all.csv"
+    },
+    {
+      "company": "leap-motion",
+      "window": "older6m",
+      "file": "leap-motion-older6m.csv"
+    },
+    {
+      "company": "lendingkart",
+      "window": "all",
+      "file": "lendingkart-all.csv"
+    },
+    {
+      "company": "lg-electronics",
+      "window": "all",
+      "file": "lg-electronics-all.csv"
+    },
+    {
+      "company": "lg-electronics",
+      "window": "older6m",
+      "file": "lg-electronics-older6m.csv"
+    },
+    {
+      "company": "liberty-mutual",
+      "window": "all",
+      "file": "liberty-mutual-all.csv"
+    },
+    {
+      "company": "liberty-mutual",
+      "window": "older6m",
+      "file": "liberty-mutual-older6m.csv"
+    },
+    {
+      "company": "liftoff",
+      "window": "all",
+      "file": "liftoff-all.csv"
+    },
+    {
+      "company": "liftoff",
+      "window": "older6m",
+      "file": "liftoff-older6m.csv"
+    },
+    {
+      "company": "lime",
+      "window": "all",
+      "file": "lime-all.csv"
+    },
+    {
+      "company": "lime",
+      "window": "older6m",
+      "file": "lime-older6m.csv"
+    },
+    {
+      "company": "lime",
+      "window": "6m",
+      "file": "lime-6m.csv"
+    },
+    {
+      "company": "line",
+      "window": "all",
+      "file": "line-all.csv"
+    },
+    {
+      "company": "line",
+      "window": "older6m",
+      "file": "line-older6m.csv"
+    },
+    {
+      "company": "linkedin",
+      "window": "all",
+      "file": "linkedin-all.csv"
+    },
+    {
+      "company": "linkedin",
+      "window": "older6m",
+      "file": "linkedin-older6m.csv"
+    },
+    {
+      "company": "linkedin",
+      "window": "6m",
+      "file": "linkedin-6m.csv"
+    },
+    {
+      "company": "linkedin",
+      "window": "3m",
+      "file": "linkedin-3m.csv"
+    },
+    {
+      "company": "liveramp",
+      "window": "all",
+      "file": "liveramp-all.csv"
+    },
+    {
+      "company": "liveramp",
+      "window": "older6m",
+      "file": "liveramp-older6m.csv"
+    },
+    {
+      "company": "livspace",
+      "window": "all",
+      "file": "livspace-all.csv"
+    },
+    {
+      "company": "livspace",
+      "window": "older6m",
+      "file": "livspace-older6m.csv"
+    },
+    {
+      "company": "lowe",
+      "window": "all",
+      "file": "lowe-all.csv"
+    },
+    {
+      "company": "lowe",
+      "window": "older6m",
+      "file": "lowe-older6m.csv"
+    },
+    {
+      "company": "lti",
+      "window": "all",
+      "file": "lti-all.csv"
+    },
+    {
+      "company": "lti",
+      "window": "older6m",
+      "file": "lti-older6m.csv"
+    },
+    {
+      "company": "lti",
+      "window": "6m",
+      "file": "lti-6m.csv"
+    },
+    {
+      "company": "lucid",
+      "window": "all",
+      "file": "lucid-all.csv"
+    },
+    {
+      "company": "lucid",
+      "window": "older6m",
+      "file": "lucid-older6m.csv"
+    },
+    {
+      "company": "luxoft",
+      "window": "all",
+      "file": "luxoft-all.csv"
+    },
+    {
+      "company": "luxoft",
+      "window": "older6m",
+      "file": "luxoft-older6m.csv"
+    },
+    {
+      "company": "lyft",
+      "window": "all",
+      "file": "lyft-all.csv"
+    },
+    {
+      "company": "lyft",
+      "window": "older6m",
+      "file": "lyft-older6m.csv"
+    },
+    {
+      "company": "lyft",
+      "window": "6m",
+      "file": "lyft-6m.csv"
+    },
+    {
+      "company": "lyft",
+      "window": "30d",
+      "file": "lyft-30d.csv"
+    },
+    {
+      "company": "lyft",
+      "window": "3m",
+      "file": "lyft-3m.csv"
+    },
+    {
+      "company": "machine-zone",
+      "window": "all",
+      "file": "machine-zone-all.csv"
+    },
+    {
+      "company": "machine-zone",
+      "window": "older6m",
+      "file": "machine-zone-older6m.csv"
+    },
+    {
+      "company": "machinezone",
+      "window": "all",
+      "file": "machinezone-all.csv"
+    },
+    {
+      "company": "machinezone",
+      "window": "older6m",
+      "file": "machinezone-older6m.csv"
+    },
+    {
+      "company": "maersk",
+      "window": "all",
+      "file": "maersk-all.csv"
+    },
+    {
+      "company": "maersk",
+      "window": "older6m",
+      "file": "maersk-older6m.csv"
+    },
+    {
+      "company": "makemytrip",
+      "window": "all",
+      "file": "makemytrip-all.csv"
+    },
+    {
+      "company": "makemytrip",
+      "window": "older6m",
+      "file": "makemytrip-older6m.csv"
+    },
+    {
+      "company": "mapbox",
+      "window": "all",
+      "file": "mapbox-all.csv"
+    },
+    {
+      "company": "maq-software",
+      "window": "all",
+      "file": "maq-software-all.csv"
+    },
+    {
+      "company": "maq-software",
+      "window": "older6m",
+      "file": "maq-software-older6m.csv"
+    },
+    {
+      "company": "marqeta",
+      "window": "all",
+      "file": "marqeta-all.csv"
+    },
+    {
+      "company": "marqeta",
+      "window": "older6m",
+      "file": "marqeta-older6m.csv"
+    },
+    {
+      "company": "mastercard",
+      "window": "all",
+      "file": "mastercard-all.csv"
+    },
+    {
+      "company": "mastercard",
+      "window": "older6m",
+      "file": "mastercard-older6m.csv"
+    },
+    {
+      "company": "mastercard",
+      "window": "6m",
+      "file": "mastercard-6m.csv"
+    },
+    {
+      "company": "mathworks",
+      "window": "all",
+      "file": "mathworks-all.csv"
+    },
+    {
+      "company": "mathworks",
+      "window": "older6m",
+      "file": "mathworks-older6m.csv"
+    },
+    {
+      "company": "mathworks",
+      "window": "6m",
+      "file": "mathworks-6m.csv"
+    },
+    {
+      "company": "mcafee",
+      "window": "all",
+      "file": "mcafee-all.csv"
+    },
+    {
+      "company": "mcafee",
+      "window": "older6m",
+      "file": "mcafee-older6m.csv"
+    },
+    {
+      "company": "mcdonalds",
+      "window": "all",
+      "file": "mcdonalds-all.csv"
+    },
+    {
+      "company": "mcdonalds",
+      "window": "older6m",
+      "file": "mcdonalds-older6m.csv"
+    },
+    {
+      "company": "mckinsey",
+      "window": "all",
+      "file": "mckinsey-all.csv"
+    },
+    {
+      "company": "mckinsey",
+      "window": "older6m",
+      "file": "mckinsey-older6m.csv"
+    },
+    {
+      "company": "medianet",
+      "window": "all",
+      "file": "medianet-all.csv"
+    },
+    {
+      "company": "medianet",
+      "window": "older6m",
+      "file": "medianet-older6m.csv"
+    },
+    {
+      "company": "medianet",
+      "window": "6m",
+      "file": "medianet-6m.csv"
+    },
+    {
+      "company": "meesho",
+      "window": "all",
+      "file": "meesho-all.csv"
+    },
+    {
+      "company": "meesho",
+      "window": "older6m",
+      "file": "meesho-older6m.csv"
+    },
+    {
+      "company": "meesho",
+      "window": "6m",
+      "file": "meesho-6m.csv"
+    },
+    {
+      "company": "meesho",
+      "window": "30d",
+      "file": "meesho-30d.csv"
+    },
+    {
+      "company": "meesho",
+      "window": "3m",
+      "file": "meesho-3m.csv"
+    },
+    {
+      "company": "meituan",
+      "window": "all",
+      "file": "meituan-all.csv"
+    },
+    {
+      "company": "meituan",
+      "window": "older6m",
+      "file": "meituan-older6m.csv"
+    },
+    {
+      "company": "mercari",
+      "window": "all",
+      "file": "mercari-all.csv"
+    },
+    {
+      "company": "mercari",
+      "window": "older6m",
+      "file": "mercari-older6m.csv"
+    },
+    {
+      "company": "mercari",
+      "window": "6m",
+      "file": "mercari-6m.csv"
+    },
+    {
+      "company": "mercari",
+      "window": "3m",
+      "file": "mercari-3m.csv"
+    },
+    {
+      "company": "meta",
+      "window": "all",
+      "file": "meta-all.csv"
+    },
+    {
+      "company": "meta",
+      "window": "older6m",
+      "file": "meta-older6m.csv"
+    },
+    {
+      "company": "meta",
+      "window": "6m",
+      "file": "meta-6m.csv"
+    },
+    {
+      "company": "meta",
+      "window": "30d",
+      "file": "meta-30d.csv"
+    },
+    {
+      "company": "meta",
+      "window": "3m",
+      "file": "meta-3m.csv"
+    },
+    {
+      "company": "micro1",
+      "window": "all",
+      "file": "micro1-all.csv"
+    },
+    {
+      "company": "micro1",
+      "window": "older6m",
+      "file": "micro1-older6m.csv"
+    },
+    {
+      "company": "micro1",
+      "window": "6m",
+      "file": "micro1-6m.csv"
+    },
+    {
+      "company": "micro1",
+      "window": "3m",
+      "file": "micro1-3m.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "all",
+      "file": "microsoft-all.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "older6m",
+      "file": "microsoft-older6m.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "6m",
+      "file": "microsoft-6m.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "30d",
+      "file": "microsoft-30d.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "3m",
+      "file": "microsoft-3m.csv"
+    },
+    {
+      "company": "microstrategy",
+      "window": "all",
+      "file": "microstrategy-all.csv"
+    },
+    {
+      "company": "microstrategy",
+      "window": "older6m",
+      "file": "microstrategy-older6m.csv"
+    },
+    {
+      "company": "millennium",
+      "window": "all",
+      "file": "millennium-all.csv"
+    },
+    {
+      "company": "millennium",
+      "window": "older6m",
+      "file": "millennium-older6m.csv"
+    },
+    {
+      "company": "millennium",
+      "window": "6m",
+      "file": "millennium-6m.csv"
+    },
+    {
+      "company": "mindtickle",
+      "window": "all",
+      "file": "mindtickle-all.csv"
+    },
+    {
+      "company": "mindtickle",
+      "window": "older6m",
+      "file": "mindtickle-older6m.csv"
+    },
+    {
+      "company": "mindtree",
+      "window": "all",
+      "file": "mindtree-all.csv"
+    },
+    {
+      "company": "mindtree",
+      "window": "older6m",
+      "file": "mindtree-older6m.csv"
+    },
+    {
+      "company": "mishipay",
+      "window": "all",
+      "file": "mishipay-all.csv"
+    },
+    {
+      "company": "mishipay",
+      "window": "older6m",
+      "file": "mishipay-older6m.csv"
+    },
+    {
+      "company": "mitsogo",
+      "window": "all",
+      "file": "mitsogo-all.csv"
+    },
+    {
+      "company": "mitsogo",
+      "window": "older6m",
+      "file": "mitsogo-older6m.csv"
+    },
+    {
+      "company": "mixpanel",
+      "window": "all",
+      "file": "mixpanel-all.csv"
+    },
+    {
+      "company": "mixpanel",
+      "window": "older6m",
+      "file": "mixpanel-older6m.csv"
+    },
+    {
+      "company": "mobileye",
+      "window": "all",
+      "file": "mobileye-all.csv"
+    },
+    {
+      "company": "mobileye",
+      "window": "older6m",
+      "file": "mobileye-older6m.csv"
+    },
+    {
+      "company": "mobisy",
+      "window": "all",
+      "file": "mobisy-all.csv"
+    },
+    {
+      "company": "mobisy",
+      "window": "older6m",
+      "file": "mobisy-older6m.csv"
+    },
+    {
+      "company": "moengage",
+      "window": "all",
+      "file": "moengage-all.csv"
+    },
+    {
+      "company": "moengage",
+      "window": "older6m",
+      "file": "moengage-older6m.csv"
+    },
+    {
+      "company": "moloco",
+      "window": "all",
+      "file": "moloco-all.csv"
+    },
+    {
+      "company": "moloco",
+      "window": "older6m",
+      "file": "moloco-older6m.csv"
+    },
+    {
+      "company": "moloco",
+      "window": "6m",
+      "file": "moloco-6m.csv"
+    },
+    {
+      "company": "moneylion",
+      "window": "all",
+      "file": "moneylion-all.csv"
+    },
+    {
+      "company": "moneylion",
+      "window": "older6m",
+      "file": "moneylion-older6m.csv"
+    },
+    {
+      "company": "mongodb",
+      "window": "all",
+      "file": "mongodb-all.csv"
+    },
+    {
+      "company": "mongodb",
+      "window": "older6m",
+      "file": "mongodb-older6m.csv"
+    },
+    {
+      "company": "mongodb",
+      "window": "6m",
+      "file": "mongodb-6m.csv"
+    },
+    {
+      "company": "mongodb",
+      "window": "3m",
+      "file": "mongodb-3m.csv"
+    },
+    {
+      "company": "morgan-stanley",
+      "window": "all",
+      "file": "morgan-stanley-all.csv"
+    },
+    {
+      "company": "morgan-stanley",
+      "window": "older6m",
+      "file": "morgan-stanley-older6m.csv"
+    },
+    {
+      "company": "morgan-stanley",
+      "window": "6m",
+      "file": "morgan-stanley-6m.csv"
+    },
+    {
+      "company": "morgan-stanley",
+      "window": "3m",
+      "file": "morgan-stanley-3m.csv"
+    },
+    {
+      "company": "motive",
+      "window": "all",
+      "file": "motive-all.csv"
+    },
+    {
+      "company": "motive",
+      "window": "older6m",
+      "file": "motive-older6m.csv"
+    },
+    {
+      "company": "motive",
+      "window": "6m",
+      "file": "motive-6m.csv"
+    },
+    {
+      "company": "moveworks",
+      "window": "all",
+      "file": "moveworks-all.csv"
+    },
+    {
+      "company": "moveworks",
+      "window": "older6m",
+      "file": "moveworks-older6m.csv"
+    },
+    {
+      "company": "moveworks",
+      "window": "6m",
+      "file": "moveworks-6m.csv"
+    },
+    {
+      "company": "moveworks",
+      "window": "30d",
+      "file": "moveworks-30d.csv"
+    },
+    {
+      "company": "moveworks",
+      "window": "3m",
+      "file": "moveworks-3m.csv"
+    },
+    {
+      "company": "mphasis",
+      "window": "all",
+      "file": "mphasis-all.csv"
+    },
+    {
+      "company": "msci",
+      "window": "all",
+      "file": "msci-all.csv"
+    },
+    {
+      "company": "msci",
+      "window": "older6m",
+      "file": "msci-older6m.csv"
+    },
+    {
+      "company": "murex",
+      "window": "all",
+      "file": "murex-all.csv"
+    },
+    {
+      "company": "murex",
+      "window": "older6m",
+      "file": "murex-older6m.csv"
+    },
+    {
+      "company": "mykaarma",
+      "window": "all",
+      "file": "mykaarma-all.csv"
+    },
+    {
+      "company": "mykaarma",
+      "window": "older6m",
+      "file": "mykaarma-older6m.csv"
+    },
+    {
+      "company": "myntra",
+      "window": "all",
+      "file": "myntra-all.csv"
+    },
+    {
+      "company": "myntra",
+      "window": "older6m",
+      "file": "myntra-older6m.csv"
+    },
+    {
+      "company": "nagarro",
+      "window": "all",
+      "file": "nagarro-all.csv"
+    },
+    {
+      "company": "nagarro",
+      "window": "older6m",
+      "file": "nagarro-older6m.csv"
+    },
+    {
+      "company": "nasdaq",
+      "window": "all",
+      "file": "nasdaq-all.csv"
+    },
+    {
+      "company": "nasdaq",
+      "window": "older6m",
+      "file": "nasdaq-older6m.csv"
+    },
+    {
+      "company": "national-instruments",
+      "window": "all",
+      "file": "national-instruments-all.csv"
+    },
+    {
+      "company": "national-instruments",
+      "window": "older6m",
+      "file": "national-instruments-older6m.csv"
+    },
+    {
+      "company": "national-payments-coorperation-india",
+      "window": "all",
+      "file": "national-payments-coorperation-india-all.csv"
+    },
+    {
+      "company": "national-payments-coorperation-india",
+      "window": "older6m",
+      "file": "national-payments-coorperation-india-older6m.csv"
+    },
+    {
+      "company": "natwest",
+      "window": "all",
+      "file": "natwest-all.csv"
+    },
+    {
+      "company": "natwest",
+      "window": "older6m",
+      "file": "natwest-older6m.csv"
+    },
+    {
+      "company": "navan",
+      "window": "all",
+      "file": "navan-all.csv"
+    },
+    {
+      "company": "navan",
+      "window": "older6m",
+      "file": "navan-older6m.csv"
+    },
+    {
+      "company": "naver",
+      "window": "all",
+      "file": "naver-all.csv"
+    },
+    {
+      "company": "naver",
+      "window": "older6m",
+      "file": "naver-older6m.csv"
+    },
+    {
+      "company": "navi",
+      "window": "all",
+      "file": "navi-all.csv"
+    },
+    {
+      "company": "navi",
+      "window": "older6m",
+      "file": "navi-older6m.csv"
+    },
+    {
+      "company": "ncr",
+      "window": "all",
+      "file": "ncr-all.csv"
+    },
+    {
+      "company": "ncr",
+      "window": "older6m",
+      "file": "ncr-older6m.csv"
+    },
+    {
+      "company": "nebius",
+      "window": "all",
+      "file": "nebius-all.csv"
+    },
+    {
+      "company": "nebius",
+      "window": "older6m",
+      "file": "nebius-older6m.csv"
+    },
+    {
+      "company": "nerdwallet",
+      "window": "all",
+      "file": "nerdwallet-all.csv"
+    },
+    {
+      "company": "netapp",
+      "window": "all",
+      "file": "netapp-all.csv"
+    },
+    {
+      "company": "netapp",
+      "window": "older6m",
+      "file": "netapp-older6m.csv"
+    },
+    {
+      "company": "netapp",
+      "window": "6m",
+      "file": "netapp-6m.csv"
+    },
+    {
+      "company": "netcracker-technology",
+      "window": "all",
+      "file": "netcracker-technology-all.csv"
+    },
+    {
+      "company": "netcracker-technology",
+      "window": "older6m",
+      "file": "netcracker-technology-older6m.csv"
+    },
+    {
+      "company": "netease",
+      "window": "all",
+      "file": "netease-all.csv"
+    },
+    {
+      "company": "netease",
+      "window": "older6m",
+      "file": "netease-older6m.csv"
+    },
+    {
+      "company": "netflix",
+      "window": "all",
+      "file": "netflix-all.csv"
+    },
+    {
+      "company": "netflix",
+      "window": "older6m",
+      "file": "netflix-older6m.csv"
+    },
+    {
+      "company": "netflix",
+      "window": "6m",
+      "file": "netflix-6m.csv"
+    },
+    {
+      "company": "netflix",
+      "window": "30d",
+      "file": "netflix-30d.csv"
+    },
+    {
+      "company": "netflix",
+      "window": "3m",
+      "file": "netflix-3m.csv"
+    },
+    {
+      "company": "netskope",
+      "window": "all",
+      "file": "netskope-all.csv"
+    },
+    {
+      "company": "netskope",
+      "window": "older6m",
+      "file": "netskope-older6m.csv"
+    },
+    {
+      "company": "netsuite",
+      "window": "all",
+      "file": "netsuite-all.csv"
+    },
+    {
+      "company": "netsuite",
+      "window": "older6m",
+      "file": "netsuite-older6m.csv"
+    },
+    {
+      "company": "newsbreak",
+      "window": "all",
+      "file": "newsbreak-all.csv"
+    },
+    {
+      "company": "newsbreak",
+      "window": "older6m",
+      "file": "newsbreak-older6m.csv"
+    },
+    {
+      "company": "nextdoor",
+      "window": "all",
+      "file": "nextdoor-all.csv"
+    },
+    {
+      "company": "nextdoor",
+      "window": "older6m",
+      "file": "nextdoor-older6m.csv"
+    },
+    {
+      "company": "nextdoor",
+      "window": "6m",
+      "file": "nextdoor-6m.csv"
+    },
+    {
+      "company": "nextjump",
+      "window": "all",
+      "file": "nextjump-all.csv"
+    },
+    {
+      "company": "nextjump",
+      "window": "older6m",
+      "file": "nextjump-older6m.csv"
+    },
+    {
+      "company": "niantic",
+      "window": "all",
+      "file": "niantic-all.csv"
+    },
+    {
+      "company": "niantic",
+      "window": "older6m",
+      "file": "niantic-older6m.csv"
+    },
+    {
+      "company": "nielsen",
+      "window": "all",
+      "file": "nielsen-all.csv"
+    },
+    {
+      "company": "nielsen",
+      "window": "older6m",
+      "file": "nielsen-older6m.csv"
+    },
+    {
+      "company": "nike",
+      "window": "all",
+      "file": "nike-all.csv"
+    },
+    {
+      "company": "nike",
+      "window": "older6m",
+      "file": "nike-older6m.csv"
+    },
+    {
+      "company": "nokia",
+      "window": "all",
+      "file": "nokia-all.csv"
+    },
+    {
+      "company": "nokia",
+      "window": "older6m",
+      "file": "nokia-older6m.csv"
+    },
+    {
+      "company": "nokia",
+      "window": "6m",
+      "file": "nokia-6m.csv"
+    },
+    {
+      "company": "nokia",
+      "window": "3m",
+      "file": "nokia-3m.csv"
+    },
+    {
+      "company": "noon",
+      "window": "all",
+      "file": "noon-all.csv"
+    },
+    {
+      "company": "noon",
+      "window": "older6m",
+      "file": "noon-older6m.csv"
+    },
+    {
+      "company": "nordstrom",
+      "window": "all",
+      "file": "nordstrom-all.csv"
+    },
+    {
+      "company": "nordstrom",
+      "window": "older6m",
+      "file": "nordstrom-older6m.csv"
+    },
+    {
+      "company": "notion",
+      "window": "all",
+      "file": "notion-all.csv"
+    },
+    {
+      "company": "notion",
+      "window": "older6m",
+      "file": "notion-older6m.csv"
+    },
+    {
+      "company": "nuro",
+      "window": "all",
+      "file": "nuro-all.csv"
+    },
+    {
+      "company": "nuro",
+      "window": "older6m",
+      "file": "nuro-older6m.csv"
+    },
+    {
+      "company": "nuro",
+      "window": "6m",
+      "file": "nuro-6m.csv"
+    },
+    {
+      "company": "nuro",
+      "window": "3m",
+      "file": "nuro-3m.csv"
+    },
+    {
+      "company": "nutanix",
+      "window": "all",
+      "file": "nutanix-all.csv"
+    },
+    {
+      "company": "nutanix",
+      "window": "6m",
+      "file": "nutanix-6m.csv"
+    },
+    {
+      "company": "nvidia",
+      "window": "all",
+      "file": "nvidia-all.csv"
+    },
+    {
+      "company": "nvidia",
+      "window": "older6m",
+      "file": "nvidia-older6m.csv"
+    },
+    {
+      "company": "nvidia",
+      "window": "6m",
+      "file": "nvidia-6m.csv"
+    },
+    {
+      "company": "nvidia",
+      "window": "30d",
+      "file": "nvidia-30d.csv"
+    },
+    {
+      "company": "nvidia",
+      "window": "3m",
+      "file": "nvidia-3m.csv"
+    },
+    {
+      "company": "nykaa",
+      "window": "all",
+      "file": "nykaa-all.csv"
+    },
+    {
+      "company": "nykaa",
+      "window": "older6m",
+      "file": "nykaa-older6m.csv"
+    },
+    {
+      "company": "observeai",
+      "window": "all",
+      "file": "observeai-all.csv"
+    },
+    {
+      "company": "observeai",
+      "window": "older6m",
+      "file": "observeai-older6m.csv"
+    },
+    {
+      "company": "odoo",
+      "window": "all",
+      "file": "odoo-all.csv"
+    },
+    {
+      "company": "odoo",
+      "window": "older6m",
+      "file": "odoo-older6m.csv"
+    },
+    {
+      "company": "odoo",
+      "window": "6m",
+      "file": "odoo-6m.csv"
+    },
+    {
+      "company": "okta",
+      "window": "older6m",
+      "file": "okta-older6m.csv"
+    },
+    {
+      "company": "okta",
+      "window": "6m",
+      "file": "okta-6m.csv"
+    },
+    {
+      "company": "okta",
+      "window": "3m",
+      "file": "okta-3m.csv"
+    },
+    {
+      "company": "okx",
+      "window": "all",
+      "file": "okx-all.csv"
+    },
+    {
+      "company": "okx",
+      "window": "older6m",
+      "file": "okx-older6m.csv"
+    },
+    {
+      "company": "ola",
+      "window": "30d",
+      "file": "ola-30d.csv"
+    },
+    {
+      "company": "olx",
+      "window": "all",
+      "file": "olx-all.csv"
+    },
+    {
+      "company": "olx",
+      "window": "older6m",
+      "file": "olx-older6m.csv"
+    },
+    {
+      "company": "openai",
+      "window": "all",
+      "file": "openai-all.csv"
+    },
+    {
+      "company": "openai",
+      "window": "older6m",
+      "file": "openai-older6m.csv"
+    },
+    {
+      "company": "openai",
+      "window": "6m",
+      "file": "openai-6m.csv"
+    },
+    {
+      "company": "openai",
+      "window": "3m",
+      "file": "openai-3m.csv"
+    },
+    {
+      "company": "opentext",
+      "window": "all",
+      "file": "opentext-all.csv"
+    },
+    {
+      "company": "opentext",
+      "window": "older6m",
+      "file": "opentext-older6m.csv"
+    },
+    {
+      "company": "opentext",
+      "window": "6m",
+      "file": "opentext-6m.csv"
+    },
+    {
+      "company": "opentext",
+      "window": "30d",
+      "file": "opentext-30d.csv"
+    },
+    {
+      "company": "opentext",
+      "window": "3m",
+      "file": "opentext-3m.csv"
+    },
+    {
+      "company": "oppo",
+      "window": "all",
+      "file": "oppo-all.csv"
+    },
+    {
+      "company": "oppo",
+      "window": "older6m",
+      "file": "oppo-older6m.csv"
+    },
+    {
+      "company": "optiver",
+      "window": "all",
+      "file": "optiver-all.csv"
+    },
+    {
+      "company": "optiver",
+      "window": "older6m",
+      "file": "optiver-older6m.csv"
+    },
+    {
+      "company": "optiver",
+      "window": "6m",
+      "file": "optiver-6m.csv"
+    },
+    {
+      "company": "optiver",
+      "window": "3m",
+      "file": "optiver-3m.csv"
+    },
+    {
+      "company": "optum",
+      "window": "all",
+      "file": "optum-all.csv"
+    },
+    {
+      "company": "optum",
+      "window": "older6m",
+      "file": "optum-older6m.csv"
+    },
+    {
+      "company": "optum",
+      "window": "6m",
+      "file": "optum-6m.csv"
+    },
+    {
+      "company": "optum",
+      "window": "3m",
+      "file": "optum-3m.csv"
+    },
+    {
+      "company": "oracle",
+      "window": "all",
+      "file": "oracle-all.csv"
+    },
+    {
+      "company": "oracle",
+      "window": "older6m",
+      "file": "oracle-older6m.csv"
+    },
+    {
+      "company": "oracle",
+      "window": "6m",
+      "file": "oracle-6m.csv"
+    },
+    {
+      "company": "oscar-health",
+      "window": "all",
+      "file": "oscar-health-all.csv"
+    },
+    {
+      "company": "oscar-health",
+      "window": "older6m",
+      "file": "oscar-health-older6m.csv"
+    },
+    {
+      "company": "oscar-health",
+      "window": "6m",
+      "file": "oscar-health-6m.csv"
+    },
+    {
+      "company": "otterai",
+      "window": "all",
+      "file": "otterai-all.csv"
+    },
+    {
+      "company": "otterai",
+      "window": "older6m",
+      "file": "otterai-older6m.csv"
+    },
+    {
+      "company": "oyo",
+      "window": "all",
+      "file": "oyo-all.csv"
+    },
+    {
+      "company": "oyo",
+      "window": "older6m",
+      "file": "oyo-older6m.csv"
+    },
+    {
+      "company": "oyo",
+      "window": "6m",
+      "file": "oyo-6m.csv"
+    },
+    {
+      "company": "oyo",
+      "window": "3m",
+      "file": "oyo-3m.csv"
+    },
+    {
+      "company": "ozon",
+      "window": "all",
+      "file": "ozon-all.csv"
+    },
+    {
+      "company": "ozon",
+      "window": "older6m",
+      "file": "ozon-older6m.csv"
+    },
+    {
+      "company": "palantir",
+      "window": "all",
+      "file": "palantir-all.csv"
+    },
+    {
+      "company": "palantir",
+      "window": "older6m",
+      "file": "palantir-older6m.csv"
+    },
+    {
+      "company": "palantir",
+      "window": "6m",
+      "file": "palantir-6m.csv"
+    },
+    {
+      "company": "palantir",
+      "window": "3m",
+      "file": "palantir-3m.csv"
+    },
+    {
+      "company": "palo-alto-networks",
+      "window": "all",
+      "file": "palo-alto-networks-all.csv"
+    },
+    {
+      "company": "palo-alto-networks",
+      "window": "older6m",
+      "file": "palo-alto-networks-older6m.csv"
+    },
+    {
+      "company": "palo-alto-networks",
+      "window": "6m",
+      "file": "palo-alto-networks-6m.csv"
+    },
+    {
+      "company": "palo-alto-networks",
+      "window": "30d",
+      "file": "palo-alto-networks-30d.csv"
+    },
+    {
+      "company": "palo-alto-networks",
+      "window": "3m",
+      "file": "palo-alto-networks-3m.csv"
+    },
+    {
+      "company": "park",
+      "window": "all",
+      "file": "park-all.csv"
+    },
+    {
+      "company": "park",
+      "window": "older6m",
+      "file": "park-older6m.csv"
+    },
+    {
+      "company": "patreon",
+      "window": "all",
+      "file": "patreon-all.csv"
+    },
+    {
+      "company": "patreon",
+      "window": "older6m",
+      "file": "patreon-older6m.csv"
+    },
+    {
+      "company": "paycom",
+      "window": "all",
+      "file": "paycom-all.csv"
+    },
+    {
+      "company": "paycom",
+      "window": "older6m",
+      "file": "paycom-older6m.csv"
+    },
+    {
+      "company": "paypal",
+      "window": "all",
+      "file": "paypal-all.csv"
+    },
+    {
+      "company": "paypal",
+      "window": "older6m",
+      "file": "paypal-older6m.csv"
+    },
+    {
+      "company": "paypal",
+      "window": "6m",
+      "file": "paypal-6m.csv"
+    },
+    {
+      "company": "paypay",
+      "window": "all",
+      "file": "paypay-all.csv"
+    },
+    {
+      "company": "paypay",
+      "window": "older6m",
+      "file": "paypay-older6m.csv"
+    },
+    {
+      "company": "paytm",
+      "window": "all",
+      "file": "paytm-all.csv"
+    },
+    {
+      "company": "paytm",
+      "window": "older6m",
+      "file": "paytm-older6m.csv"
+    },
+    {
+      "company": "paytm",
+      "window": "6m",
+      "file": "paytm-6m.csv"
+    },
+    {
+      "company": "payu",
+      "window": "all",
+      "file": "payu-all.csv"
+    },
+    {
+      "company": "payu",
+      "window": "older6m",
+      "file": "payu-older6m.csv"
+    },
+    {
+      "company": "peak6",
+      "window": "all",
+      "file": "peak6-all.csv"
+    },
+    {
+      "company": "pega",
+      "window": "all",
+      "file": "pega-all.csv"
+    },
+    {
+      "company": "pega",
+      "window": "older6m",
+      "file": "pega-older6m.csv"
+    },
+    {
+      "company": "peloton",
+      "window": "all",
+      "file": "peloton-all.csv"
+    },
+    {
+      "company": "peloton",
+      "window": "older6m",
+      "file": "peloton-older6m.csv"
+    },
+    {
+      "company": "persistent-systems",
+      "window": "all",
+      "file": "persistent-systems-all.csv"
+    },
+    {
+      "company": "persistent-systems",
+      "window": "older6m",
+      "file": "persistent-systems-older6m.csv"
+    },
+    {
+      "company": "philips",
+      "window": "all",
+      "file": "philips-all.csv"
+    },
+    {
+      "company": "philips",
+      "window": "older6m",
+      "file": "philips-older6m.csv"
+    },
+    {
+      "company": "phonepe",
+      "window": "all",
+      "file": "phonepe-all.csv"
+    },
+    {
+      "company": "phonepe",
+      "window": "older6m",
+      "file": "phonepe-older6m.csv"
+    },
+    {
+      "company": "phonepe",
+      "window": "6m",
+      "file": "phonepe-6m.csv"
+    },
+    {
+      "company": "phonepe",
+      "window": "30d",
+      "file": "phonepe-30d.csv"
+    },
+    {
+      "company": "phonepe",
+      "window": "3m",
+      "file": "phonepe-3m.csv"
+    },
+    {
+      "company": "pickrr",
+      "window": "all",
+      "file": "pickrr-all.csv"
+    },
+    {
+      "company": "pickrr",
+      "window": "older6m",
+      "file": "pickrr-older6m.csv"
+    },
+    {
+      "company": "pinterest",
+      "window": "all",
+      "file": "pinterest-all.csv"
+    },
+    {
+      "company": "pinterest",
+      "window": "older6m",
+      "file": "pinterest-older6m.csv"
+    },
+    {
+      "company": "pinterest",
+      "window": "6m",
+      "file": "pinterest-6m.csv"
+    },
+    {
+      "company": "pinterest",
+      "window": "30d",
+      "file": "pinterest-30d.csv"
+    },
+    {
+      "company": "pinterest",
+      "window": "3m",
+      "file": "pinterest-3m.csv"
+    },
+    {
+      "company": "plaid",
+      "window": "all",
+      "file": "plaid-all.csv"
+    },
+    {
+      "company": "plaid",
+      "window": "older6m",
+      "file": "plaid-older6m.csv"
+    },
+    {
+      "company": "playsimple",
+      "window": "all",
+      "file": "playsimple-all.csv"
+    },
+    {
+      "company": "pocket-gems",
+      "window": "all",
+      "file": "pocket-gems-all.csv"
+    },
+    {
+      "company": "pocket-gems",
+      "window": "older6m",
+      "file": "pocket-gems-older6m.csv"
+    },
+    {
+      "company": "point72",
+      "window": "all",
+      "file": "point72-all.csv"
+    },
+    {
+      "company": "point72",
+      "window": "older6m",
+      "file": "point72-older6m.csv"
+    },
+    {
+      "company": "point72",
+      "window": "6m",
+      "file": "point72-6m.csv"
+    },
+    {
+      "company": "polar",
+      "window": "all",
+      "file": "polar-all.csv"
+    },
+    {
+      "company": "polar",
+      "window": "older6m",
+      "file": "polar-older6m.csv"
+    },
+    {
+      "company": "ponyai",
+      "window": "all",
+      "file": "ponyai-all.csv"
+    },
+    {
+      "company": "ponyai",
+      "window": "older6m",
+      "file": "ponyai-older6m.csv"
+    },
+    {
+      "company": "pornhub",
+      "window": "all",
+      "file": "pornhub-all.csv"
+    },
+    {
+      "company": "pornhub",
+      "window": "older6m",
+      "file": "pornhub-older6m.csv"
+    },
+    {
+      "company": "porter",
+      "window": "all",
+      "file": "porter-all.csv"
+    },
+    {
+      "company": "porter",
+      "window": "older6m",
+      "file": "porter-older6m.csv"
+    },
+    {
+      "company": "poshmark",
+      "window": "all",
+      "file": "poshmark-all.csv"
+    },
+    {
+      "company": "poshmark",
+      "window": "older6m",
+      "file": "poshmark-older6m.csv"
+    },
+    {
+      "company": "postman",
+      "window": "all",
+      "file": "postman-all.csv"
+    },
+    {
+      "company": "postmates",
+      "window": "all",
+      "file": "postmates-all.csv"
+    },
+    {
+      "company": "postmates",
+      "window": "older6m",
+      "file": "postmates-older6m.csv"
+    },
+    {
+      "company": "poynt",
+      "window": "all",
+      "file": "poynt-all.csv"
+    },
+    {
+      "company": "poynt",
+      "window": "older6m",
+      "file": "poynt-older6m.csv"
+    },
+    {
+      "company": "publicis-sapient",
+      "window": "all",
+      "file": "publicis-sapient-all.csv"
+    },
+    {
+      "company": "publicis-sapient",
+      "window": "older6m",
+      "file": "publicis-sapient-older6m.csv"
+    },
+    {
+      "company": "pubmatic",
+      "window": "all",
+      "file": "pubmatic-all.csv"
+    },
+    {
+      "company": "pubmatic",
+      "window": "older6m",
+      "file": "pubmatic-older6m.csv"
+    },
+    {
+      "company": "pure-storage",
+      "window": "all",
+      "file": "pure-storage-all.csv"
+    },
+    {
+      "company": "pure-storage",
+      "window": "older6m",
+      "file": "pure-storage-older6m.csv"
+    },
+    {
+      "company": "pure-storage",
+      "window": "6m",
+      "file": "pure-storage-6m.csv"
+    },
+    {
+      "company": "pure",
+      "window": "all",
+      "file": "pure-all.csv"
+    },
+    {
+      "company": "pure",
+      "window": "older6m",
+      "file": "pure-older6m.csv"
+    },
+    {
+      "company": "purplle",
+      "window": "all",
+      "file": "purplle-all.csv"
+    },
+    {
+      "company": "purplle",
+      "window": "older6m",
+      "file": "purplle-older6m.csv"
+    },
+    {
+      "company": "pwc",
+      "window": "all",
+      "file": "pwc-all.csv"
+    },
+    {
+      "company": "pwc",
+      "window": "older6m",
+      "file": "pwc-older6m.csv"
+    },
+    {
+      "company": "pwc",
+      "window": "6m",
+      "file": "pwc-6m.csv"
+    },
+    {
+      "company": "qualcomm",
+      "window": "all",
+      "file": "qualcomm-all.csv"
+    },
+    {
+      "company": "qualcomm",
+      "window": "older6m",
+      "file": "qualcomm-older6m.csv"
+    },
+    {
+      "company": "qualcomm",
+      "window": "6m",
+      "file": "qualcomm-6m.csv"
+    },
+    {
+      "company": "qualcomm",
+      "window": "3m",
+      "file": "qualcomm-3m.csv"
+    },
+    {
+      "company": "qualtrics",
+      "window": "all",
+      "file": "qualtrics-all.csv"
+    },
+    {
+      "company": "qualtrics",
+      "window": "older6m",
+      "file": "qualtrics-older6m.csv"
+    },
+    {
+      "company": "qualys",
+      "window": "all",
+      "file": "qualys-all.csv"
+    },
+    {
+      "company": "qualys",
+      "window": "older6m",
+      "file": "qualys-older6m.csv"
+    },
+    {
+      "company": "quantcast",
+      "window": "all",
+      "file": "quantcast-all.csv"
+    },
+    {
+      "company": "quantcast",
+      "window": "older6m",
+      "file": "quantcast-older6m.csv"
+    },
+    {
+      "company": "quantiphi",
+      "window": "all",
+      "file": "quantiphi-all.csv"
+    },
+    {
+      "company": "quantiphi",
+      "window": "older6m",
+      "file": "quantiphi-older6m.csv"
+    },
+    {
+      "company": "quince",
+      "window": "all",
+      "file": "quince-all.csv"
+    },
+    {
+      "company": "quince",
+      "window": "older6m",
+      "file": "quince-older6m.csv"
+    },
+    {
+      "company": "quince",
+      "window": "6m",
+      "file": "quince-6m.csv"
+    },
+    {
+      "company": "quince",
+      "window": "30d",
+      "file": "quince-30d.csv"
+    },
+    {
+      "company": "quince",
+      "window": "3m",
+      "file": "quince-3m.csv"
+    },
+    {
+      "company": "quora",
+      "window": "all",
+      "file": "quora-all.csv"
+    },
+    {
+      "company": "quora",
+      "window": "older6m",
+      "file": "quora-older6m.csv"
+    },
+    {
+      "company": "quora",
+      "window": "6m",
+      "file": "quora-6m.csv"
+    },
+    {
+      "company": "rackspace",
+      "window": "all",
+      "file": "rackspace-all.csv"
+    },
+    {
+      "company": "rackspace",
+      "window": "older6m",
+      "file": "rackspace-older6m.csv"
+    },
+    {
+      "company": "radius",
+      "window": "all",
+      "file": "radius-all.csv"
+    },
+    {
+      "company": "radius",
+      "window": "older6m",
+      "file": "radius-older6m.csv"
+    },
+    {
+      "company": "rakuten",
+      "window": "all",
+      "file": "rakuten-all.csv"
+    },
+    {
+      "company": "rakuten",
+      "window": "older6m",
+      "file": "rakuten-older6m.csv"
+    },
+    {
+      "company": "rally-health",
+      "window": "all",
+      "file": "rally-health-all.csv"
+    },
+    {
+      "company": "rally-health",
+      "window": "older6m",
+      "file": "rally-health-older6m.csv"
+    },
+    {
+      "company": "ramp-2",
+      "window": "all",
+      "file": "ramp-2-all.csv"
+    },
+    {
+      "company": "ramp-2",
+      "window": "older6m",
+      "file": "ramp-2-older6m.csv"
+    },
+    {
+      "company": "razorpay",
+      "window": "all",
+      "file": "razorpay-all.csv"
+    },
+    {
+      "company": "razorpay",
+      "window": "older6m",
+      "file": "razorpay-older6m.csv"
+    },
+    {
+      "company": "rbc",
+      "window": "all",
+      "file": "rbc-all.csv"
+    },
+    {
+      "company": "rbc",
+      "window": "older6m",
+      "file": "rbc-older6m.csv"
+    },
+    {
+      "company": "redbus",
+      "window": "all",
+      "file": "redbus-all.csv"
+    },
+    {
+      "company": "redbus",
+      "window": "older6m",
+      "file": "redbus-older6m.csv"
+    },
+    {
+      "company": "reddit",
+      "window": "all",
+      "file": "reddit-all.csv"
+    },
+    {
+      "company": "reddit",
+      "window": "older6m",
+      "file": "reddit-older6m.csv"
+    },
+    {
+      "company": "reddit",
+      "window": "6m",
+      "file": "reddit-6m.csv"
+    },
+    {
+      "company": "redfin",
+      "window": "all",
+      "file": "redfin-all.csv"
+    },
+    {
+      "company": "redfin",
+      "window": "older6m",
+      "file": "redfin-older6m.csv"
+    },
+    {
+      "company": "reliance-retails",
+      "window": "all",
+      "file": "reliance-retails-all.csv"
+    },
+    {
+      "company": "remitly",
+      "window": "all",
+      "file": "remitly-all.csv"
+    },
+    {
+      "company": "remitly",
+      "window": "older6m",
+      "file": "remitly-older6m.csv"
+    },
+    {
+      "company": "remotestate",
+      "window": "all",
+      "file": "remotestate-all.csv"
+    },
+    {
+      "company": "remotestate",
+      "window": "older6m",
+      "file": "remotestate-older6m.csv"
+    },
+    {
+      "company": "retailmenot",
+      "window": "all",
+      "file": "retailmenot-all.csv"
+    },
+    {
+      "company": "retailmenot",
+      "window": "older6m",
+      "file": "retailmenot-older6m.csv"
+    },
+    {
+      "company": "revolut",
+      "window": "all",
+      "file": "revolut-all.csv"
+    },
+    {
+      "company": "revolut",
+      "window": "older6m",
+      "file": "revolut-older6m.csv"
+    },
+    {
+      "company": "revolut",
+      "window": "6m",
+      "file": "revolut-6m.csv"
+    },
+    {
+      "company": "riot-games",
+      "window": "all",
+      "file": "riot-games-all.csv"
+    },
+    {
+      "company": "riot-games",
+      "window": "older6m",
+      "file": "riot-games-older6m.csv"
+    },
+    {
+      "company": "ripple",
+      "window": "all",
+      "file": "ripple-all.csv"
+    },
+    {
+      "company": "ripple",
+      "window": "older6m",
+      "file": "ripple-older6m.csv"
+    },
+    {
+      "company": "rippling",
+      "window": "all",
+      "file": "rippling-all.csv"
+    },
+    {
+      "company": "rippling",
+      "window": "older6m",
+      "file": "rippling-older6m.csv"
+    },
+    {
+      "company": "rippling",
+      "window": "6m",
+      "file": "rippling-6m.csv"
+    },
+    {
+      "company": "rippling",
+      "window": "3m",
+      "file": "rippling-3m.csv"
+    },
+    {
+      "company": "rivian",
+      "window": "all",
+      "file": "rivian-all.csv"
+    },
+    {
+      "company": "rivian",
+      "window": "older6m",
+      "file": "rivian-older6m.csv"
+    },
+    {
+      "company": "rivian",
+      "window": "6m",
+      "file": "rivian-6m.csv"
+    },
+    {
+      "company": "robinhood",
+      "window": "all",
+      "file": "robinhood-all.csv"
+    },
+    {
+      "company": "robinhood",
+      "window": "older6m",
+      "file": "robinhood-older6m.csv"
+    },
+    {
+      "company": "robinhood",
+      "window": "6m",
+      "file": "robinhood-6m.csv"
+    },
+    {
+      "company": "robinhood",
+      "window": "3m",
+      "file": "robinhood-3m.csv"
+    },
+    {
+      "company": "roblox",
+      "window": "all",
+      "file": "roblox-all.csv"
+    },
+    {
+      "company": "roblox",
+      "window": "older6m",
+      "file": "roblox-older6m.csv"
+    },
+    {
+      "company": "roblox",
+      "window": "6m",
+      "file": "roblox-6m.csv"
+    },
+    {
+      "company": "roblox",
+      "window": "3m",
+      "file": "roblox-3m.csv"
+    },
+    {
+      "company": "rokt",
+      "window": "all",
+      "file": "rokt-all.csv"
+    },
+    {
+      "company": "rokt",
+      "window": "older6m",
+      "file": "rokt-older6m.csv"
+    },
+    {
+      "company": "roku",
+      "window": "all",
+      "file": "roku-all.csv"
+    },
+    {
+      "company": "roku",
+      "window": "older6m",
+      "file": "roku-older6m.csv"
+    },
+    {
+      "company": "rubrik",
+      "window": "all",
+      "file": "rubrik-all.csv"
+    },
+    {
+      "company": "rubrik",
+      "window": "older6m",
+      "file": "rubrik-older6m.csv"
+    },
+    {
+      "company": "rubrik",
+      "window": "6m",
+      "file": "rubrik-6m.csv"
+    },
+    {
+      "company": "rupeek",
+      "window": "all",
+      "file": "rupeek-all.csv"
+    },
+    {
+      "company": "rupeek",
+      "window": "6m",
+      "file": "rupeek-6m.csv"
+    },
+    {
+      "company": "salesforce",
+      "window": "all",
+      "file": "salesforce-all.csv"
+    },
+    {
+      "company": "salesforce",
+      "window": "older6m",
+      "file": "salesforce-older6m.csv"
+    },
+    {
+      "company": "salesforce",
+      "window": "6m",
+      "file": "salesforce-6m.csv"
+    },
+    {
+      "company": "salesforce",
+      "window": "30d",
+      "file": "salesforce-30d.csv"
+    },
+    {
+      "company": "salesforce",
+      "window": "3m",
+      "file": "salesforce-3m.csv"
+    },
+    {
+      "company": "sambanova",
+      "window": "all",
+      "file": "sambanova-all.csv"
+    },
+    {
+      "company": "samsara",
+      "window": "all",
+      "file": "samsara-all.csv"
+    },
+    {
+      "company": "samsara",
+      "window": "older6m",
+      "file": "samsara-older6m.csv"
+    },
+    {
+      "company": "samsung",
+      "window": "all",
+      "file": "samsung-all.csv"
+    },
+    {
+      "company": "samsung",
+      "window": "older6m",
+      "file": "samsung-older6m.csv"
+    },
+    {
+      "company": "samsung",
+      "window": "6m",
+      "file": "samsung-6m.csv"
+    },
+    {
+      "company": "sap",
+      "window": "all",
+      "file": "sap-all.csv"
+    },
+    {
+      "company": "sap",
+      "window": "older6m",
+      "file": "sap-older6m.csv"
+    },
+    {
+      "company": "sap",
+      "window": "6m",
+      "file": "sap-6m.csv"
+    },
+    {
+      "company": "scale-ai",
+      "window": "all",
+      "file": "scale-ai-all.csv"
+    },
+    {
+      "company": "scaler",
+      "window": "all",
+      "file": "scaler-all.csv"
+    },
+    {
+      "company": "scaler",
+      "window": "6m",
+      "file": "scaler-6m.csv"
+    },
+    {
+      "company": "scaler",
+      "window": "3m",
+      "file": "scaler-3m.csv"
+    },
+    {
+      "company": "schlumberger",
+      "window": "all",
+      "file": "schlumberger-all.csv"
+    },
+    {
+      "company": "schlumberger",
+      "window": "older6m",
+      "file": "schlumberger-older6m.csv"
+    },
+    {
+      "company": "schneider-electric",
+      "window": "all",
+      "file": "schneider-electric-all.csv"
+    },
+    {
+      "company": "schneider-electric",
+      "window": "older6m",
+      "file": "schneider-electric-older6m.csv"
+    },
+    {
+      "company": "schrodinger",
+      "window": "all",
+      "file": "schrodinger-all.csv"
+    },
+    {
+      "company": "schrodinger",
+      "window": "6m",
+      "file": "schrodinger-6m.csv"
+    },
+    {
+      "company": "schrodinger",
+      "window": "3m",
+      "file": "schrodinger-3m.csv"
+    },
+    {
+      "company": "sentry",
+      "window": "all",
+      "file": "sentry-all.csv"
+    },
+    {
+      "company": "sentry",
+      "window": "older6m",
+      "file": "sentry-older6m.csv"
+    },
+    {
+      "company": "servicenow",
+      "window": "all",
+      "file": "servicenow-all.csv"
+    },
+    {
+      "company": "servicenow",
+      "window": "older6m",
+      "file": "servicenow-older6m.csv"
+    },
+    {
+      "company": "sharechat",
+      "window": "all",
+      "file": "sharechat-all.csv"
+    },
+    {
+      "company": "sharechat",
+      "window": "older6m",
+      "file": "sharechat-older6m.csv"
+    },
+    {
+      "company": "shift-technology",
+      "window": "all",
+      "file": "shift-technology-all.csv"
+    },
+    {
+      "company": "shift-technology",
+      "window": "older6m",
+      "file": "shift-technology-older6m.csv"
+    },
+    {
+      "company": "shift-technology",
+      "window": "6m",
+      "file": "shift-technology-6m.csv"
+    },
+    {
+      "company": "shipsy",
+      "window": "all",
+      "file": "shipsy-all.csv"
+    },
+    {
+      "company": "shipsy",
+      "window": "older6m",
+      "file": "shipsy-older6m.csv"
+    },
+    {
+      "company": "shopback",
+      "window": "all",
+      "file": "shopback-all.csv"
+    },
+    {
+      "company": "shopback",
+      "window": "6m",
+      "file": "shopback-6m.csv"
+    },
+    {
+      "company": "shopee",
+      "window": "all",
+      "file": "shopee-all.csv"
+    },
+    {
+      "company": "shopee",
+      "window": "older6m",
+      "file": "shopee-older6m.csv"
+    },
+    {
+      "company": "shopify",
+      "window": "all",
+      "file": "shopify-all.csv"
+    },
+    {
+      "company": "shopify",
+      "window": "older6m",
+      "file": "shopify-older6m.csv"
+    },
+    {
+      "company": "shopup",
+      "window": "all",
+      "file": "shopup-all.csv"
+    },
+    {
+      "company": "shopup",
+      "window": "6m",
+      "file": "shopup-6m.csv"
+    },
+    {
+      "company": "siemens",
+      "window": "all",
+      "file": "siemens-all.csv"
+    },
+    {
+      "company": "siemens",
+      "window": "older6m",
+      "file": "siemens-older6m.csv"
+    },
+    {
+      "company": "siemens",
+      "window": "6m",
+      "file": "siemens-6m.csv"
+    },
+    {
+      "company": "sig",
+      "window": "all",
+      "file": "sig-all.csv"
+    },
+    {
+      "company": "sig",
+      "window": "older6m",
+      "file": "sig-older6m.csv"
+    },
+    {
+      "company": "sig",
+      "window": "6m",
+      "file": "sig-6m.csv"
+    },
+    {
+      "company": "sigmoid",
+      "window": "all",
+      "file": "sigmoid-all.csv"
+    },
+    {
+      "company": "sigmoid",
+      "window": "older6m",
+      "file": "sigmoid-older6m.csv"
+    },
+    {
+      "company": "sigmoid",
+      "window": "6m",
+      "file": "sigmoid-6m.csv"
+    },
+    {
+      "company": "singlestore",
+      "window": "all",
+      "file": "singlestore-all.csv"
+    },
+    {
+      "company": "singlestore",
+      "window": "older6m",
+      "file": "singlestore-older6m.csv"
+    },
+    {
+      "company": "sixt",
+      "window": "all",
+      "file": "sixt-all.csv"
+    },
+    {
+      "company": "sixt",
+      "window": "older6m",
+      "file": "sixt-older6m.csv"
+    },
+    {
+      "company": "slice",
+      "window": "all",
+      "file": "slice-all.csv"
+    },
+    {
+      "company": "slice",
+      "window": "older6m",
+      "file": "slice-older6m.csv"
+    },
+    {
+      "company": "smartnews",
+      "window": "all",
+      "file": "smartnews-all.csv"
+    },
+    {
+      "company": "smartnews",
+      "window": "older6m",
+      "file": "smartnews-older6m.csv"
+    },
+    {
+      "company": "smartsheet",
+      "window": "all",
+      "file": "smartsheet-all.csv"
+    },
+    {
+      "company": "snapchat",
+      "window": "all",
+      "file": "snapchat-all.csv"
+    },
+    {
+      "company": "snapchat",
+      "window": "older6m",
+      "file": "snapchat-older6m.csv"
+    },
+    {
+      "company": "snapchat",
+      "window": "6m",
+      "file": "snapchat-6m.csv"
+    },
+    {
+      "company": "snapchat",
+      "window": "30d",
+      "file": "snapchat-30d.csv"
+    },
+    {
+      "company": "snapchat",
+      "window": "3m",
+      "file": "snapchat-3m.csv"
+    },
+    {
+      "company": "snapdeal",
+      "window": "all",
+      "file": "snapdeal-all.csv"
+    },
+    {
+      "company": "snapdeal",
+      "window": "older6m",
+      "file": "snapdeal-older6m.csv"
+    },
+    {
+      "company": "snowflake",
+      "window": "all",
+      "file": "snowflake-all.csv"
+    },
+    {
+      "company": "snowflake",
+      "window": "older6m",
+      "file": "snowflake-older6m.csv"
+    },
+    {
+      "company": "snowflake",
+      "window": "6m",
+      "file": "snowflake-6m.csv"
+    },
+    {
+      "company": "snowflake",
+      "window": "30d",
+      "file": "snowflake-30d.csv"
+    },
+    {
+      "company": "snowflake",
+      "window": "3m",
+      "file": "snowflake-3m.csv"
+    },
+    {
+      "company": "societe-generale",
+      "window": "all",
+      "file": "societe-generale-all.csv"
+    },
+    {
+      "company": "societe-generale",
+      "window": "older6m",
+      "file": "societe-generale-older6m.csv"
+    },
+    {
+      "company": "sofi",
+      "window": "all",
+      "file": "sofi-all.csv"
+    },
+    {
+      "company": "sofi",
+      "window": "older6m",
+      "file": "sofi-older6m.csv"
+    },
+    {
+      "company": "sofi",
+      "window": "6m",
+      "file": "sofi-6m.csv"
+    },
+    {
+      "company": "softwire",
+      "window": "all",
+      "file": "softwire-all.csv"
+    },
+    {
+      "company": "softwire",
+      "window": "older6m",
+      "file": "softwire-older6m.csv"
+    },
+    {
+      "company": "sonatus",
+      "window": "all",
+      "file": "sonatus-all.csv"
+    },
+    {
+      "company": "sonatus",
+      "window": "6m",
+      "file": "sonatus-6m.csv"
+    },
+    {
+      "company": "sonatus",
+      "window": "30d",
+      "file": "sonatus-30d.csv"
+    },
+    {
+      "company": "sonatus",
+      "window": "3m",
+      "file": "sonatus-3m.csv"
+    },
+    {
+      "company": "sony",
+      "window": "all",
+      "file": "sony-all.csv"
+    },
+    {
+      "company": "sony",
+      "window": "older6m",
+      "file": "sony-older6m.csv"
+    },
+    {
+      "company": "sony",
+      "window": "6m",
+      "file": "sony-6m.csv"
+    },
+    {
+      "company": "soti",
+      "window": "all",
+      "file": "soti-all.csv"
+    },
+    {
+      "company": "soti",
+      "window": "older6m",
+      "file": "soti-older6m.csv"
+    },
+    {
+      "company": "soundhound",
+      "window": "all",
+      "file": "soundhound-all.csv"
+    },
+    {
+      "company": "soundhound",
+      "window": "older6m",
+      "file": "soundhound-older6m.csv"
+    },
+    {
+      "company": "spacex",
+      "window": "all",
+      "file": "spacex-all.csv"
+    },
+    {
+      "company": "spacex",
+      "window": "6m",
+      "file": "spacex-6m.csv"
+    },
+    {
+      "company": "spinny",
+      "window": "all",
+      "file": "spinny-all.csv"
+    },
+    {
+      "company": "spinny",
+      "window": "older6m",
+      "file": "spinny-older6m.csv"
+    },
+    {
+      "company": "spinny",
+      "window": "6m",
+      "file": "spinny-6m.csv"
+    },
+    {
+      "company": "splunk",
+      "window": "all",
+      "file": "splunk-all.csv"
+    },
+    {
+      "company": "splunk",
+      "window": "older6m",
+      "file": "splunk-older6m.csv"
+    },
+    {
+      "company": "spotify",
+      "window": "all",
+      "file": "spotify-all.csv"
+    },
+    {
+      "company": "spotify",
+      "window": "older6m",
+      "file": "spotify-older6m.csv"
+    },
+    {
+      "company": "spotify",
+      "window": "6m",
+      "file": "spotify-6m.csv"
+    },
+    {
+      "company": "spotify",
+      "window": "3m",
+      "file": "spotify-3m.csv"
+    },
+    {
+      "company": "sprinklr",
+      "window": "all",
+      "file": "sprinklr-all.csv"
+    },
+    {
+      "company": "sprinklr",
+      "window": "older6m",
+      "file": "sprinklr-older6m.csv"
+    },
+    {
+      "company": "sprinklr",
+      "window": "6m",
+      "file": "sprinklr-6m.csv"
+    },
+    {
+      "company": "sprinklr",
+      "window": "30d",
+      "file": "sprinklr-30d.csv"
+    },
+    {
+      "company": "sprinklr",
+      "window": "3m",
+      "file": "sprinklr-3m.csv"
+    },
+    {
+      "company": "square",
+      "window": "all",
+      "file": "square-all.csv"
+    },
+    {
+      "company": "square",
+      "window": "older6m",
+      "file": "square-older6m.csv"
+    },
+    {
+      "company": "squarepoint-capital",
+      "window": "all",
+      "file": "squarepoint-capital-all.csv"
+    },
+    {
+      "company": "squarepoint-capital",
+      "window": "older6m",
+      "file": "squarepoint-capital-older6m.csv"
+    },
+    {
+      "company": "squarepoint-capital",
+      "window": "6m",
+      "file": "squarepoint-capital-6m.csv"
+    },
+    {
+      "company": "squarespace",
+      "window": "all",
+      "file": "squarespace-all.csv"
+    },
+    {
+      "company": "squarespace",
+      "window": "older6m",
+      "file": "squarespace-older6m.csv"
+    },
+    {
+      "company": "squarespace",
+      "window": "6m",
+      "file": "squarespace-6m.csv"
+    },
+    {
+      "company": "stackadapt",
+      "window": "all",
+      "file": "stackadapt-all.csv"
+    },
+    {
+      "company": "stackadapt",
+      "window": "older6m",
+      "file": "stackadapt-older6m.csv"
+    },
+    {
+      "company": "stackline",
+      "window": "all",
+      "file": "stackline-all.csv"
+    },
+    {
+      "company": "stackline",
+      "window": "older6m",
+      "file": "stackline-older6m.csv"
+    },
+    {
+      "company": "starbucks",
+      "window": "all",
+      "file": "starbucks-all.csv"
+    },
+    {
+      "company": "starbucks",
+      "window": "older6m",
+      "file": "starbucks-older6m.csv"
+    },
+    {
+      "company": "state-farm",
+      "window": "all",
+      "file": "state-farm-all.csv"
+    },
+    {
+      "company": "state-farm",
+      "window": "older6m",
+      "file": "state-farm-older6m.csv"
+    },
+    {
+      "company": "strava",
+      "window": "all",
+      "file": "strava-all.csv"
+    },
+    {
+      "company": "strava",
+      "window": "older6m",
+      "file": "strava-older6m.csv"
+    },
+    {
+      "company": "stripe",
+      "window": "all",
+      "file": "stripe-all.csv"
+    },
+    {
+      "company": "stripe",
+      "window": "older6m",
+      "file": "stripe-older6m.csv"
+    },
+    {
+      "company": "stripe",
+      "window": "6m",
+      "file": "stripe-6m.csv"
+    },
+    {
+      "company": "sumologic",
+      "window": "all",
+      "file": "sumologic-all.csv"
+    },
+    {
+      "company": "sumologic",
+      "window": "older6m",
+      "file": "sumologic-older6m.csv"
+    },
+    {
+      "company": "sumologic",
+      "window": "6m",
+      "file": "sumologic-6m.csv"
+    },
+    {
+      "company": "swiggy",
+      "window": "all",
+      "file": "swiggy-all.csv"
+    },
+    {
+      "company": "swiggy",
+      "window": "older6m",
+      "file": "swiggy-older6m.csv"
+    },
+    {
+      "company": "swiggy",
+      "window": "6m",
+      "file": "swiggy-6m.csv"
+    },
+    {
+      "company": "syfe",
+      "window": "all",
+      "file": "syfe-all.csv"
+    },
+    {
+      "company": "syfe",
+      "window": "older6m",
+      "file": "syfe-older6m.csv"
+    },
+    {
+      "company": "symantec",
+      "window": "all",
+      "file": "symantec-all.csv"
+    },
+    {
+      "company": "symantec",
+      "window": "older6m",
+      "file": "symantec-older6m.csv"
+    },
+    {
+      "company": "synopsys",
+      "window": "all",
+      "file": "synopsys-all.csv"
+    },
+    {
+      "company": "synopsys",
+      "window": "older6m",
+      "file": "synopsys-older6m.csv"
+    },
+    {
+      "company": "ta-digital",
+      "window": "all",
+      "file": "ta-digital-all.csv"
+    },
+    {
+      "company": "ta-digital",
+      "window": "older6m",
+      "file": "ta-digital-older6m.csv"
+    },
+    {
+      "company": "tableau",
+      "window": "all",
+      "file": "tableau-all.csv"
+    },
+    {
+      "company": "tableau",
+      "window": "older6m",
+      "file": "tableau-older6m.csv"
+    },
+    {
+      "company": "tanium",
+      "window": "all",
+      "file": "tanium-all.csv"
+    },
+    {
+      "company": "tanium",
+      "window": "older6m",
+      "file": "tanium-older6m.csv"
+    },
+    {
+      "company": "target",
+      "window": "all",
+      "file": "target-all.csv"
+    },
+    {
+      "company": "target",
+      "window": "older6m",
+      "file": "target-older6m.csv"
+    },
+    {
+      "company": "tcs",
+      "window": "all",
+      "file": "tcs-all.csv"
+    },
+    {
+      "company": "tcs",
+      "window": "older6m",
+      "file": "tcs-older6m.csv"
+    },
+    {
+      "company": "tcs",
+      "window": "6m",
+      "file": "tcs-6m.csv"
+    },
+    {
+      "company": "tcs",
+      "window": "30d",
+      "file": "tcs-30d.csv"
+    },
+    {
+      "company": "tcs",
+      "window": "3m",
+      "file": "tcs-3m.csv"
+    },
+    {
+      "company": "tech-mahindra",
+      "window": "all",
+      "file": "tech-mahindra-all.csv"
+    },
+    {
+      "company": "tech-mahindra",
+      "window": "older6m",
+      "file": "tech-mahindra-older6m.csv"
+    },
+    {
+      "company": "techolution",
+      "window": "all",
+      "file": "techolution-all.csv"
+    },
+    {
+      "company": "techolution",
+      "window": "older6m",
+      "file": "techolution-older6m.csv"
+    },
+    {
+      "company": "tekion",
+      "window": "all",
+      "file": "tekion-all.csv"
+    },
+    {
+      "company": "tekion",
+      "window": "older6m",
+      "file": "tekion-older6m.csv"
+    },
+    {
+      "company": "tekion",
+      "window": "6m",
+      "file": "tekion-6m.csv"
+    },
+    {
+      "company": "tekion",
+      "window": "30d",
+      "file": "tekion-30d.csv"
+    },
+    {
+      "company": "tekion",
+      "window": "3m",
+      "file": "tekion-3m.csv"
+    },
+    {
+      "company": "tencent",
+      "window": "all",
+      "file": "tencent-all.csv"
+    },
+    {
+      "company": "tencent",
+      "window": "older6m",
+      "file": "tencent-older6m.csv"
+    },
+    {
+      "company": "tencent",
+      "window": "6m",
+      "file": "tencent-6m.csv"
+    },
+    {
+      "company": "teradata",
+      "window": "all",
+      "file": "teradata-all.csv"
+    },
+    {
+      "company": "teradata",
+      "window": "older6m",
+      "file": "teradata-older6m.csv"
+    },
+    {
+      "company": "tesco",
+      "window": "all",
+      "file": "tesco-all.csv"
+    },
+    {
+      "company": "tesco",
+      "window": "older6m",
+      "file": "tesco-older6m.csv"
+    },
+    {
+      "company": "tesla",
+      "window": "all",
+      "file": "tesla-all.csv"
+    },
+    {
+      "company": "tesla",
+      "window": "older6m",
+      "file": "tesla-older6m.csv"
+    },
+    {
+      "company": "tesla",
+      "window": "6m",
+      "file": "tesla-6m.csv"
+    },
+    {
+      "company": "tesla",
+      "window": "3m",
+      "file": "tesla-3m.csv"
+    },
+    {
+      "company": "texas-instruments",
+      "window": "all",
+      "file": "texas-instruments-all.csv"
+    },
+    {
+      "company": "texas-instruments",
+      "window": "older6m",
+      "file": "texas-instruments-older6m.csv"
+    },
+    {
+      "company": "the-trade-desk",
+      "window": "all",
+      "file": "the-trade-desk-all.csv"
+    },
+    {
+      "company": "the-trade-desk",
+      "window": "older6m",
+      "file": "the-trade-desk-older6m.csv"
+    },
+    {
+      "company": "thomson-reuters",
+      "window": "all",
+      "file": "thomson-reuters-all.csv"
+    },
+    {
+      "company": "thomson-reuters",
+      "window": "older6m",
+      "file": "thomson-reuters-older6m.csv"
+    },
+    {
+      "company": "thoughtspot",
+      "window": "all",
+      "file": "thoughtspot-all.csv"
+    },
+    {
+      "company": "thoughtspot",
+      "window": "older6m",
+      "file": "thoughtspot-older6m.csv"
+    },
+    {
+      "company": "thoughtworks",
+      "window": "all",
+      "file": "thoughtworks-all.csv"
+    },
+    {
+      "company": "thoughtworks",
+      "window": "older6m",
+      "file": "thoughtworks-older6m.csv"
+    },
+    {
+      "company": "thousandeyes",
+      "window": "all",
+      "file": "thousandeyes-all.csv"
+    },
+    {
+      "company": "thousandeyes",
+      "window": "older6m",
+      "file": "thousandeyes-older6m.csv"
+    },
+    {
+      "company": "thumbtack",
+      "window": "all",
+      "file": "thumbtack-all.csv"
+    },
+    {
+      "company": "thumbtack",
+      "window": "older6m",
+      "file": "thumbtack-older6m.csv"
+    },
+    {
+      "company": "tiaa",
+      "window": "all",
+      "file": "tiaa-all.csv"
+    },
+    {
+      "company": "tiaa",
+      "window": "older6m",
+      "file": "tiaa-older6m.csv"
+    },
+    {
+      "company": "tiger-analytics",
+      "window": "all",
+      "file": "tiger-analytics-all.csv"
+    },
+    {
+      "company": "tiger-analytics",
+      "window": "older6m",
+      "file": "tiger-analytics-older6m.csv"
+    },
+    {
+      "company": "tiktok",
+      "window": "all",
+      "file": "tiktok-all.csv"
+    },
+    {
+      "company": "tiktok",
+      "window": "older6m",
+      "file": "tiktok-older6m.csv"
+    },
+    {
+      "company": "tiktok",
+      "window": "6m",
+      "file": "tiktok-6m.csv"
+    },
+    {
+      "company": "tiktok",
+      "window": "30d",
+      "file": "tiktok-30d.csv"
+    },
+    {
+      "company": "tiktok",
+      "window": "3m",
+      "file": "tiktok-3m.csv"
+    },
+    {
+      "company": "tinder",
+      "window": "all",
+      "file": "tinder-all.csv"
+    },
+    {
+      "company": "tinder",
+      "window": "older6m",
+      "file": "tinder-older6m.csv"
+    },
+    {
+      "company": "tinder",
+      "window": "6m",
+      "file": "tinder-6m.csv"
+    },
+    {
+      "company": "tinkoff",
+      "window": "all",
+      "file": "tinkoff-all.csv"
+    },
+    {
+      "company": "tinkoff",
+      "window": "older6m",
+      "file": "tinkoff-older6m.csv"
+    },
+    {
+      "company": "toast",
+      "window": "all",
+      "file": "toast-all.csv"
+    },
+    {
+      "company": "toast",
+      "window": "older6m",
+      "file": "toast-older6m.csv"
+    },
+    {
+      "company": "toast",
+      "window": "6m",
+      "file": "toast-6m.csv"
+    },
+    {
+      "company": "tokopedia",
+      "window": "all",
+      "file": "tokopedia-all.csv"
+    },
+    {
+      "company": "tokopedia",
+      "window": "older6m",
+      "file": "tokopedia-older6m.csv"
+    },
+    {
+      "company": "tomtom",
+      "window": "all",
+      "file": "tomtom-all.csv"
+    },
+    {
+      "company": "tomtom",
+      "window": "older6m",
+      "file": "tomtom-older6m.csv"
+    },
+    {
+      "company": "toptal",
+      "window": "all",
+      "file": "toptal-all.csv"
+    },
+    {
+      "company": "toptal",
+      "window": "older6m",
+      "file": "toptal-older6m.csv"
+    },
+    {
+      "company": "tower-research",
+      "window": "all",
+      "file": "tower-research-all.csv"
+    },
+    {
+      "company": "tower-research",
+      "window": "older6m",
+      "file": "tower-research-older6m.csv"
+    },
+    {
+      "company": "toyota",
+      "window": "all",
+      "file": "toyota-all.csv"
+    },
+    {
+      "company": "tracxn",
+      "window": "all",
+      "file": "tracxn-all.csv"
+    },
+    {
+      "company": "tracxn",
+      "window": "older6m",
+      "file": "tracxn-older6m.csv"
+    },
+    {
+      "company": "traveloka",
+      "window": "all",
+      "file": "traveloka-all.csv"
+    },
+    {
+      "company": "traveloka",
+      "window": "older6m",
+      "file": "traveloka-older6m.csv"
+    },
+    {
+      "company": "trend-micro",
+      "window": "all",
+      "file": "trend-micro-all.csv"
+    },
+    {
+      "company": "trexquant",
+      "window": "all",
+      "file": "trexquant-all.csv"
+    },
+    {
+      "company": "trexquant",
+      "window": "older6m",
+      "file": "trexquant-older6m.csv"
+    },
+    {
+      "company": "trilogy",
+      "window": "all",
+      "file": "trilogy-all.csv"
+    },
+    {
+      "company": "trilogy",
+      "window": "older6m",
+      "file": "trilogy-older6m.csv"
+    },
+    {
+      "company": "tripactions",
+      "window": "all",
+      "file": "tripactions-all.csv"
+    },
+    {
+      "company": "tripactions",
+      "window": "older6m",
+      "file": "tripactions-older6m.csv"
+    },
+    {
+      "company": "tripadvisor",
+      "window": "all",
+      "file": "tripadvisor-all.csv"
+    },
+    {
+      "company": "tripadvisor",
+      "window": "older6m",
+      "file": "tripadvisor-older6m.csv"
+    },
+    {
+      "company": "tripadvisor",
+      "window": "6m",
+      "file": "tripadvisor-6m.csv"
+    },
+    {
+      "company": "triplebyte",
+      "window": "all",
+      "file": "triplebyte-all.csv"
+    },
+    {
+      "company": "triplebyte",
+      "window": "older6m",
+      "file": "triplebyte-older6m.csv"
+    },
+    {
+      "company": "turing",
+      "window": "all",
+      "file": "turing-all.csv"
+    },
+    {
+      "company": "turing",
+      "window": "older6m",
+      "file": "turing-older6m.csv"
+    },
+    {
+      "company": "turing",
+      "window": "6m",
+      "file": "turing-6m.csv"
+    },
+    {
+      "company": "turvo",
+      "window": "all",
+      "file": "turvo-all.csv"
+    },
+    {
+      "company": "turvo",
+      "window": "older6m",
+      "file": "turvo-older6m.csv"
+    },
+    {
+      "company": "tusimple",
+      "window": "all",
+      "file": "tusimple-all.csv"
+    },
+    {
+      "company": "tusimple",
+      "window": "older6m",
+      "file": "tusimple-older6m.csv"
+    },
+    {
+      "company": "twilio",
+      "window": "all",
+      "file": "twilio-all.csv"
+    },
+    {
+      "company": "twilio",
+      "window": "older6m",
+      "file": "twilio-older6m.csv"
+    },
+    {
+      "company": "twilio",
+      "window": "6m",
+      "file": "twilio-6m.csv"
+    },
+    {
+      "company": "twitch",
+      "window": "all",
+      "file": "twitch-all.csv"
+    },
+    {
+      "company": "twitch",
+      "window": "older6m",
+      "file": "twitch-older6m.csv"
+    },
+    {
+      "company": "twitch",
+      "window": "6m",
+      "file": "twitch-6m.csv"
+    },
+    {
+      "company": "twitter",
+      "window": "all",
+      "file": "twitter-all.csv"
+    },
+    {
+      "company": "twitter",
+      "window": "older6m",
+      "file": "twitter-older6m.csv"
+    },
+    {
+      "company": "two-sigma",
+      "window": "all",
+      "file": "two-sigma-all.csv"
+    },
+    {
+      "company": "two-sigma",
+      "window": "older6m",
+      "file": "two-sigma-older6m.csv"
+    },
+    {
+      "company": "two-sigma",
+      "window": "6m",
+      "file": "two-sigma-6m.csv"
+    },
+    {
+      "company": "uber",
+      "window": "all",
+      "file": "uber-all.csv"
+    },
+    {
+      "company": "uber",
+      "window": "older6m",
+      "file": "uber-older6m.csv"
+    },
+    {
+      "company": "uber",
+      "window": "6m",
+      "file": "uber-6m.csv"
+    },
+    {
+      "company": "uber",
+      "window": "30d",
+      "file": "uber-30d.csv"
+    },
+    {
+      "company": "uber",
+      "window": "3m",
+      "file": "uber-3m.csv"
+    },
+    {
+      "company": "ubisoft",
+      "window": "all",
+      "file": "ubisoft-all.csv"
+    },
+    {
+      "company": "ubisoft",
+      "window": "older6m",
+      "file": "ubisoft-older6m.csv"
+    },
+    {
+      "company": "ubs",
+      "window": "all",
+      "file": "ubs-all.csv"
+    },
+    {
+      "company": "ubs",
+      "window": "older6m",
+      "file": "ubs-older6m.csv"
+    },
+    {
+      "company": "udemy",
+      "window": "all",
+      "file": "udemy-all.csv"
+    },
+    {
+      "company": "udemy",
+      "window": "older6m",
+      "file": "udemy-older6m.csv"
+    },
+    {
+      "company": "uipath",
+      "window": "all",
+      "file": "uipath-all.csv"
+    },
+    {
+      "company": "uipath",
+      "window": "older6m",
+      "file": "uipath-older6m.csv"
+    },
+    {
+      "company": "uipath",
+      "window": "6m",
+      "file": "uipath-6m.csv"
+    },
+    {
+      "company": "uipath",
+      "window": "3m",
+      "file": "uipath-3m.csv"
+    },
+    {
+      "company": "ukg",
+      "window": "all",
+      "file": "ukg-all.csv"
+    },
+    {
+      "company": "ukg",
+      "window": "older6m",
+      "file": "ukg-older6m.csv"
+    },
+    {
+      "company": "unbxd",
+      "window": "all",
+      "file": "unbxd-all.csv"
+    },
+    {
+      "company": "unbxd",
+      "window": "older6m",
+      "file": "unbxd-older6m.csv"
+    },
+    {
+      "company": "unifyapps",
+      "window": "all",
+      "file": "unifyapps-all.csv"
+    },
+    {
+      "company": "unifyapps",
+      "window": "older6m",
+      "file": "unifyapps-older6m.csv"
+    },
+    {
+      "company": "unity",
+      "window": "all",
+      "file": "unity-all.csv"
+    },
+    {
+      "company": "unity",
+      "window": "older6m",
+      "file": "unity-older6m.csv"
+    },
+    {
+      "company": "unstop",
+      "window": "all",
+      "file": "unstop-all.csv"
+    },
+    {
+      "company": "unstop",
+      "window": "older6m",
+      "file": "unstop-older6m.csv"
+    },
+    {
+      "company": "upstart",
+      "window": "all",
+      "file": "upstart-all.csv"
+    },
+    {
+      "company": "upstart",
+      "window": "older6m",
+      "file": "upstart-older6m.csv"
+    },
+    {
+      "company": "upstart",
+      "window": "6m",
+      "file": "upstart-6m.csv"
+    },
+    {
+      "company": "urban-company",
+      "window": "all",
+      "file": "urban-company-all.csv"
+    },
+    {
+      "company": "urban-company",
+      "window": "older6m",
+      "file": "urban-company-older6m.csv"
+    },
+    {
+      "company": "usaa",
+      "window": "all",
+      "file": "usaa-all.csv"
+    },
+    {
+      "company": "usaa",
+      "window": "older6m",
+      "file": "usaa-older6m.csv"
+    },
+    {
+      "company": "usaa",
+      "window": "6m",
+      "file": "usaa-6m.csv"
+    },
+    {
+      "company": "ust",
+      "window": "all",
+      "file": "ust-all.csv"
+    },
+    {
+      "company": "ust",
+      "window": "older6m",
+      "file": "ust-older6m.csv"
+    },
+    {
+      "company": "valve",
+      "window": "all",
+      "file": "valve-all.csv"
+    },
+    {
+      "company": "valve",
+      "window": "older6m",
+      "file": "valve-older6m.csv"
+    },
+    {
+      "company": "veeva",
+      "window": "all",
+      "file": "veeva-all.csv"
+    },
+    {
+      "company": "veeva",
+      "window": "older6m",
+      "file": "veeva-older6m.csv"
+    },
+    {
+      "company": "verily",
+      "window": "all",
+      "file": "verily-all.csv"
+    },
+    {
+      "company": "verily",
+      "window": "older6m",
+      "file": "verily-older6m.csv"
+    },
+    {
+      "company": "verily",
+      "window": "6m",
+      "file": "verily-6m.csv"
+    },
+    {
+      "company": "veritas",
+      "window": "all",
+      "file": "veritas-all.csv"
+    },
+    {
+      "company": "veritas",
+      "window": "older6m",
+      "file": "veritas-older6m.csv"
+    },
+    {
+      "company": "verizon",
+      "window": "all",
+      "file": "verizon-all.csv"
+    },
+    {
+      "company": "verizon",
+      "window": "older6m",
+      "file": "verizon-older6m.csv"
+    },
+    {
+      "company": "verkada",
+      "window": "all",
+      "file": "verkada-all.csv"
+    },
+    {
+      "company": "verkada",
+      "window": "older6m",
+      "file": "verkada-older6m.csv"
+    },
+    {
+      "company": "verkada",
+      "window": "6m",
+      "file": "verkada-6m.csv"
+    },
+    {
+      "company": "viasat",
+      "window": "all",
+      "file": "viasat-all.csv"
+    },
+    {
+      "company": "viasat",
+      "window": "older6m",
+      "file": "viasat-older6m.csv"
+    },
+    {
+      "company": "vimeo",
+      "window": "all",
+      "file": "vimeo-all.csv"
+    },
+    {
+      "company": "vimeo",
+      "window": "older6m",
+      "file": "vimeo-older6m.csv"
+    },
+    {
+      "company": "virtu",
+      "window": "all",
+      "file": "virtu-all.csv"
+    },
+    {
+      "company": "virtu",
+      "window": "older6m",
+      "file": "virtu-older6m.csv"
+    },
+    {
+      "company": "virtu",
+      "window": "6m",
+      "file": "virtu-6m.csv"
+    },
+    {
+      "company": "virtu",
+      "window": "3m",
+      "file": "virtu-3m.csv"
+    },
+    {
+      "company": "virtusa",
+      "window": "all",
+      "file": "virtusa-all.csv"
+    },
+    {
+      "company": "virtusa",
+      "window": "older6m",
+      "file": "virtusa-older6m.csv"
+    },
+    {
+      "company": "visa",
+      "window": "all",
+      "file": "visa-all.csv"
+    },
+    {
+      "company": "visa",
+      "window": "older6m",
+      "file": "visa-older6m.csv"
+    },
+    {
+      "company": "visa",
+      "window": "6m",
+      "file": "visa-6m.csv"
+    },
+    {
+      "company": "visa",
+      "window": "30d",
+      "file": "visa-30d.csv"
+    },
+    {
+      "company": "visa",
+      "window": "3m",
+      "file": "visa-3m.csv"
+    },
+    {
+      "company": "vk",
+      "window": "all",
+      "file": "vk-all.csv"
+    },
+    {
+      "company": "vk",
+      "window": "older6m",
+      "file": "vk-older6m.csv"
+    },
+    {
+      "company": "vk",
+      "window": "6m",
+      "file": "vk-6m.csv"
+    },
+    {
+      "company": "vmware",
+      "window": "all",
+      "file": "vmware-all.csv"
+    },
+    {
+      "company": "vmware",
+      "window": "older6m",
+      "file": "vmware-older6m.csv"
+    },
+    {
+      "company": "walmart-labs",
+      "window": "all",
+      "file": "walmart-labs-all.csv"
+    },
+    {
+      "company": "walmart-labs",
+      "window": "older6m",
+      "file": "walmart-labs-older6m.csv"
+    },
+    {
+      "company": "walmart-labs",
+      "window": "6m",
+      "file": "walmart-labs-6m.csv"
+    },
+    {
+      "company": "walmart-labs",
+      "window": "30d",
+      "file": "walmart-labs-30d.csv"
+    },
+    {
+      "company": "walmart-labs",
+      "window": "3m",
+      "file": "walmart-labs-3m.csv"
+    },
+    {
+      "company": "warnermedia",
+      "window": "all",
+      "file": "warnermedia-all.csv"
+    },
+    {
+      "company": "warnermedia",
+      "window": "older6m",
+      "file": "warnermedia-older6m.csv"
+    },
+    {
+      "company": "wayfair",
+      "window": "all",
+      "file": "wayfair-all.csv"
+    },
+    {
+      "company": "wayfair",
+      "window": "older6m",
+      "file": "wayfair-older6m.csv"
+    },
+    {
+      "company": "waymo",
+      "window": "all",
+      "file": "waymo-all.csv"
+    },
+    {
+      "company": "waymo",
+      "window": "older6m",
+      "file": "waymo-older6m.csv"
+    },
+    {
+      "company": "waymo",
+      "window": "6m",
+      "file": "waymo-6m.csv"
+    },
+    {
+      "company": "waymo",
+      "window": "3m",
+      "file": "waymo-3m.csv"
+    },
+    {
+      "company": "wayve",
+      "window": "all",
+      "file": "wayve-all.csv"
+    },
+    {
+      "company": "wayve",
+      "window": "older6m",
+      "file": "wayve-older6m.csv"
+    },
+    {
+      "company": "wealthfront",
+      "window": "all",
+      "file": "wealthfront-all.csv"
+    },
+    {
+      "company": "wealthfront",
+      "window": "older6m",
+      "file": "wealthfront-older6m.csv"
+    },
+    {
+      "company": "wells-fargo",
+      "window": "all",
+      "file": "wells-fargo-all.csv"
+    },
+    {
+      "company": "wells-fargo",
+      "window": "older6m",
+      "file": "wells-fargo-older6m.csv"
+    },
+    {
+      "company": "wells-fargo",
+      "window": "6m",
+      "file": "wells-fargo-6m.csv"
+    },
+    {
+      "company": "weride",
+      "window": "all",
+      "file": "weride-all.csv"
+    },
+    {
+      "company": "weride",
+      "window": "older6m",
+      "file": "weride-older6m.csv"
+    },
+    {
+      "company": "weride",
+      "window": "6m",
+      "file": "weride-6m.csv"
+    },
+    {
+      "company": "western-digital",
+      "window": "all",
+      "file": "western-digital-all.csv"
+    },
+    {
+      "company": "western-digital",
+      "window": "older6m",
+      "file": "western-digital-older6m.csv"
+    },
+    {
+      "company": "whatfix",
+      "window": "all",
+      "file": "whatfix-all.csv"
+    },
+    {
+      "company": "whatfix",
+      "window": "older6m",
+      "file": "whatfix-older6m.csv"
+    },
+    {
+      "company": "whatnot",
+      "window": "all",
+      "file": "whatnot-all.csv"
+    },
+    {
+      "company": "whatnot",
+      "window": "older6m",
+      "file": "whatnot-older6m.csv"
+    },
+    {
+      "company": "whatnot",
+      "window": "6m",
+      "file": "whatnot-6m.csv"
+    },
+    {
+      "company": "winzo",
+      "window": "all",
+      "file": "winzo-all.csv"
+    },
+    {
+      "company": "winzo",
+      "window": "older6m",
+      "file": "winzo-older6m.csv"
+    },
+    {
+      "company": "wipro",
+      "window": "all",
+      "file": "wipro-all.csv"
+    },
+    {
+      "company": "wipro",
+      "window": "older6m",
+      "file": "wipro-older6m.csv"
+    },
+    {
+      "company": "wipro",
+      "window": "6m",
+      "file": "wipro-6m.csv"
+    },
+    {
+      "company": "wise",
+      "window": "all",
+      "file": "wise-all.csv"
+    },
+    {
+      "company": "wise",
+      "window": "older6m",
+      "file": "wise-older6m.csv"
+    },
+    {
+      "company": "wise",
+      "window": "6m",
+      "file": "wise-6m.csv"
+    },
+    {
+      "company": "wise",
+      "window": "3m",
+      "file": "wise-3m.csv"
+    },
+    {
+      "company": "wish",
+      "window": "all",
+      "file": "wish-all.csv"
+    },
+    {
+      "company": "wish",
+      "window": "older6m",
+      "file": "wish-older6m.csv"
+    },
+    {
+      "company": "wissen",
+      "window": "all",
+      "file": "wissen-all.csv"
+    },
+    {
+      "company": "wissen",
+      "window": "older6m",
+      "file": "wissen-older6m.csv"
+    },
+    {
+      "company": "wix",
+      "window": "all",
+      "file": "wix-all.csv"
+    },
+    {
+      "company": "wix",
+      "window": "older6m",
+      "file": "wix-older6m.csv"
+    },
+    {
+      "company": "workday",
+      "window": "all",
+      "file": "workday-all.csv"
+    },
+    {
+      "company": "workday",
+      "window": "older6m",
+      "file": "workday-older6m.csv"
+    },
+    {
+      "company": "works-applications",
+      "window": "all",
+      "file": "works-applications-all.csv"
+    },
+    {
+      "company": "works-applications",
+      "window": "older6m",
+      "file": "works-applications-older6m.csv"
+    },
+    {
+      "company": "worldquant",
+      "window": "all",
+      "file": "worldquant-all.csv"
+    },
+    {
+      "company": "worldquant",
+      "window": "older6m",
+      "file": "worldquant-older6m.csv"
+    },
+    {
+      "company": "woven-by-toyota",
+      "window": "all",
+      "file": "woven-by-toyota-all.csv"
+    },
+    {
+      "company": "woven-by-toyota",
+      "window": "older6m",
+      "file": "woven-by-toyota-older6m.csv"
+    },
+    {
+      "company": "xing",
+      "window": "all",
+      "file": "xing-all.csv"
+    },
+    {
+      "company": "xing",
+      "window": "older6m",
+      "file": "xing-older6m.csv"
+    },
+    {
+      "company": "yahoo",
+      "window": "all",
+      "file": "yahoo-all.csv"
+    },
+    {
+      "company": "yahoo",
+      "window": "older6m",
+      "file": "yahoo-older6m.csv"
+    },
+    {
+      "company": "yandex",
+      "window": "all",
+      "file": "yandex-all.csv"
+    },
+    {
+      "company": "yandex",
+      "window": "older6m",
+      "file": "yandex-older6m.csv"
+    },
+    {
+      "company": "yandex",
+      "window": "6m",
+      "file": "yandex-6m.csv"
+    },
+    {
+      "company": "yandex",
+      "window": "30d",
+      "file": "yandex-30d.csv"
+    },
+    {
+      "company": "yandex",
+      "window": "3m",
+      "file": "yandex-3m.csv"
+    },
+    {
+      "company": "yatra",
+      "window": "all",
+      "file": "yatra-all.csv"
+    },
+    {
+      "company": "yatra",
+      "window": "older6m",
+      "file": "yatra-older6m.csv"
+    },
+    {
+      "company": "yelp",
+      "window": "all",
+      "file": "yelp-all.csv"
+    },
+    {
+      "company": "yelp",
+      "window": "older6m",
+      "file": "yelp-older6m.csv"
+    },
+    {
+      "company": "yugabyte",
+      "window": "all",
+      "file": "yugabyte-all.csv"
+    },
+    {
+      "company": "yugabyte",
+      "window": "6m",
+      "file": "yugabyte-6m.csv"
+    },
+    {
+      "company": "yugabyte",
+      "window": "3m",
+      "file": "yugabyte-3m.csv"
+    },
+    {
+      "company": "zalando",
+      "window": "all",
+      "file": "zalando-all.csv"
+    },
+    {
+      "company": "zalando",
+      "window": "older6m",
+      "file": "zalando-older6m.csv"
+    },
+    {
+      "company": "zappos",
+      "window": "all",
+      "file": "zappos-all.csv"
+    },
+    {
+      "company": "zappos",
+      "window": "older6m",
+      "file": "zappos-older6m.csv"
+    },
+    {
+      "company": "zemoso",
+      "window": "all",
+      "file": "zemoso-all.csv"
+    },
+    {
+      "company": "zemoso",
+      "window": "older6m",
+      "file": "zemoso-older6m.csv"
+    },
+    {
+      "company": "zendesk",
+      "window": "all",
+      "file": "zendesk-all.csv"
+    },
+    {
+      "company": "zendesk",
+      "window": "older6m",
+      "file": "zendesk-older6m.csv"
+    },
+    {
+      "company": "zenefits",
+      "window": "all",
+      "file": "zenefits-all.csv"
+    },
+    {
+      "company": "zenefits",
+      "window": "older6m",
+      "file": "zenefits-older6m.csv"
+    },
+    {
+      "company": "zepto",
+      "window": "all",
+      "file": "zepto-all.csv"
+    },
+    {
+      "company": "zepto",
+      "window": "older6m",
+      "file": "zepto-older6m.csv"
+    },
+    {
+      "company": "zeta-suite",
+      "window": "all",
+      "file": "zeta-suite-all.csv"
+    },
+    {
+      "company": "zeta-suite",
+      "window": "older6m",
+      "file": "zeta-suite-older6m.csv"
+    },
+    {
+      "company": "zeta",
+      "window": "all",
+      "file": "zeta-all.csv"
+    },
+    {
+      "company": "zeta",
+      "window": "older6m",
+      "file": "zeta-older6m.csv"
+    },
+    {
+      "company": "zillow",
+      "window": "all",
+      "file": "zillow-all.csv"
+    },
+    {
+      "company": "zillow",
+      "window": "older6m",
+      "file": "zillow-older6m.csv"
+    },
+    {
+      "company": "zip",
+      "window": "all",
+      "file": "zip-all.csv"
+    },
+    {
+      "company": "zip",
+      "window": "older6m",
+      "file": "zip-older6m.csv"
+    },
+    {
+      "company": "zip",
+      "window": "6m",
+      "file": "zip-6m.csv"
+    },
+    {
+      "company": "ziprecruiter",
+      "window": "all",
+      "file": "ziprecruiter-all.csv"
+    },
+    {
+      "company": "ziprecruiter",
+      "window": "older6m",
+      "file": "ziprecruiter-older6m.csv"
+    },
+    {
+      "company": "ziprecruiter",
+      "window": "6m",
+      "file": "ziprecruiter-6m.csv"
+    },
+    {
+      "company": "zluri",
+      "window": "all",
+      "file": "zluri-all.csv"
+    },
+    {
+      "company": "zluri",
+      "window": "older6m",
+      "file": "zluri-older6m.csv"
+    },
+    {
+      "company": "zocdoc",
+      "window": "all",
+      "file": "zocdoc-all.csv"
+    },
+    {
+      "company": "zocdoc",
+      "window": "older6m",
+      "file": "zocdoc-older6m.csv"
+    },
+    {
+      "company": "zoho",
+      "window": "all",
+      "file": "zoho-all.csv"
+    },
+    {
+      "company": "zoho",
+      "window": "older6m",
+      "file": "zoho-older6m.csv"
+    },
+    {
+      "company": "zoho",
+      "window": "6m",
+      "file": "zoho-6m.csv"
+    },
+    {
+      "company": "zoho",
+      "window": "30d",
+      "file": "zoho-30d.csv"
+    },
+    {
+      "company": "zoho",
+      "window": "3m",
+      "file": "zoho-3m.csv"
+    },
+    {
+      "company": "zomato",
+      "window": "all",
+      "file": "zomato-all.csv"
+    },
+    {
+      "company": "zomato",
+      "window": "older6m",
+      "file": "zomato-older6m.csv"
+    },
+    {
+      "company": "zoom",
+      "window": "all",
+      "file": "zoom-all.csv"
+    },
+    {
+      "company": "zoom",
+      "window": "older6m",
+      "file": "zoom-older6m.csv"
+    },
+    {
+      "company": "zoom",
+      "window": "6m",
+      "file": "zoom-6m.csv"
+    },
+    {
+      "company": "zoox",
+      "window": "all",
+      "file": "zoox-all.csv"
+    },
+    {
+      "company": "zoox",
+      "window": "older6m",
+      "file": "zoox-older6m.csv"
+    },
+    {
+      "company": "zopsmart",
+      "window": "all",
+      "file": "zopsmart-all.csv"
+    },
+    {
+      "company": "zopsmart",
+      "window": "older6m",
+      "file": "zopsmart-older6m.csv"
+    },
+    {
+      "company": "zopsmart",
+      "window": "6m",
+      "file": "zopsmart-6m.csv"
+    },
+    {
+      "company": "zopsmart",
+      "window": "30d",
+      "file": "zopsmart-30d.csv"
+    },
+    {
+      "company": "zopsmart",
+      "window": "3m",
+      "file": "zopsmart-3m.csv"
+    },
+    {
+      "company": "zs-associates",
+      "window": "all",
+      "file": "zs-associates-all.csv"
+    },
+    {
+      "company": "zs-associates",
+      "window": "older6m",
+      "file": "zs-associates-older6m.csv"
+    },
+    {
+      "company": "zscaler",
+      "window": "all",
+      "file": "zscaler-all.csv"
+    },
+    {
+      "company": "zscaler",
+      "window": "older6m",
+      "file": "zscaler-older6m.csv"
+    },
+    {
+      "company": "zscaler",
+      "window": "6m",
+      "file": "zscaler-6m.csv"
+    },
+    {
+      "company": "zulily",
+      "window": "all",
+      "file": "zulily-all.csv"
+    },
+    {
+      "company": "zulily",
+      "window": "older6m",
+      "file": "zulily-older6m.csv"
+    },
+    {
+      "company": "zynga",
+      "window": "all",
+      "file": "zynga-all.csv"
+    },
+    {
+      "company": "zynga",
+      "window": "older6m",
+      "file": "zynga-older6m.csv"
+    }
+  ]
+}
