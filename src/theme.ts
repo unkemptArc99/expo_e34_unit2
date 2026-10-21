@@ -4,8 +4,8 @@ export const themeColors: Record<Theme, string> = { light: '#f6f8fa', dark: '#10
 export function parseTheme(value: string | null): Theme | null {
   return value === 'light' || value === 'dark' ? value : null;
 }
-export function resolveTheme(preference: Theme | null, systemDark: boolean): Theme {
-  return preference || (systemDark ? 'dark' : 'light');
+export function resolveTheme(preference: Theme | null): Theme {
+  return preference || 'light';
 }
 export function readThemePreference(): Theme | null {
   try { return parseTheme(localStorage.getItem(themeStorageKey)); } catch { return null; }

@@ -51,9 +51,10 @@ test('company fingerprint matches its ranking and Other drills into the same rem
  await page.getByRole('button',{name:/^Meta, Other:/}).click();await expect(page.locator('#questions .count-badge')).toHaveText(String(total-topCount));
 });
 
-test('dark mode follows the system initially and remembers an explicit choice',async({page})=>{
- await page.emulateMedia({colorScheme:'dark'});await page.goto('/');await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await expect(page.locator('.matrix-table tbody tr')).toHaveCount(5);
- await expect(page.getByRole('button',{name:'Switch to light mode'})).toBeVisible();await page.getByRole('button',{name:'Switch to light mode'}).click();await expect(page.locator('html')).toHaveAttribute('data-theme','light');expect(await page.evaluate(()=>localStorage.getItem('interview-atlas.theme'))).toBe('light');
+test('light mode is the default even on dark systems and remembers an explicit choice',async({page})=>{
+ await page.emulateMedia({colorScheme:'dark'});await page.goto('/');await expect(page.locator('html')).toHaveAttribute('data-theme','light');await expect(page.locator('.matrix-table tbody tr')).toHaveCount(5);
+ await expect(page.getByRole('button',{name:'Switch to dark mode'})).toBeVisible();await page.getByRole('button',{name:'Switch to dark mode'}).click();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');expect(await page.evaluate(()=>localStorage.getItem('interview-atlas.theme'))).toBe('dark');
+ await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await page.getByRole('button',{name:'Switch to light mode'}).click();expect(await page.evaluate(()=>localStorage.getItem('interview-atlas.theme'))).toBe('light');
  await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','light');await page.getByRole('button',{name:'Switch to dark mode'}).click();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
  const colors=await page.locator('.sidebar').evaluate(node=>{const style=getComputedStyle(node);return{background:style.backgroundColor,color:style.color};});expect(colors.background).toBe('rgb(23, 35, 45)');
  const search=page.getByRole('combobox',{name:'Search companies or questions'});await search.fill('two sum');await search.press('Enter');await expect(page.getByRole('dialog')).toBeVisible();expect(await page.getByRole('dialog').evaluate(node=>getComputedStyle(node).backgroundColor)).toBe('rgb(23, 35, 45)');await page.keyboard.press('Escape');

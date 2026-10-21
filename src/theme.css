@@ -20,12 +20,12 @@
   width: 38px;
   height: 38px;
   flex: none;
-  border: 1px solid #d7e0e5;
+  border: 1px solid #2b3b47;
   border-radius: 7px;
-  background: #fff;
-  color: #5d7380;
+  background: #17232d;
+  color: #e2ebf1;
 }
-.theme-toggle:hover { background: #edf5f1; border-color: #a9c3b8; color: #28786e; }
+.theme-toggle:hover { background: #263b49; border-color: #526c7d; color: #fff; }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
