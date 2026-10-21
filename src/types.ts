@@ -1,4 +1,4 @@
-export const companies = ['Meta', 'Google', 'Apple', 'Netflix', 'Palantir'] as const;
+export const companies = ['Meta', 'Google', 'Apple', 'Microsoft', 'Bloomberg'] as const;
 export type Company = string;
 export type WindowKey = '30d' | '3m' | '6m' | 'older6m' | 'all';
 export const windowLabels: Record<WindowKey, string> = { '30d': 'Last 30 days', '3m': 'Last 3 months', '6m': 'Last 6 months', older6m: 'More than 6 months', all: 'All time' };

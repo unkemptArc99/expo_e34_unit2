@@ -1,7 +1,7 @@
 {
-  "version": "224cf5b3653f92a8",
-  "catalogFile": "catalog-5ec53171a63a40f1.json",
-  "catalogVersion": "5ec53171a63a40f1",
+  "version": "0bef0c5505badcbc",
+  "catalogFile": "catalog-a06ac017ebf98dff.json",
+  "catalogVersion": "a06ac017ebf98dff",
   "snapshots": [
     {
       "id": "roy-jul-435e16b861b1",
@@ -14,10 +14,10 @@
       "contentHash": "435e16b861b1eac2adc8ae0552f9cc502eb6d6d379cee6a82c0af54253abfabd",
       "files": {
         "Apple": "roy-jul-435e16b861b1-Apple-9dbd63bfe377.json",
+        "Bloomberg": "roy-jul-435e16b861b1-Bloomberg-eaefc48c6461.json",
         "Google": "roy-jul-435e16b861b1-Google-4f3653be7ff2.json",
         "Meta": "roy-jul-435e16b861b1-Meta-0ea0e2e0c984.json",
-        "Netflix": "roy-jul-435e16b861b1-Netflix-ffd14d4ce919.json",
-        "Palantir": "roy-jul-435e16b861b1-Palantir-45059fa958b3.json"
+        "Microsoft": "roy-jul-435e16b861b1-Microsoft-7dbb93f6f624.json"
       },
       "reuse": {
         "status": "unverified",
@@ -35,9 +35,10 @@
       "contentHash": "9b271896892d2ef068565321763a0a449ac13353bab451b1fe57c1bfabec9b9a",
       "files": {
         "Apple": "roy-feb-9b271896892d-Apple-584395a6fc4c.json",
+        "Bloomberg": "roy-feb-9b271896892d-Bloomberg-4b2e46a0674b.json",
         "Google": "roy-feb-9b271896892d-Google-6726ee8863ec.json",
         "Meta": "roy-feb-9b271896892d-Meta-320107387aac.json",
-        "Netflix": "roy-feb-9b271896892d-Netflix-efbdecf0fa25.json"
+        "Microsoft": "roy-feb-9b271896892d-Microsoft-a3b2c159b8b8.json"
       },
       "reuse": {
         "status": "unverified",
@@ -55,9 +56,10 @@
       "contentHash": "1a3df28b1bb77249cf2bc5f3f1cbad3923eb85067e89e44a27a88d87590bdaab",
       "files": {
         "Apple": "liquidslr-1a3df28b1bb7-Apple-3d92507d8c2f.json",
+        "Bloomberg": "liquidslr-1a3df28b1bb7-Bloomberg-3c1529903073.json",
         "Google": "liquidslr-1a3df28b1bb7-Google-86be78ef3157.json",
         "Meta": "liquidslr-1a3df28b1bb7-Meta-a66a9ee85f54.json",
-        "Netflix": "liquidslr-1a3df28b1bb7-Netflix-8c399ccf31d7.json"
+        "Microsoft": "liquidslr-1a3df28b1bb7-Microsoft-1a7dbac9517a.json"
       },
       "reuse": {
         "status": "unverified",
@@ -65,12 +67,12 @@
       }
     }
   ],
-  "taggingReport": "tagging-report-315328e025290766.html",
+  "taggingReport": "tagging-report-3a4abfc7ffe36d84.html",
   "companies": [
     "Meta",
     "Google",
     "Apple",
-    "Netflix",
-    "Palantir"
+    "Microsoft",
+    "Bloomberg"
   ]
 }

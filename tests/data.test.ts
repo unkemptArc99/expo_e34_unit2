@@ -20,5 +20,5 @@ test('equal-company baseline is not dominated by the larger question bank and ga
 test('history uses exact dated collections, excludes undated records, and preserves the frozen taxonomy',()=>{
  const points=collectionHistory(bundle,'Meta','30d','study');assert.deepEqual(points.map(p=>p.date),['2026-02-21','2026-07-12']);assert.deepEqual(points.map(p=>p.count),[1,2]);assert.equal(shareOf(points[0],'Dynamic Programming'),100);assert.equal(shareOf(points[1],'Dynamic Programming'),50);assert.ok(points.every(p=>!p.rows?.some(r=>r.id==='c')));
  const merged=rowsFor(bundle,'Meta','all','study')!;assert.equal(merged.length,3);assert.equal(merged.find(r=>r.id==='a')?.score,2);assert.deepEqual(merged.find(r=>r.id==='a')?.topics,['Dynamic Programming']);assert.deepEqual(merged.find(r=>r.id==='a')?.sourceTopics,['Array','Dynamic Programming']);
- assert.deepEqual(rowsFor(bundle,'Meta','all','source')!.find(r=>r.id==='a')?.topics,['Array','Dynamic Programming']);assert.equal(rowsFor(bundle,'Netflix','30d','study'),null);assert.equal(rowsFor(bundle,'Meta','6m','study'),null);
+ assert.deepEqual(rowsFor(bundle,'Meta','all','source')!.find(r=>r.id==='a')?.topics,['Array','Dynamic Programming']);assert.equal(rowsFor(bundle,'Unlisted','30d','study'),null);assert.equal(rowsFor(bundle,'Meta','6m','study'),null);
 });

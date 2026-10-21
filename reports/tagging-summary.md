@@ -4,17 +4,17 @@ Version study-topics-v1. Reviewed 2026-10-20.
 
 This is a **first-pass study classification**, not a claim that every full question statement has been read or that the original source tags are incorrect. Source tags remain intact and available in the app.
 
-2,566 unique questions across the five selected companies; 2,241 have a different one-topic study view. Array occurs in 1,433 original tag sets and is selected as the primary study topic for 45 questions. These counts compare source-tag presence with primary-topic assignment; they do not measure incorrect-tag removal.
+2,728 unique questions across the five selected companies; 2,379 have a different one-topic study view. Array occurs in 1,527 original tag sets and is selected as the primary study topic for 49 questions. These counts compare source-tag presence with primary-topic assignment; they do not measure incorrect-tag removal.
 
 ## Review coverage
 
 | Basis | Questions | Meaning |
 | --- | ---: | --- |
 | Public statement read | 13 | Linked statement checked in this review |
-| Question-specific concept review | 266 | LLM problem recognition and source metadata; not a fresh statement read |
-| Metadata suggestion | 1966 | Low-confidence deterministic preference; needs individual review |
-| Single source tag retained | 270 | No independent review implied |
-| Unclassified | 51 | Insufficient evidence; no forced guess |
+| Question-specific concept review | 261 | LLM problem recognition and source metadata; not a fresh statement read |
+| Metadata suggestion | 2109 | Low-confidence deterministic preference; needs individual review |
+| Single source tag retained | 289 | No independent review implied |
+| Unclassified | 56 | Insufficient evidence; no forced guess |
 
 A primary label is an editorial learning choice. Alternative solutions remain valid. In particular, supporting containers such as Array and String are deprioritized only when a more specific supported technique is available. Array-only scans are retained when appropriate. No new topic names were invented.
 
@@ -27,10 +27,10 @@ Counts below deduplicate every question across sources and all recency windows. 
 | Company | Unique questions | Original Array tag | Primary Array topic | Previous Array chart share | New Array chart share |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Apple | 384 | 207 | 8 | 17.1% | 2.1% |
+| Bloomberg | 1324 | 715 | 27 | 17.9% | 2.0% |
 | Google | 2397 | 1347 | 44 | 18.2% | 1.8% |
 | Meta | 1509 | 802 | 30 | 17.6% | 2.0% |
-| Netflix | 36 | 20 | 2 | 16.6% | 5.6% |
-| Palantir | 29 | 17 | 0 | 17.6% | 0.0% |
+| Microsoft | 1498 | 810 | 27 | 17.7% | 1.8% |
 
 ## Example decisions
 
@@ -51,52 +51,52 @@ Counts below deduplicate every question across sources and all recency windows. 
 
 | Topic | Questions | Share |
 | --- | ---: | ---: |
-| Dynamic Programming | 354 | 13.8% |
-| Hash Table | 162 | 6.3% |
-| Greedy | 156 | 6.1% |
-| Math | 143 | 5.6% |
-| Binary Search | 136 | 5.3% |
-| Database | 112 | 4.4% |
-| Sliding Window | 105 | 4.1% |
-| Tree | 101 | 3.9% |
-| Two Pointers | 93 | 3.6% |
-| Backtracking | 87 | 3.4% |
-| Design | 87 | 3.4% |
-| Prefix Sum | 87 | 3.4% |
-| Heap (Priority Queue) | 74 | 2.9% |
-| Bit Manipulation | 72 | 2.8% |
-| Breadth-First Search | 62 | 2.4% |
-| Union Find | 55 | 2.1% |
-| String | 55 | 2.1% |
-| Monotonic Stack | 53 | 2.1% |
-| Unclassified | 51 | 2.0% |
-| Array | 45 | 1.8% |
-| Linked List | 44 | 1.7% |
-| Stack | 43 | 1.7% |
-| Simulation | 42 | 1.6% |
-| Trie | 35 | 1.4% |
-| Sorting | 34 | 1.3% |
-| Topological Sort | 29 | 1.1% |
-| Binary Search Tree | 27 | 1.1% |
-| Geometry | 27 | 1.1% |
-| Number Theory | 25 | 1.0% |
+| Dynamic Programming | 381 | 14.0% |
+| Greedy | 178 | 6.5% |
+| Hash Table | 165 | 6.0% |
+| Math | 155 | 5.7% |
+| Binary Search | 144 | 5.3% |
+| Database | 117 | 4.3% |
+| Sliding Window | 111 | 4.1% |
+| Tree | 107 | 3.9% |
+| Two Pointers | 95 | 3.5% |
+| Prefix Sum | 94 | 3.4% |
+| Design | 91 | 3.3% |
+| Backtracking | 90 | 3.3% |
+| Heap (Priority Queue) | 82 | 3.0% |
+| Bit Manipulation | 74 | 2.7% |
+| Breadth-First Search | 67 | 2.5% |
+| String | 60 | 2.2% |
+| Unclassified | 56 | 2.1% |
+| Monotonic Stack | 55 | 2.0% |
+| Union Find | 55 | 2.0% |
+| Array | 49 | 1.8% |
+| Simulation | 48 | 1.8% |
+| Linked List | 46 | 1.7% |
+| Stack | 45 | 1.6% |
+| Trie | 36 | 1.3% |
+| Sorting | 36 | 1.3% |
+| Topological Sort | 33 | 1.2% |
+| Geometry | 28 | 1.0% |
+| Number Theory | 27 | 1.0% |
+| Binary Search Tree | 27 | 1.0% |
 | Shortest Path | 24 | 0.9% |
-| Matrix | 16 | 0.6% |
+| Matrix | 17 | 0.6% |
 | Depth-First Search | 14 | 0.5% |
 | Monotonic Queue | 14 | 0.5% |
 | String Matching | 13 | 0.5% |
+| Graph | 12 | 0.4% |
 | Enumeration | 11 | 0.4% |
-| Combinatorics | 10 | 0.4% |
-| Graph | 9 | 0.4% |
+| Combinatorics | 9 | 0.3% |
 | Segment Tree | 8 | 0.3% |
 | Queue | 8 | 0.3% |
-| Concurrency | 6 | 0.2% |
-| Binary Indexed Tree | 6 | 0.2% |
+| Concurrency | 7 | 0.3% |
+| Binary Indexed Tree | 7 | 0.3% |
 | Counting | 5 | 0.2% |
-| Minimum Spanning Tree | 4 | 0.2% |
-| Recursion | 4 | 0.2% |
-| Shell | 4 | 0.2% |
-| Divide and Conquer | 3 | 0.1% |
+| Divide and Conquer | 4 | 0.1% |
+| Minimum Spanning Tree | 4 | 0.1% |
+| Recursion | 4 | 0.1% |
+| Shell | 4 | 0.1% |
 | Merge Sort | 2 | 0.1% |
 | Quickselect | 2 | 0.1% |
 | Maximum Flow | 2 | 0.1% |

@@ -11,7 +11,11 @@ import { makeTaggingReport } from './tagging-report';
 
 interface Source { id: string; label: string; repository: string; ref: string; adapter: string; snapshotDate: string|null; dateNote: string; reuse: Snapshot['reuse'] }
 interface RawMeta { source: Source; revision: string; retrievedAt: string; contentHash: string; entries: {company: string; window: WindowKey; file: string}[] }
-const companyKey = (name:string) => name.toLowerCase().replace(/[^a-z0-9]/g,'');
+const companyKey = (name:string) => {
+  const key = name.toLowerCase().replace(/[^a-z0-9]/g,'');
+  // The same company has different folder names across the retained sources.
+  return key === 'palantirtechnologies' ? 'palantir' : key;
+};
 const hash = (s: string) => createHash('sha256').update(s).digest('hex');
 const args = process.argv.slice(2), rawRoot = resolve('data/raw'), output = resolve('public/data');
 const windows: Record<string,WindowKey> = { 'thirty-days.csv':'30d','three-months.csv':'3m','six-months.csv':'6m','more-than-six-months.csv':'older6m','all.csv':'all','1. Thirty Days.csv':'30d','2. Three Months.csv':'3m','3. Six Months.csv':'6m','4. More Than Six Months.csv':'older6m','5. All.csv':'all' };

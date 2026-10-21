@@ -1,0 +1,143 @@
+/* Chart colors are shared by the CSS controls and inline SVG/heatmap styles. */
+:root {
+  color-scheme: light;
+  --surface: #fff;
+  --chart-grid: #e9edf1;
+  --topic-other: #dde2e8;
+  --matrix-0: #f1f6f3;
+  --matrix-1: #e1ede6;
+  --matrix-2: #c9dfd2;
+  --matrix-3: #9cbfac;
+  --matrix-4: #397660;
+  --matrix-text: #284e3e;
+  --matrix-high-text: #fff;
+  --heatmap-rgb: 45, 125, 115;
+}
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  flex: none;
+  border: 1px solid #d7e0e5;
+  border-radius: 7px;
+  background: #fff;
+  color: #5d7380;
+}
+.theme-toggle:hover { background: #edf5f1; border-color: #a9c3b8; color: #28786e; }
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  background: #101820;
+  color: #e2ebf1;
+  --ink: #e2ebf1;
+  --muted: #a4b5c1;
+  --line: #2b3b47;
+  --teal: #81c9b1;
+  --teal-dark: #a0e1cc;
+  --surface: #17232d;
+  --chart-grid: #34444f;
+  --topic-other: #3b4c58;
+  --matrix-0: #192e2b;
+  --matrix-1: #213e35;
+  --matrix-2: #2a5143;
+  --matrix-3: #32644f;
+  --matrix-4: #3e7b60;
+  --matrix-text: #d5eee2;
+  --matrix-high-text: #f0fff6;
+  --heatmap-rgb: 70, 170, 143;
+}
+[data-theme="dark"] :is(.sidebar,.panel,.view-controls,.company-metrics,.comparison-metrics,.trend-card,.time-context,.search-results,.question-drawer,.compare-tray,.simple-table,.theme-toggle) {
+  background: var(--surface);
+  border-color: var(--line);
+  color: var(--ink);
+}
+[data-theme="dark"] .topbar { background: #141f28; border-color: var(--line); }
+[data-theme="dark"] .brand { color: #e7f0f5; }
+[data-theme="dark"] .brand-atlas { color: #a3b7c2; }
+[data-theme="dark"] .brand-symbol i { background: #7cc7ac; }
+[data-theme="dark"] .brand-symbol i:nth-child(3) { background: #4a947e; }
+[data-theme="dark"] :is(.sidebar nav button,.sidebar-companies>button) { color: #b4c4ce; }
+[data-theme="dark"] :is(.sidebar nav button:hover,.sidebar-companies>button:hover,.sidebar-companies>button.selected) { background: #21323b; color: #e4eef3; }
+[data-theme="dark"] .sidebar nav button.active { background: #203a32; color: #a4dfc5; }
+[data-theme="dark"] .active-dot { background: #83d0b3; }
+[data-theme="dark"] :is(.nav-label,.sidebar-order,.sidebar-order>span,.sidebar-bottom>span,.sidebar-bottom a,.breadcrumb,.breadcrumb strong,.page-heading p,.quiet-label,.sample,.scope-strip,.scope-strip>span:first-child,.scope-strip>span:last-child,.panel-foot,.matrix-foot,.bank-context,.select-field>span,.window-control-label,.window-stops>button,.topic-bars-header,.fingerprint-legend,.ratio,.chart-scale,.diverging-topic small,.diverging-header>span:nth-child(2),.aligned-table thead th,.aligned-table thead small,.aligned-value small,.aligned-table td:last-child,.company-name-button small,.company-metrics>div>span,.comparison-metrics>div>span,.company-metrics small,.comparison-metrics small,.distinct-list small,.pair-list small,.time-context p,.trend-y-labels,.trend-date-labels,.trend-card-title>span,.question-table th,.source-column,.pagination,.about-data,.about-data>summary,.drawer-top,.drawer-content small,.source-links) {
+  color: #a4b5c1;
+}
+[data-theme="dark"] :is(.sample.low,.company-metrics>div>small) { color: #d7bb80; }
+[data-theme="dark"] :is(.window-control-label strong,.window-stops>button[aria-pressed=true],.ratio.above,.distinct-list b,.change-up,.text-button,.source-links a) { color: #94d7b9; }
+[data-theme="dark"] :is(.sidebar-count,.count-badge) { background: #22343f; border-color: #354b57; color: #c0d1da; }
+[data-theme="dark"] .company-mark { background: #1b2a35; border-color: #354551; }
+[data-theme="dark"] .company-mark.meta { color: #73aef0; }
+[data-theme="dark"] .company-mark.google { color: #86b0f7; }
+[data-theme="dark"] :is(.company-mark.apple,.company-mark.bloomberg) { color: #e4edf3; }
+[data-theme="dark"] :is(.global-search,.select-field select) { background: #1a2833; border-color: #3b505e; color: #d4e1e8; }
+[data-theme="dark"] .global-search:hover { border-color: #698895; }
+[data-theme="dark"] .global-search:focus-within { border-color: #83c9ad; box-shadow: 0 0 0 3px #79c9ae24; }
+[data-theme="dark"] :is(.global-search>input,.bank-search>input) { color: #d9e6ed; }
+[data-theme="dark"] :is(.global-search>input,.bank-search>input)::placeholder { color: #9cb0bd; }
+[data-theme="dark"] .search-results { box-shadow: 0 14px 32px #0005; }
+[data-theme="dark"] .search-results>button { background: var(--surface); color: #d5e1e8; }
+[data-theme="dark"] :is(.search-results>button:hover,.search-results>button[aria-selected=true]) { background: #234036; }
+[data-theme="dark"] :is(.search-results small,.search-results>p) { color: #a4b5c1; }
+[data-theme="dark"] :is(.share-button,.primary-button) { background: #2c7a67; color: #fff; border-color: #519f88; box-shadow: 0 1px 2px #0003; }
+[data-theme="dark"] :is(.share-button:hover,.primary-button:hover:not(:disabled)) { background: #348c76; border-color: #7ac5aa; color: #fff; }
+[data-theme="dark"] :is(.secondary-button,.pagination button,.related-companies>button:not(.text-button)) { background: #1c2d37; border-color: #3b505e; color: #c8d9e3; }
+[data-theme="dark"] :is(.secondary-button:hover,.pagination button:hover:not(:disabled),.related-companies>button:not(.text-button):hover) { background: #29443c; border-color: #658e7f; }
+[data-theme="dark"] .theme-toggle { color: #dfc991; border-color: #3b505e; }
+[data-theme="dark"] .theme-toggle:hover { background: #263d35; border-color: #6ba88f; }
+[data-theme="dark"] .icon-button { color: #a4bac7; }
+[data-theme="dark"] .icon-button:hover { background: #243e35; color: #a4dfc5; }
+[data-theme="dark"] .segmented { background: #13202a; border-color: #344854; }
+[data-theme="dark"] .segmented button { color: #a8bdc9; }
+[data-theme="dark"] .segmented button:hover { background: #23363e; }
+[data-theme="dark"] .segmented button[aria-pressed=true] { background: #294738; color: #b4e6cd; }
+[data-theme="dark"] .topic-bar-row { background: var(--surface); border-color: var(--line); }
+[data-theme="dark"] :is(.topic-bar-row:hover,.topic-bar-row.selected) { background: #1e3239; }
+[data-theme="dark"] :is(.topic-bar-name>small,.topic-bar-name .row-arrow,.related-companies>span,.related-companies strong) { color: #a0b5c1; }
+[data-theme="dark"] :is(.show-more,.question-table thead,.question-table th,.question-table tbody tr:hover) { background: #1b2b35; border-color: var(--line); color: #b7cbd7; }
+[data-theme="dark"] .show-more:hover { background: #243b34; }
+[data-theme="dark"] :is(.fingerprint-bar,.fingerprint-empty,.aligned-track,.diverging-side>span) { background: #22323e; color: #a4b5c1; }
+[data-theme="dark"] .fingerprint-bar>button { border-right-color: var(--surface); }
+[data-theme="dark"] .matrix-cell { background: #22343d; color: #c7ded6; }
+[data-theme="dark"] .matrix-cell.thin:after { background-image: radial-gradient(#afcec140 .6px,transparent .7px); }
+[data-theme="dark"] .matrix-cell:hover { box-shadow: inset 0 0 0 2px #8dd1b888; }
+[data-theme="dark"] :is(.matrix-table tbody th:first-child,.matrix-table thead th:first-child) { background: var(--surface); }
+[data-theme="dark"] .matrix-table tbody th:first-child { box-shadow: 5px 0 10px var(--surface); }
+[data-theme="dark"] .matrix-table thead th { color: #a4b9c6; }
+[data-theme="dark"] .intensity-key { background: linear-gradient(to right,var(--matrix-0),var(--matrix-4)); }
+[data-theme="dark"] :is(.matrix-foot,.panel-foot,.show-more,.topic-bars-header,.bank-toolbar,.question-table th,.question-table td,.simple-table th,.simple-table td,.aligned-table th,.aligned-table td,.window-table th,.window-table td,.diverging-row,.pair-list>button,.distinct-list>button,.time-context p,.drawer-content>section,.related-question) { border-color: var(--line); }
+[data-theme="dark"] .current-window { background: #1d342e; }
+[data-theme="dark"] .trend-card:hover { border-color: #5c937f; }
+[data-theme="dark"] .change-flat { color: #b3b4db; }
+[data-theme="dark"] .insight-note { background: #1c352f; color: #b2c8c1; }
+[data-theme="dark"] :is(.insight-note strong,.insight-note svg) { color: #a2d8be; }
+[data-theme="dark"] .timeline-dates i { background: #a1d5bd; border-color: #2c4d3e; }
+[data-theme="dark"] .company-choices label { background: #17232d; border-color: #3b505e; color: #bdcdd7; }
+[data-theme="dark"] .company-choices label.chosen { background: #254436; border-color: #7dbb9e; color: #d1eddc; }
+[data-theme="dark"] :is(.comparison-verdict p,.comparison-verdict>svg,.related-companies .text-button.muted) { color: #a4b9c5; }
+[data-theme="dark"] .pair-list b { color: #a2d0cb; }
+[data-theme="dark"] .question-table td:first-child>a { color: #d5e4ed; }
+[data-theme="dark"] .question-tags>button { background: #1e303a; border-color: #344a56; color: #c0d0d9; }
+[data-theme="dark"] .question-tags>button:hover { background: #294639; border-color: #608c79; }
+[data-theme="dark"] .bank-toolbar>.select-field select { color: #c2d3df; border-color: #3b505e; }
+[data-theme="dark"] .easy { color: #86cfaa; }
+[data-theme="dark"] .medium { color: #e4c47f; }
+[data-theme="dark"] .hard { color: #efa0a8; }
+[data-theme="dark"] .active-filters { background: #1a2b33; border-color: var(--line); color: #b1c8d2; }
+[data-theme="dark"] .active-filters>button { background: #294a3a; color: #c5e9d3; }
+[data-theme="dark"] .active-filters>button.clear-filters { background: transparent; color: #bfd3dd; }
+[data-theme="dark"] :is(.empty-state,.empty-state h3,.loading,.loading h2,.about-data strong,.drawer-content h3,.drawer-topic,.drawer-content p,.drawer-companies>span,.related-question) { color: #b6cbd7; }
+[data-theme="dark"] .notice { background: #1f392f; border-color: #3d6652; color: #bddfc9; }
+[data-theme="dark"] .compare-tray { box-shadow: 0 8px 35px #0006; }
+[data-theme="dark"] .compare-tray>div>button { background: #243b32; color: #c4dfd1; }
+[data-theme="dark"] .question-drawer { box-shadow: -12px 0 70px #0005; }
+[data-theme="dark"] .question-drawer::backdrop { background: #050b11a6; }
+[data-theme="dark"] .nav-backdrop { background: #050b11a6; }
+[data-theme="dark"] .skip-link { background: #234237; color: #e4f4ea; }
+[data-theme="dark"] footer { color: #a0b2be; }
+[data-theme="dark"] footer>span:first-child { color: #b8ccd8; }
+
+@media(max-width:500px) { .theme-toggle { width:34px; height:36px; } .topbar { gap:8px; } }
+@media(max-width:380px) { .share-button>.share-label-mobile { display:none; } .share-button { width:36px; padding:0; } }

@@ -7,7 +7,7 @@ export function topicColor(topic: string) {
     'Binary Search': '#538bb9', 'Math': '#bc7889', 'Tree': '#70a18a', 'Database': '#9c8bba',
     'Sliding Window': '#4a9fa9', 'Backtracking': '#b47e5a', 'Two Pointers': '#829b56',
     'Prefix Sum': '#6c88a3', 'Heap (Priority Queue)': '#b88e52', 'Graph': '#8972ad',
-    'Design': '#bf7d6c', 'Array': '#7a92a6', 'Unclassified': '#b0b7c0', 'Other': '#dde2e8',
+    'Design': '#bf7d6c', 'Array': '#7a92a6', 'Unclassified': '#b0b7c0', 'Other': 'var(--topic-other)',
   };
   if (colors[topic]) return colors[topic];
   let code = 0; for (const char of topic) code = (code * 31 + char.charCodeAt(0)) >>> 0;
@@ -39,15 +39,15 @@ export function TrendCard({ topic, points, max, onSelect }: { topic: string; poi
   const plotted = points.map(point => ({ ...point, share: shareOf(point.profile, topic), x: left + (new Date(point.date).getTime() - firstDate) / (lastDate - firstDate || 1) * (width - left - right), y: top + (1 - shareOf(point.profile, topic) / max) * (height - top - bottom) }));
   const first = plotted[0], last = plotted.at(-1), delta = first?.profile.count && last?.profile.count ? last.share - first.share : null;
   return <button className="trend-card" onClick={onSelect} aria-label={`Explore ${topic} questions`}><div className="trend-card-title"><TopicDot topic={topic} /><h3>{topic}</h3><span>↗</span></div><div className="trend-card-value"><strong>{last?.profile.count ? `${last.share.toFixed(1)}%` : '—'}</strong><span className={delta !== null && delta > 0 ? 'change-up' : 'change-flat'}>{delta === null ? 'Unavailable' : `${delta > 0 ? '+' : ''}${delta.toFixed(1)} pp`}</span></div><div className="trend-plot"><div className="trend-y-labels"><span>{max}%</span><span>0%</span></div><svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label={`${topic}: ${plotted.map(p => `${dateLabel(p.date, true)} ${p.profile.count ? `${p.share.toFixed(1)}% (n=${p.profile.count})` : 'unavailable'}`).join('; ')}`}>
-    {[0, max / 2, max].map(value => <g key={value}><line x1={left} x2={width - right} y1={top + (1 - value / max) * (height - top - bottom)} y2={top + (1 - value / max) * (height - top - bottom)} stroke="#e9edf1" strokeDasharray="3 4" /></g>)}
-    {plotted.map((p, i) => <g key={p.date}>{i > 0 && p.profile.count > 0 && plotted[i - 1].profile.count > 0 && <line x1={plotted[i - 1].x} y1={plotted[i - 1].y} x2={p.x} y2={p.y} stroke={topicColor(topic)} strokeWidth="2.5" />}{p.profile.count > 0 && <circle cx={p.x} cy={p.y} r="4" fill="white" stroke={topicColor(topic)} strokeWidth="2" />}</g>)}
+    {[0, max / 2, max].map(value => <g key={value}><line x1={left} x2={width - right} y1={top + (1 - value / max) * (height - top - bottom)} y2={top + (1 - value / max) * (height - top - bottom)} stroke="var(--chart-grid)" strokeDasharray="3 4" /></g>)}
+    {plotted.map((p, i) => <g key={p.date}>{i > 0 && p.profile.count > 0 && plotted[i - 1].profile.count > 0 && <line x1={plotted[i - 1].x} y1={plotted[i - 1].y} x2={p.x} y2={p.y} stroke={topicColor(topic)} strokeWidth="2.5" />}{p.profile.count > 0 && <circle cx={p.x} cy={p.y} r="4" fill="var(--surface)" stroke={topicColor(topic)} strokeWidth="2" />}</g>)}
   </svg></div><div className="trend-date-labels"><span>{first?dateLabel(first.date):'—'}</span><span>{last?dateLabel(last.date):'—'}</span></div></button>;
 }
 export function MatrixCell({ profile, topic, average, metric, onSelect }: { profile: Fingerprint; topic: string; average: Map<string, number>; metric: 'share' | 'index'; onSelect: () => void }) {
   const share = shareOf(profile, topic), ratio = overIndex(profile, topic, average), count = questionsWith(profile, topic), thin = count > 0 && count < 10;
   const intensity = metric === 'index' ? Math.min(1, (ratio || 0) / 2.5) : Math.min(1, share / 30);
   const level=Math.min(4,Math.floor(intensity*5));
-  const style = { '--intensity': intensity, backgroundColor: ['#f1f6f3','#e1ede6','#c9dfd2','#9cbfac','#397660'][level], color: level===4?'#fff':'#284e3e' } as CSSProperties;
+  const style = { '--intensity': intensity, backgroundColor: `var(--matrix-${level})`, color: level===4?'var(--matrix-high-text)':'var(--matrix-text)' } as CSSProperties;
   return <button className={`matrix-cell ${thin ? 'thin' : ''}`} style={profile.count ? style : undefined} onClick={onSelect} disabled={profile.rows === null} title={`${profile.company} · ${topic}: ${share.toFixed(1)}% share, ${ratio === null ? 'no baseline' : `${ratio.toFixed(2)}× average`}, ${count} tagged questions / ${profile.count} total${thin ? ' · Low data: fewer than 10 tagged questions' : ''}`} aria-label={`${profile.company}, ${topic}: ${profile.rows === null ? 'unavailable' : `${share.toFixed(1)}% share, ${ratio?.toFixed(2) || '0'} times average, ${count} questions${thin ? ', low data' : ''}`}`}>
     <strong>{!profile.count ? '—' : metric === 'index' ? `${(ratio || 0).toFixed(1)}×` : `${share.toFixed(1)}%`}</strong>{thin && <span aria-hidden="true">·</span>}
   </button>;
