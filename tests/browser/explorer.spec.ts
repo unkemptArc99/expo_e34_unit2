@@ -3,21 +3,24 @@ async function navigate(page:Page,label:string){if(!await page.locator('.sidebar
 async function company(page:Page,name:string){const menu=page.getByRole('button',{name:'Open navigation'});if(await menu.isVisible())await menu.click();await page.locator('.sidebar-companies').getByRole('button',{name:new RegExp('^'+name)}).click();}
 
 test('overview leads with a complete matrix and drills into a company topic',async({page})=>{
- await page.goto('/');await expect(page.getByRole('heading',{name:'Interview patterns',exact:true})).toBeVisible();
+ await page.goto('/');await expect(page.getByRole('heading',{name:'Discover interview question trends',exact:true})).toBeVisible();await expect(page.getByText('Explore how coding interview questions and topics vary across companies and change over time.')).toBeVisible();await expect(page).not.toHaveURL(/company=/);
  const toggle=page.getByText('View full company matrix',{exact:true});if(await toggle.isVisible())await toggle.click();
  await expect(page.locator('.matrix-table tbody tr')).toHaveCount(5);await expect(page.locator('.matrix-cell').first()).toBeVisible();
- await page.locator('.matrix-table tbody tr').first().locator('.matrix-cell').first().click();await expect(page.getByRole('heading',{name:'Meta',exact:true})).toBeVisible();await expect(page.locator('#questions h2')).toContainText('questions');await expect(page.locator('.active-filters')).toBeVisible();
+ const mobileTopic=page.locator('.mobile-overview .topic-bar-row').first();if(await mobileTopic.isVisible())await mobileTopic.click();else await page.locator('.matrix-table tbody tr').first().locator('.matrix-cell').first().click();await expect(page.getByRole('heading',{name:'Meta',exact:true})).toBeVisible();await expect(page.locator('#questions h2')).toContainText('questions');await expect(page.locator('.active-filters')).toBeVisible();
 });
 test('ranked topics filter a real, deduplicated question bank',async({page})=>{
  await page.goto('/?view=explore&company=Meta&window=all');await expect(page.getByRole('heading',{name:'Meta',exact:true})).toBeVisible();
+ await expect(page.getByRole('combobox',{name:'Company',exact:true})).toHaveValue('Meta');
  const bar=page.locator('.topic-bar-row').first(),topic=(await bar.getAttribute('aria-label'))!.split(',')[0];await bar.click();await expect(page.locator('#questions h2')).toContainText(topic+' questions');
  const values=(await page.locator('.question-table .score').allTextContents()).map(Number);expect(values).toEqual([...values].sort((a,b)=>b-a));
  const links=await page.locator('.question-table td:first-child a').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('href')));expect(new Set(links).size).toBe(links.length);expect(links[0]).toMatch(/^https:\/\/leetcode.com\/problems\//);
  await page.getByRole('searchbox',{name:'Search questions',exact:true}).fill('this-question-does-not-exist');await expect(page.getByRole('heading',{name:'No matching questions'})).toBeVisible();
+ await page.getByRole('combobox',{name:'Company',exact:true}).selectOption('Google');await expect(page.getByRole('heading',{name:'Google',exact:true})).toBeVisible();await expect(page).toHaveURL(/company=Google/);
 });
 test('time view uses real collection dates and exposes overlapping windows separately',async({page})=>{
- await page.goto('/?view=time&company=Meta&window=all');await expect(page.getByRole('heading',{name:'Meta over time'})).toBeVisible();await expect(page.locator('.trend-card')).toHaveCount(6);await expect(page.locator('.timeline-dates')).toContainText('Feb 21, 2026');await expect(page.locator('.timeline-dates')).toContainText('Jul 12, 2026');
+ await page.goto('/?view=time&company=Meta&window=all');await expect(page.getByRole('heading',{name:'Meta trends over time'})).toBeVisible();await expect(page.getByRole('combobox',{name:'Company',exact:true})).toHaveValue('Meta');await expect(page.locator('.trend-card')).toHaveCount(6);await expect(page.locator('.timeline-dates')).toContainText('Feb 21, 2026');await expect(page.locator('.timeline-dates')).toContainText('Jul 12, 2026');
  await page.getByRole('button',{name:'Recency windows',exact:true}).click();await expect(page.locator('.window-table')).toBeVisible();await page.getByRole('slider',{name:'Recency',exact:true}).fill('1');await expect(page).toHaveURL(/window=3m/);await expect(page.locator('.window-table th.current-window')).toContainText('3 months');await expect(page.locator('.bank-context')).toContainText('Last 3 months');
+ await page.getByRole('combobox',{name:'Company',exact:true}).selectOption('Apple');await expect(page.getByRole('heading',{name:'Apple trends over time'})).toBeVisible();await expect(page).toHaveURL(/company=Apple/);
 });
 test('comparison distinguishes topic similarity, shared questions, and gaps; caps selection at three',async({page})=>{
  await page.goto('/?view=companies&compareCompanies=Meta,Google&window=all');await expect(page.locator('.diverging-chart')).toBeVisible();await expect(page.locator('.comparison-metrics')).toContainText('Question-bank overlap');
@@ -38,7 +41,7 @@ test('customer controls hide audit options, preserve filters, and clarify sideba
  const sizes=await page.evaluate(()=>({width:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth}));expect(sizes.scroll).toBeLessThanOrEqual(sizes.width);
  const menu=page.getByRole('button',{name:'Open navigation'});if(await menu.isVisible())await menu.click();
  const sidebar=page.locator('.sidebar-companies');await expect(sidebar.locator('button > span:nth-child(2)')).toHaveText(['Apple','Bloomberg','Google','Meta','Microsoft']);await expect(sidebar).toContainText('Questions');await expect(sidebar.locator('.sidebar-count[aria-label="1,509 unique questions, All time"]')).toBeVisible();
- await sidebar.getByRole('button',{name:/^Apple/}).click();await expect(page.getByRole('heading',{name:'Apple',exact:true})).toBeVisible();await navigate(page,'Over time');await expect(page.getByRole('heading',{name:'Apple over time'})).toBeVisible();
+ await sidebar.getByRole('button',{name:/^Apple/}).click();await expect(page.getByRole('heading',{name:'Apple',exact:true})).toBeVisible();await navigate(page,'Trends over time');await expect(page.getByRole('heading',{name:'Apple trends over time'})).toBeVisible();
 });
 
 test('company fingerprint matches its ranking and Other drills into the same remainder',async({page})=>{

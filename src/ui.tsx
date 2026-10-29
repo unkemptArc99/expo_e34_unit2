@@ -25,7 +25,7 @@ export function CompanyMark({ company, small = false }: { company: string; small
   const symbols: Record<string,string> = { Meta: '∞', Google: 'G', Apple: 'a', Microsoft: 'M', Bloomberg: 'B' };
   return <span aria-hidden="true" className={`company-mark ${company.toLowerCase()} ${small ? 'small' : ''}`}>{company==='Microsoft'?<svg viewBox="0 0 20 20" aria-hidden="true"><path fill="#f25022" d="M1 1h8v8H1z"/><path fill="#7fba00" d="M11 1h8v8h-8z"/><path fill="#00a4ef" d="M1 11h8v8H1z"/><path fill="#ffb900" d="M11 11h8v8h-8z"/></svg>:symbols[company] || company[0]}</span>;
 }
-export function Select({ label, value, onChange, children }: { label: string; value: string; onChange: (value: string) => void; children: ReactNode }) { return <label className="select-field"><span>{label}</span><select value={value} onChange={e => onChange(e.target.value)}>{children}</select></label>; }
+export function Select({ label, value, onChange, children }: { label: string; value: string; onChange: (value: string) => void; children: ReactNode }) { return <label className="select-field"><span>{label}</span><select aria-label={label} value={value} onChange={e => onChange(e.target.value)}>{children}</select></label>; }
 export const windowOrder: WindowKey[] = ['30d', '3m', '6m', 'older6m', 'all'];
 export const shortWindow: Record<WindowKey,string> = { '30d': '30 days', '3m': '3 months', '6m': '6 months', older6m: '6+ months', all: 'All time' };
 export function WindowSlider({ value, onChange }: { value: WindowKey; onChange: (value: WindowKey) => void }) {

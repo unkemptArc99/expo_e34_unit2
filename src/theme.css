@@ -73,6 +73,8 @@
 [data-theme="dark"] .company-mark.google { color: #86b0f7; }
 [data-theme="dark"] :is(.company-mark.apple,.company-mark.bloomberg) { color: #e4edf3; }
 [data-theme="dark"] :is(.global-search,.select-field select) { background: #1a2833; border-color: #3b505e; color: #d4e1e8; }
+[data-theme="dark"] .company-title-select:hover,[data-theme="dark"] .company-title-select:focus-within { background: #29443c; }
+[data-theme="dark"] .company-title-suffix { color: #a8bbc5; }
 [data-theme="dark"] .global-search:hover { border-color: #698895; }
 [data-theme="dark"] .global-search:focus-within { border-color: #83c9ad; box-shadow: 0 0 0 3px #79c9ae24; }
 [data-theme="dark"] :is(.global-search>input,.bank-search>input) { color: #d9e6ed; }
