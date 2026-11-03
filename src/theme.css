@@ -140,6 +140,12 @@
 [data-theme="dark"] .skip-link { background: #234237; color: #e4f4ea; }
 [data-theme="dark"] footer { color: #a0b2be; }
 [data-theme="dark"] footer>span:first-child { color: #b8ccd8; }
+[data-theme="dark"] .reading-guide { background: #183029; border-color: #315146; color: #b7cdc4; }
+[data-theme="dark"] .reading-guide strong { color: #a5ddc5; }
+[data-theme="dark"] .reading-guide p,[data-theme="dark"] :is(.table-caption,.figure-caption) { color: #a4b5c1; }
+[data-theme="dark"] .question-table>.table-caption { background: #17252e; border-color: var(--line); }
+[data-theme="dark"] footer address strong,[data-theme="dark"] .about-data>summary { color: #c2d5df; }
+[data-theme="dark"] footer address a { color: #94d7b9; }
 
 @media(max-width:500px) { .theme-toggle { width:34px; height:36px; } .topbar { gap:8px; } }
 @media(max-width:380px) { .share-button>.share-label-mobile { display:none; } .share-button { width:36px; padding:0; } }
