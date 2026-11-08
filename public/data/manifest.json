@@ -1,5 +1,5 @@
 {
-  "version": "0bef0c5505badcbc",
+  "version": "b5b4c33f9e9117a0",
   "catalogFile": "catalog-a06ac017ebf98dff.json",
   "catalogVersion": "a06ac017ebf98dff",
   "snapshots": [
@@ -20,8 +20,8 @@
         "Microsoft": "roy-jul-435e16b861b1-Microsoft-7dbb93f6f624.json"
       },
       "reuse": {
-        "status": "unverified",
-        "evidence": "No dataset redistribution permission has been verified."
+        "status": "approved",
+        "evidence": "Project owner accepted publication on 2026-11-08 based on the README encouraging cloning, filtering, and contributions: https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/e095c259cfd036e3ddb6886e84d7075c2faac477/README.md. No explicit upstream redistribution license was found; this records the project owner's acceptance, not an upstream license grant."
       }
     },
     {
@@ -41,8 +41,8 @@
         "Microsoft": "roy-feb-9b271896892d-Microsoft-a3b2c159b8b8.json"
       },
       "reuse": {
-        "status": "unverified",
-        "evidence": "No dataset redistribution permission has been verified."
+        "status": "approved",
+        "evidence": "Project owner accepted publication on 2026-11-08 based on the README encouraging cloning, filtering, and contributions: https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/e095c259cfd036e3ddb6886e84d7075c2faac477/README.md. No explicit upstream redistribution license was found; this records the project owner's acceptance, not an upstream license grant."
       }
     },
     {
@@ -62,8 +62,8 @@
         "Microsoft": "liquidslr-1a3df28b1bb7-Microsoft-1a7dbac9517a.json"
       },
       "reuse": {
-        "status": "unverified",
-        "evidence": "No dataset redistribution permission has been verified."
+        "status": "approved",
+        "evidence": "Project owner accepted publication on 2026-11-08 after reviewing both imported sources and their READMEs: https://github.com/liquidslr/leetcode-company-wise-problems/blob/03850eb5d16892514491cf1381c32ec0330a2719/Readme.md. This README describes the shared company question lists but does not explicitly encourage cloning or grant a redistribution license; this records the project owner's acceptance, not an upstream license grant."
       }
     }
   ],

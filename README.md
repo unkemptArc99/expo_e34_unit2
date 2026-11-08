@@ -48,20 +48,20 @@ The manifest is replaced only after every input is normalized and immutable outp
 
 ## Publication and GitHub Pages
 
-**Public deployment is intentionally gated on the dataset reuse review agreed in the plan.** Public repositories are not automatically licensed for redistribution, and these source datasets have no verified permission in this checkout. Local development and tests work normally.
+**Public deployment checks the recorded dataset reuse review.** On November 8, 2026, the project owner accepted publication of both imported sources after reviewing their READMEs. The entries in `data/permissions.json` record that decision and its basis; no explicit upstream redistribution license was found. Local development and tests work normally.
 
-Record actual verified permission evidence for every repository in `data/permissions.json` (do not approve merely because it is publicly accessible):
+Record each source's review decision and supporting references in `data/permissions.json`. Distinguish verified upstream permission from the project owner's acceptance:
 
 ```json
 {
   "owner/repository": {
     "status": "approved",
-    "evidence": "Reference to verified dataset permission covering this publication"
+    "evidence": "Review basis, source references, and whether upstream permission was verified"
   }
 }
 ```
 
-Run `npm run ingest` and `npm run check:publish`. The Pages workflow fails before uploading artifacts if any imported source remains unverified. If permission is unavailable, keep these imports local or replace them with an authorized dataset.
+Run `npm run ingest` and `npm run check:publish`. The Pages workflow fails before uploading artifacts unless every imported source has `status: approved` and nonempty evidence. This check validates the recorded decision, not the legal scope of an upstream license.
 
 After the review, push this project to a GitHub repository with a `main` branch. In Settings → Pages, choose GitHub Actions; run the `Deploy explorer to GitHub Pages` workflow. The build uses the repository name as its base path. Set `BASE_PATH=/` for a root-domain site. No GitHub repository/remote or deployment credentials were supplied with this workspace, so hosting must be connected there first.
 

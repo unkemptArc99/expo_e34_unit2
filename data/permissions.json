@@ -1,1 +1,10 @@
-{}
+{
+  "snehasishroy/leetcode-companywise-interview-questions": {
+    "status": "approved",
+    "evidence": "Project owner accepted publication on 2026-11-08 based on the README encouraging cloning, filtering, and contributions: https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/e095c259cfd036e3ddb6886e84d7075c2faac477/README.md. No explicit upstream redistribution license was found; this records the project owner's acceptance, not an upstream license grant."
+  },
+  "liquidslr/leetcode-company-wise-problems": {
+    "status": "approved",
+    "evidence": "Project owner accepted publication on 2026-11-08 after reviewing both imported sources and their READMEs: https://github.com/liquidslr/leetcode-company-wise-problems/blob/03850eb5d16892514491cf1381c32ec0330a2719/Readme.md. This README describes the shared company question lists but does not explicitly encourage cloning or grant a redistribution license; this records the project owner's acceptance, not an upstream license grant."
+  }
+}
