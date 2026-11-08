@@ -8,6 +8,7 @@ test-results/
 
 # Local tooling, caches, and generated diagnostics
 .vite/
+.wrangler/
 .cache/
 coverage/
 tmp/
