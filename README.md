@@ -44,11 +44,11 @@ JSON imports use a `.json` filename and an array of `{ "title": "Two Sum", "url"
 
 Refresh verifies each upstream file before storing a raw snapshot. Unchanged content creates no new historical observation. A new upstream revision is initially **undated**; record its snapshot date and evidence in its raw metadata only after review. Retrieval and commit dates never substitute for a source date. After confirming an undated snapshot, rerun ingestion.
 
-The manifest is replaced only after every input is normalized and immutable output files are written. The website checks for changed manifests every 15 minutes and on focus; failed refreshes preserve the loaded dataset. The daily GitHub workflow runs at 04:17 UTC, checks/tests/builds, commits successful data updates, and dispatches the Pages workflow. Enable Actions write permission for that refresh workflow. GitHub schedules can be delayed and disabled after 60 days without repository activity; re-enable or manually dispatch when needed. The hosted site continues serving its last deployment independently of ingestion.
+The manifest is replaced only after every input is normalized and immutable output files are written. The website checks for changed manifests every 15 minutes and on focus; failed refreshes preserve the loaded dataset. The daily GitHub workflow runs at 04:17 UTC, checks/tests/builds, and commits successful data updates. Enable repository contents write permission for that refresh workflow. GitHub schedules can be delayed and disabled after 60 days without repository activity; re-enable or manually dispatch when needed. The hosted site continues serving its last deployment independently of ingestion.
 
-## Publication and GitHub Pages
+## Dataset publication review
 
-**Public deployment checks the recorded dataset reuse review.** On November 8, 2026, the project owner accepted publication of both imported sources after reviewing their READMEs. The entries in `data/permissions.json` record that decision and its basis; no explicit upstream redistribution license was found. Local development and tests work normally.
+On November 8, 2026, the project owner accepted publication of both imported sources after reviewing their READMEs. The entries in `data/permissions.json` record that decision and its basis; no explicit upstream redistribution license was found. Local development and tests work normally.
 
 Record each source's review decision and supporting references in `data/permissions.json`. Distinguish verified upstream permission from the project owner's acceptance:
 
@@ -61,9 +61,9 @@ Record each source's review decision and supporting references in `data/permissi
 }
 ```
 
-Run `npm run ingest` and `npm run check:publish`. The Pages workflow fails before uploading artifacts unless every imported source has `status: approved` and nonempty evidence. This check validates the recorded decision, not the legal scope of an upstream license.
+Run `npm run ingest` and `npm run check:publish` to validate the review records. The check requires every imported source to have `status: approved` and nonempty evidence. It validates the recorded decision, not the legal scope of an upstream license.
 
-After the review, push this project to a GitHub repository with a `main` branch. In Settings → Pages, choose GitHub Actions; run the `Deploy explorer to GitHub Pages` workflow. The build uses the repository name as its base path. Set `BASE_PATH=/` for a root-domain site. No GitHub repository/remote or deployment credentials were supplied with this workspace, so hosting must be connected there first.
+Cloudflare Workers Builds is the deployment target, as described below. GitHub Pages publishing is disabled and its deployment workflow has been removed.
 
 ## Cloudflare Workers builds
 
