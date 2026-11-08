@@ -65,6 +65,10 @@ Run `npm run ingest` and `npm run check:publish`. The Pages workflow fails befor
 
 After the review, push this project to a GitHub repository with a `main` branch. In Settings → Pages, choose GitHub Actions; run the `Deploy explorer to GitHub Pages` workflow. The build uses the repository name as its base path. Set `BASE_PATH=/` for a root-domain site. No GitHub repository/remote or deployment credentials were supplied with this workspace, so hosting must be connected there first.
 
+## Cloudflare Workers builds
+
+`wrangler.jsonc` configures the `expo-e34-unit2` Worker to build and serve the static site from `dist/`. In Cloudflare Workers Builds, use the repository root, Node 24, and the deploy command `npx wrangler deploy`. Wrangler runs `npm run build` before deployment. Pull-request previews can use `npx wrangler versions upload`. Keep `BASE_PATH` unset for a site served at the domain root. The dataset reuse review described above still applies to public publication on Cloudflare.
+
 ## Interface and limitations
 
 - Overview opens with a company × topic matrix. Switch between share and over-index. On phones, ranked bars are shown first; the full matrix remains available in a horizontally scrollable table.
