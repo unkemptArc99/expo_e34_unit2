@@ -67,7 +67,7 @@ After the review, push this project to a GitHub repository with a `main` branch.
 
 ## Cloudflare Workers builds
 
-`wrangler.jsonc` configures the `expo-e34-unit2` Worker to build and serve the static site from `dist/`. In Cloudflare Workers Builds, use the repository root, Node 24, and the deploy command `npx wrangler deploy`. Wrangler runs `npm run build` before deployment. Pull-request previews can use `npx wrangler versions upload`. Keep `BASE_PATH` unset for a site served at the domain root. The dataset reuse review described above still applies to public publication on Cloudflare.
+`wrangler.jsonc` configures the `expo-e34-unit2` Worker to build and serve the static site from `dist/`. In Cloudflare Workers Builds, use the repository root, Node 24, and the production deploy command `npx wrangler deploy`. Wrangler runs `npm run build` before deployment. Pull-request builds use `npx wrangler preview`; the empty `previews` block enables branch previews using the top-level static asset settings. The project pins Wrangler so local and Cloudflare commands use the same version. Preview URLs are public unless access controls are configured. Keep `BASE_PATH` unset for a site served at the domain root. The dataset reuse review described above still applies to public publication on Cloudflare.
 
 ## Interface and limitations
 
