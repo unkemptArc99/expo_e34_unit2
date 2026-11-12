@@ -40,7 +40,12 @@ test('customer controls hide audit options, preserve filters, and clarify sideba
  await page.getByRole('combobox',{name:'Difficulty',exact:true}).selectOption('Easy');await page.reload();await expect(page.getByRole('combobox',{name:'Difficulty',exact:true})).toHaveValue('Easy');
  const sizes=await page.evaluate(()=>({width:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth}));expect(sizes.scroll).toBeLessThanOrEqual(sizes.width);
  const menu=page.getByRole('button',{name:'Open navigation'});if(await menu.isVisible())await menu.click();
- const sidebar=page.locator('.sidebar-companies');await expect(sidebar.locator('button > span:nth-child(2)')).toHaveText(['Apple','Bloomberg','Google','Meta','Microsoft']);await expect(sidebar).toContainText('Questions');await expect(sidebar.locator('.sidebar-count[aria-label="1,509 unique questions, All time"]')).toBeVisible();
+ const sidebar=page.locator('.sidebar-companies');await expect(sidebar.locator('button > span:nth-child(2)')).toHaveText(['Apple','Bloomberg','Google','Meta','Microsoft']);await expect(sidebar).toContainText('Questions');
+ const companyCount = page.locator('.company-metrics > div').filter({ hasText: 'Questions in this window' }).locator('strong');
+ await expect(companyCount).toHaveText(/^[\d,]+$/);
+ const metaCount = sidebar.getByRole('button', { name: /^Meta/ }).locator('.sidebar-count');
+ await expect(metaCount).toBeVisible();
+ await expect(metaCount).toHaveAttribute('aria-label', `${await companyCount.innerText()} unique questions, All time`);
  await sidebar.getByRole('button',{name:/^Apple/}).click();await expect(page.getByRole('heading',{name:'Apple',exact:true})).toBeVisible();await navigate(page,'Trends over time');await expect(page.getByRole('heading',{name:'Apple trends over time'})).toBeVisible();
 });
 
