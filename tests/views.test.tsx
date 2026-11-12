@@ -14,9 +14,13 @@ const bundle:Bundle={manifest,catalog,data},profiles=manifest.companies.map(comp
 
 test('real-data screens render complete insights and sample sizes, including one-company and thin states',()=>{
  const common={profiles,average,order,onCompany:noop,onCompare:noop};
- const overview=renderToStaticMarkup(<Overview {...common} tray={[]} onToggleTray={noop}/>);assert.equal((overview.match(/class="matrix-cell/g)||[]).length,40);assert.ok(overview.includes('2,397 questions'));assert.ok(overview.includes('Distinctive strengths'));assert.ok(overview.includes('Topic coverage by company in the selected recency window.'));
+ const overview=renderToStaticMarkup(<Overview {...common} tray={[]} onToggleTray={noop}/>);assert.equal((overview.match(/class="matrix-cell/g)||[]).length,40);assert.ok(overview.includes('Distinctive strengths'));assert.ok(overview.includes('Topic coverage by company in the selected recency window.'));
+ for (const { company, count } of profiles) {
+  assert.ok(overview.includes(`${company}<small>${count.toLocaleString()} questions`));
+ }
  const meta=profiles.find(p=>p.company==='Meta')!;
- const company=renderToStaticMarkup(<CompanyView {...common} profile={meta} onTopic={noop} selectedTopic=""/>);assert.ok(company.includes('1,509'));assert.ok(company.includes('Topics ranked'));assert.ok(company.includes('Topic shares within Meta'));assert.ok(!company.includes('chart-pie'));
+ const company=renderToStaticMarkup(<CompanyView {...common} profile={meta} onTopic={noop} selectedTopic=""/>);assert.ok(company.includes('Topics ranked'));assert.ok(company.includes('Topic shares within Meta'));assert.ok(!company.includes('chart-pie'));
+ assert.ok(company.includes(`Questions in this window</span><strong>${meta.count.toLocaleString()}</strong>`));
  const compare=renderToStaticMarkup(<CompareView selected={['Meta','Google']} allProfiles={profiles} average={average} order={order} onToggle={noop} onTopic={noop}/>);assert.ok(compare.includes('diverging-chart'));assert.ok(compare.includes('Question-bank overlap'));assert.ok(compare.includes('Shared questions'));
  const one=renderToStaticMarkup(<CompareView selected={['Meta']} allProfiles={profiles} average={average} order={order} onToggle={noop} onTopic={noop}/>);assert.ok(one.includes('Add another company to compare'));assert.ok(!one.includes('diverging-chart'));
  const three=renderToStaticMarkup(<CompareView selected={['Meta','Google','Microsoft']} allProfiles={profiles} average={average} order={order} onToggle={noop} onTopic={noop}/>);assert.ok(three.includes('aligned-table'));assert.ok(three.includes('disabled=""'));
@@ -48,6 +52,9 @@ test('company fingerprints follow their own descending shares in every recency m
 test('sidebar is alphabetic and describes unique question counts in the selected window',()=>{
  const html=renderToStaticMarkup(<CompanyNavigation profiles={profiles} window="all" onCompany={noop}/>);
  const names=[...html.matchAll(/<button[^>]*>.*?<span>([^<]+)<\/span><span class="sidebar-count"/gs)].map(m=>m[1]);
- assert.deepEqual(names,['Apple','Bloomberg','Google','Meta','Microsoft']);assert.ok(html.includes('Questions'));assert.ok(html.includes('A–Z'));assert.ok(html.includes('1,509 unique questions, All time'));
+ assert.deepEqual(names,['Apple','Bloomberg','Google','Meta','Microsoft']);assert.ok(html.includes('Questions'));assert.ok(html.includes('A–Z'));
+ for (const { company, count } of profiles) {
+  assert.ok(html.includes(`<span>${company}</span><span class="sidebar-count" aria-label="${count.toLocaleString()} unique questions, All time"`));
+ }
  const empty=renderToStaticMarkup(<CompanyNavigation profiles={[fingerprint('Meta',[]),fingerprint('Google',null)]} window="30d" onCompany={noop}/>);assert.ok(empty.includes('0 unique questions, Last 30 days'));assert.ok(empty.includes('aria-label="Unavailable"'));
 });
