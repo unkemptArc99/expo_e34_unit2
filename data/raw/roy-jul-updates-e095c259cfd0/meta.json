@@ -1,0 +1,145 @@
+{
+  "source": {
+    "id": "roy-jul-updates",
+    "label": "Snehasish Roy",
+    "repository": "snehasishroy/leetcode-companywise-interview-questions",
+    "ref": "master",
+    "adapter": "ids",
+    "snapshotDate": null,
+    "dateNote": "New upstream content; snapshot date not yet verified. Excluded from historical comparisons.",
+    "reuse": {
+      "status": "unverified",
+      "evidence": "No dataset redistribution permission has been verified."
+    }
+  },
+  "revision": "e095c259cfd036e3ddb6886e84d7075c2faac477",
+  "retrievedAt": "2026-11-13T12:11:10.702Z",
+  "contentHash": "83627f486b98b28224b5fb262973c16e4beb164ce2ced191f881c68f2cd64ee2",
+  "entries": [
+    {
+      "company": "apple",
+      "window": "all",
+      "file": "apple-all.csv"
+    },
+    {
+      "company": "apple",
+      "window": "older6m",
+      "file": "apple-older6m.csv"
+    },
+    {
+      "company": "apple",
+      "window": "6m",
+      "file": "apple-6m.csv"
+    },
+    {
+      "company": "apple",
+      "window": "30d",
+      "file": "apple-30d.csv"
+    },
+    {
+      "company": "apple",
+      "window": "3m",
+      "file": "apple-3m.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "all",
+      "file": "bloomberg-all.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "older6m",
+      "file": "bloomberg-older6m.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "6m",
+      "file": "bloomberg-6m.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "30d",
+      "file": "bloomberg-30d.csv"
+    },
+    {
+      "company": "bloomberg",
+      "window": "3m",
+      "file": "bloomberg-3m.csv"
+    },
+    {
+      "company": "google",
+      "window": "all",
+      "file": "google-all.csv"
+    },
+    {
+      "company": "google",
+      "window": "older6m",
+      "file": "google-older6m.csv"
+    },
+    {
+      "company": "google",
+      "window": "6m",
+      "file": "google-6m.csv"
+    },
+    {
+      "company": "google",
+      "window": "30d",
+      "file": "google-30d.csv"
+    },
+    {
+      "company": "google",
+      "window": "3m",
+      "file": "google-3m.csv"
+    },
+    {
+      "company": "meta",
+      "window": "all",
+      "file": "meta-all.csv"
+    },
+    {
+      "company": "meta",
+      "window": "older6m",
+      "file": "meta-older6m.csv"
+    },
+    {
+      "company": "meta",
+      "window": "6m",
+      "file": "meta-6m.csv"
+    },
+    {
+      "company": "meta",
+      "window": "30d",
+      "file": "meta-30d.csv"
+    },
+    {
+      "company": "meta",
+      "window": "3m",
+      "file": "meta-3m.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "all",
+      "file": "microsoft-all.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "older6m",
+      "file": "microsoft-older6m.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "6m",
+      "file": "microsoft-6m.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "30d",
+      "file": "microsoft-30d.csv"
+    },
+    {
+      "company": "microsoft",
+      "window": "3m",
+      "file": "microsoft-3m.csv"
+    }
+  ]
+}

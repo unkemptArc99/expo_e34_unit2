@@ -1,7 +1,7 @@
 {
-  "version": "b5b4c33f9e9117a0",
-  "catalogFile": "catalog-a06ac017ebf98dff.json",
-  "catalogVersion": "a06ac017ebf98dff",
+  "version": "2b31c57f20ff28e9",
+  "catalogFile": "catalog-c45ae9697be06bfd.json",
+  "catalogVersion": "c45ae9697be06bfd",
   "snapshots": [
     {
       "id": "roy-jul-435e16b861b1",
@@ -65,9 +65,51 @@
         "status": "approved",
         "evidence": "Project owner accepted publication on 2026-11-08 after reviewing both imported sources and their READMEs: https://github.com/liquidslr/leetcode-company-wise-problems/blob/03850eb5d16892514491cf1381c32ec0330a2719/Readme.md. This README describes the shared company question lists but does not explicitly encourage cloning or grant a redistribution license; this records the project owner's acceptance, not an upstream license grant."
       }
+    },
+    {
+      "id": "liquidslr-updates-4047d469c111",
+      "source": "liquidslr",
+      "repository": "liquidslr/leetcode-company-wise-problems",
+      "revision": "2b71796266751b4736a7ef180efb6847879166ee",
+      "snapshotDate": null,
+      "dateNote": "New upstream content; snapshot date not yet verified. Excluded from historical comparisons.",
+      "retrievedAt": "2026-11-13T12:11:10.000Z",
+      "contentHash": "4047d469c11161f4162b6c5ed6d5bfc2a8927d58d1f0b129efad45041e7e1fe4",
+      "files": {
+        "Apple": "liquidslr-updates-4047d469c111-Apple-facdca8c6a60.json",
+        "Bloomberg": "liquidslr-updates-4047d469c111-Bloomberg-1711d3e10663.json",
+        "Google": "liquidslr-updates-4047d469c111-Google-352f711a1907.json",
+        "Meta": "liquidslr-updates-4047d469c111-Meta-121c868a61ab.json",
+        "Microsoft": "liquidslr-updates-4047d469c111-Microsoft-73350d754f8c.json"
+      },
+      "reuse": {
+        "status": "approved",
+        "evidence": "Project owner accepted publication on 2026-11-08 after reviewing both imported sources and their READMEs: https://github.com/liquidslr/leetcode-company-wise-problems/blob/03850eb5d16892514491cf1381c32ec0330a2719/Readme.md. This README describes the shared company question lists but does not explicitly encourage cloning or grant a redistribution license; this records the project owner's acceptance, not an upstream license grant."
+      }
+    },
+    {
+      "id": "roy-jul-updates-83627f486b98",
+      "source": "Snehasish Roy",
+      "repository": "snehasishroy/leetcode-companywise-interview-questions",
+      "revision": "e095c259cfd036e3ddb6886e84d7075c2faac477",
+      "snapshotDate": null,
+      "dateNote": "New upstream content; snapshot date not yet verified. Excluded from historical comparisons.",
+      "retrievedAt": "2026-11-13T12:11:10.702Z",
+      "contentHash": "83627f486b98b28224b5fb262973c16e4beb164ce2ced191f881c68f2cd64ee2",
+      "files": {
+        "Apple": "roy-jul-updates-83627f486b98-Apple-9dbd63bfe377.json",
+        "Bloomberg": "roy-jul-updates-83627f486b98-Bloomberg-eaefc48c6461.json",
+        "Google": "roy-jul-updates-83627f486b98-Google-4f3653be7ff2.json",
+        "Meta": "roy-jul-updates-83627f486b98-Meta-0ea0e2e0c984.json",
+        "Microsoft": "roy-jul-updates-83627f486b98-Microsoft-7dbb93f6f624.json"
+      },
+      "reuse": {
+        "status": "approved",
+        "evidence": "Project owner accepted publication on 2026-11-08 based on the README encouraging cloning, filtering, and contributions: https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/e095c259cfd036e3ddb6886e84d7075c2faac477/README.md. No explicit upstream redistribution license was found; this records the project owner's acceptance, not an upstream license grant."
+      }
     }
   ],
-  "taggingReport": "tagging-report-3a4abfc7ffe36d84.html",
+  "taggingReport": "tagging-report-f9c964d8a4b34e46.html",
   "companies": [
     "Meta",
     "Google",
